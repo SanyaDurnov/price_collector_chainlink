@@ -310,8 +310,16 @@ class PriceCollectorService:
             data_dir=config['storage']['data_directory'],
             log_dir=config['storage']['log_directory']
         )
+        # Handle both old rpc_url and new rpc_urls format for backward compatibility
+        if 'rpc_urls' in config:
+            rpc_urls = config['rpc_urls']
+        elif 'rpc_url' in config:
+            rpc_urls = [config['rpc_url']]
+        else:
+            raise ValueError("Config must contain either 'rpc_url' or 'rpc_urls'")
+
         self.fetcher = ChainlinkPriceFetcher(
-            rpc_urls=config['rpc_urls'],
+            rpc_urls=rpc_urls,
             symbols=config['symbols']
         )
         self.running = False
