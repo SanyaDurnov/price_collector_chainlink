@@ -1,22 +1,23 @@
-# Chainlink Price Collector
+# Polymarket RTDS Price Collector
 
-A Python service that collects cryptocurrency prices from Chainlink oracles on Polygon and provides a REST API for querying historical prices.
+A Python service that collects real-time cryptocurrency prices from Polymarket RTDS (Real-Time Data Service) using WebSocket connection and provides a REST API for querying prices.
 
 ## Features
 
-- **Real-time Price Collection**: Fetches prices from Chainlink oracles every second
+- **Real-time WebSocket Collection**: Uses Polymarket RTDS WebSocket for instant price updates (no rate limits!)
+- **Chainlink Oracle Data**: Prices sourced from Chainlink oracles on Polygon (same as Polymarket)
 - **File-based Storage**: Simple JSON file storage (no database required)
-- **REST API**: Query prices by symbol and timestamp
+- **REST API**: Query latest prices by symbol
 - **Configurable**: Easy to customize via JSON configuration
-- **VPS Ready**: Designed for easy deployment on your VPS
+- **Docker Ready**: Designed for easy deployment with Dokploy
 
 ## Supported Symbols
 
-- **BTC/USD**: Bitcoin price
-- **ETH/USD**: Ethereum price  
-- **SOL/USD**: Solana price
+- **BTCUSDT**: Bitcoin price
+- **ETHUSDT**: Ethereum price
+- **SOLUSDT**: Solana price
 
-All prices are sourced from Chainlink oracles on Polygon (same as Polymarket).
+All prices are sourced from Chainlink oracles via Polymarket RTDS WebSocket.
 
 ## Installation
 
@@ -37,8 +38,13 @@ Edit `config.json` to customize the service:
 
 ```json
 {
-  "rpc_url": "https://polygon-rpc.com",
-  "api_port": 5000,
+  "rpc_urls": [
+    "https://polygon-rpc.com",
+    "https://polygon-mainnet.publicnode.com",
+    "https://polygon-bor.publicnode.com",
+    "https://polygon.drpc.org"
+  ],
+  "api_port": 3000,
   "collection_interval": 1,
   "cleanup_interval": 600,
   "data_retention_hours": 6,
@@ -57,9 +63,9 @@ Edit `config.json` to customize the service:
 
 ### Configuration Options
 
-- `rpc_url`: Polygon RPC endpoint (default: polygon-rpc.com)
-- `api_port`: API server port (default: 5000)
-- `collection_interval`: Price collection interval in seconds (default: 1)
+- `rpc_urls`: Array of Polygon RPC endpoints for failover (WebSocket uses Polymarket RTDS)
+- `api_port`: API server port (default: 3000)
+- `collection_interval`: WebSocket reconnection interval in seconds (default: 1)
 - `cleanup_interval`: Cleanup interval in seconds (default: 600 = 10 minutes)
 - `data_retention_hours`: How long to keep price data (default: 6 hours)
 - `symbols`: Chainlink oracle addresses for each symbol
@@ -75,19 +81,19 @@ python chainlink_price_service.py
 ```
 
 The service will:
-1. Connect to the Polygon RPC
-2. Start collecting prices every second
+1. Connect to Polymarket RTDS WebSocket
+2. Start collecting real-time prices (no rate limits!)
 3. Store prices in `data/prices.json`
-4. Start the API server on port 5000
+4. Start the API server on port 3000
 5. Clean up old data every 10 minutes
 
 ### Test the Service
 
-Before running the full service, test the components:
+Test the WebSocket implementation:
 
 ```bash
-# Test price fetching and storage
-python test_price_collector.py
+# Test WebSocket price collection (runs for 60 seconds)
+python test_websocket.py
 
 # Test API endpoints
 python test_api.py
@@ -99,7 +105,18 @@ python test_api.py
 ```
 GET /health
 ```
-Returns service status and available symbols.
+Returns service status, WebSocket connection status, and available symbols.
+
+**Response:**
+```json
+{
+  "status": "ok",
+  "timestamp": 1771089264,
+  "source": "polymarket_rtds",
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "websocket_connected": true
+}
+```
 
 #### Get Latest Prices
 ```
@@ -107,30 +124,53 @@ GET /latest
 ```
 Returns the latest price for each symbol.
 
-#### Get Price at Timestamp
+**Response:**
+```json
+{
+  "prices": [
+    {
+      "symbol": "BTCUSDT",
+      "price": 69724.98,
+      "timestamp": 1771088436,
+      "source": "polymarket_rtds"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "price": 2080.43,
+      "timestamp": 1771088436,
+      "source": "polymarket_rtds"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "price": 88.07,
+      "timestamp": 1771088436,
+      "source": "polymarket_rtds"
+    }
+  ],
+  "source": "polymarket_rtds"
+}
 ```
-GET /price/{symbol}?timestamp={unix_timestamp}&tolerance={seconds}
+
+#### Get Individual Price
+```
+GET /price/{symbol}
 ```
 
 **Parameters:**
-- `symbol`: BTC, ETH, or SOL (case insensitive)
-- `timestamp`: Unix timestamp to query
-- `tolerance`: Maximum difference in seconds (default: 60)
+- `symbol`: BTCUSDT, ETHUSDT, or SOLUSDT (case insensitive)
 
 **Example:**
 ```
-GET /price/BTC?timestamp=1707825600&tolerance=60
+GET /price/BTCUSDT
 ```
 
 **Response:**
 ```json
 {
-  "symbol": "BTC",
-  "price": 52000.50,
-  "timestamp": 1707825600,
-  "requested_timestamp": 1707825600,
-  "round_id": 12345,
-  "source": "chainlink"
+  "symbol": "BTCUSDT",
+  "price": 69724.98,
+  "timestamp": 1771088436,
+  "source": "polymarket_rtds"
 }
 ```
 
@@ -172,9 +212,20 @@ Prices are stored in `data/prices.json` with the following structure:
 - `round_id`: Chainlink round ID (unique identifier)
 - `created_at`: When the price was stored locally
 
-## Deployment on VPS
+## Deployment
 
-### 1. Install Python and pip
+### Dokploy (Recommended)
+
+1. **Connect your GitHub repository** to Dokploy
+2. **Create a new service** from the repository
+3. **Configure port mapping**: Add `3000:3000` in the ports section
+4. **Deploy** - Dokploy will automatically build and deploy the service
+
+The service will be available at: `http://your-domain/collector/`
+
+### Manual VPS Deployment
+
+#### 1. Install Python and pip
 ```bash
 # Ubuntu/Debian
 sudo apt update
@@ -184,7 +235,7 @@ sudo apt install python3 python3-pip
 sudo yum install python3 python3-pip
 ```
 
-### 2. Install the service
+#### 2. Install the service
 ```bash
 # Create project directory
 mkdir price-collector
@@ -197,7 +248,7 @@ cd price-collector
 pip3 install -r requirements.txt
 ```
 
-### 3. Run as a service
+#### 3. Run as a service
 
 Create a systemd service file:
 
@@ -209,7 +260,7 @@ Add the following content:
 
 ```ini
 [Unit]
-Description=Chainlink Price Collector
+Description=Polymarket RTDS Price Collector
 After=network.target
 
 [Service]
@@ -232,7 +283,7 @@ sudo systemctl start price-collector
 sudo systemctl status price-collector
 ```
 
-### 4. Check logs
+#### 4. Check logs
 ```bash
 sudo journalctl -u price-collector -f
 ```
@@ -241,26 +292,38 @@ sudo journalctl -u price-collector -f
 
 ### Common Issues
 
-1. **RPC Connection Failed**
+1. **WebSocket Connection Failed**
    - Check your internet connection
-   - Try a different RPC URL in config.json
-   - Verify the RPC endpoint is accessible
+   - Service will automatically reconnect - check logs for reconnection messages
+   - Verify Polymarket RTDS is accessible
 
-2. **Permission Errors**
+2. **No Price Updates**
+   - Check WebSocket connection status in `/health` endpoint
+   - Look for "💰 Price update" messages in logs
+   - Service may be reconnecting - wait a few seconds
+
+3. **Permission Errors**
    - Ensure the user running the service has write permissions to the data/ and logs/ directories
    - Check file ownership and permissions
 
-3. **API Not Responding**
+4. **API Not Responding**
    - Check if the service is running: `ps aux | grep python`
    - Check logs for errors: `tail -f logs/price_collector.log`
-   - Verify the port is not in use: `netstat -tlnp | grep 5000`
+   - Verify the port is not in use: `netstat -tlnp | grep 3000`
+   - For Dokploy: ensure port mapping `3000:3000` is configured
+
+5. **Dokploy Port Issues**
+   - In Dokploy dashboard, go to service settings
+   - Add port mapping: `3000:3000` (external:internal)
+   - Redeploy the service
 
 ### Monitoring
 
-- **Service Status**: `systemctl status price-collector`
-- **Logs**: `tail -f logs/price_collector.log`
-- **API Health**: `curl http://localhost:5000/health`
-- **Latest Prices**: `curl http://localhost:5000/latest`
+- **Service Status**: `systemctl status price-collector` (manual) or Dokploy dashboard
+- **Logs**: `tail -f logs/price_collector.log` or `docker service logs pricecollector-service`
+- **API Health**: `curl http://localhost:3000/health` or `curl http://your-domain/collector/health`
+- **Latest Prices**: `curl http://localhost:3000/latest` or `curl http://your-domain/collector/latest`
+- **WebSocket Status**: Check `websocket_connected: true` in health response
 
 ## Security Notes
 
