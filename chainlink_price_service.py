@@ -199,28 +199,41 @@ class ChainlinkPriceFetcher:
             self.decimals[symbol] = contract.functions.decimals().call()
             logger.info(f"Initialized {symbol} Chainlink feed: {address} (decimals: {self.decimals[symbol]})")
     
-    def get_latest_price(self, symbol: str) -> Optional[Dict]:
-        """Get the latest price for a symbol from Chainlink"""
-        try:
-            contract = self.contracts[symbol]
-            round_data = contract.functions.latestRoundData().call()
-            
-            round_id = round_data[0]
-            price_raw = round_data[1]
-            timestamp = round_data[3]
-            decimals = self.decimals[symbol]
-            
-            price = float(price_raw) / (10 ** decimals)
-            
-            return {
-                'symbol': symbol,
-                'price': price,
-                'timestamp': timestamp,
-                'round_id': round_id
-            }
-        except Exception as e:
-            logger.error(f"Error fetching {symbol} price from Chainlink: {e}")
-            return None
+    def get_latest_price(self, symbol: str, max_retries: int = 3) -> Optional[Dict]:
+        """Get the latest price for a symbol from Chainlink with retry logic"""
+        for attempt in range(max_retries):
+            try:
+                contract = self.contracts[symbol]
+                round_data = contract.functions.latestRoundData().call()
+
+                round_id = round_data[0]
+                price_raw = round_data[1]
+                timestamp = round_data[3]
+                decimals = self.decimals[symbol]
+
+                price = float(price_raw) / (10 ** decimals)
+
+                return {
+                    'symbol': symbol,
+                    'price': price,
+                    'timestamp': timestamp,
+                    'round_id': round_id
+                }
+            except Exception as e:
+                error_msg = str(e)
+                if "rate limit" in error_msg.lower() or "too many requests" in error_msg.lower():
+                    if attempt < max_retries - 1:
+                        wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
+                        logger.warning(f"Rate limited for {symbol}, retrying in {wait_time}s (attempt {attempt + 1}/{max_retries})")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        logger.error(f"Rate limit exhausted for {symbol} after {max_retries} attempts")
+                        return None
+                else:
+                    logger.error(f"Error fetching {symbol} price from Chainlink: {e}")
+                    return None
+        return None
 
 
 class PriceCollectorService:
