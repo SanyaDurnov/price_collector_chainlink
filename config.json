@@ -1,7 +1,7 @@
 {
   "rpc_url": "https://polygon-rpc.com",
   "api_port": 8080,
-  "collection_interval": 1,
+  "collection_interval": 10,
   "cleanup_interval": 600,
   "data_retention_hours": 6,
   "symbols": {
