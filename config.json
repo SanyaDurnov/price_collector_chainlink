@@ -1,5 +1,5 @@
 {
-  "rpc_url": "https://rpc.ankr.com/polygon",
+  "rpc_url": "https://polygon-rpc.com",
   "api_port": 8080,
   "collection_interval": 1,
   "cleanup_interval": 600,
