@@ -1,0 +1,9 @@
+[setup]
+install = """
+python3 -m venv /opt/venv
+. /opt/venv/bin/activate
+pip install -r requirements.txt
+"""
+
+[start]
+command = "cd /opt/app && /opt/venv/bin/python simple_price_service.py"
