@@ -329,6 +329,53 @@ class PolymarketPriceCollector:
             'source': 'polymarket_rtds'
         }
 
+    def get_price_at_timestamp(self, symbol: str, target_timestamp: int, tolerance: int = 60) -> Optional[Dict]:
+        """Get price closest to target_timestamp from buffer or file."""
+        # First check in-memory buffer (most recent data)
+        if symbol in self.price_buffers:
+            buffer = self.price_buffers[symbol]
+            for entry in buffer:
+                diff = abs(entry['timestamp'] - target_timestamp)
+                if diff <= tolerance:
+                    return {
+                        'price': entry['price'],
+                        'timestamp': entry['timestamp'],
+                        'round_id': 0,
+                        'source': 'polymarket_rtds'
+                    }
+
+        # If not found in buffer, check file (historical data)
+        try:
+            prices_file = Path("data/prices.json")
+            if prices_file.exists():
+                with open(prices_file, 'r') as f:
+                    data = json.load(f)
+                    symbol_data = data.get('prices', {}).get(symbol, [])
+
+                    # Find closest price within tolerance
+                    closest_price = None
+                    min_diff = float('inf')
+
+                    for entry in symbol_data:
+                        entry_ts = entry.get('timestamp', 0)
+                        diff = abs(entry_ts - target_timestamp)
+                        if diff <= tolerance and diff < min_diff:
+                            min_diff = diff
+                            closest_price = {
+                                'price': entry['price'],
+                                'timestamp': entry_ts,
+                                'round_id': 0,
+                                'source': 'polymarket_rtds'
+                            }
+
+                    if closest_price:
+                        return closest_price
+
+        except Exception as e:
+            logger.warning(f"Error reading historical data for {symbol}: {e}")
+
+        return None
+
     async def start_collection(self) -> None:
         """Start WebSocket collection."""
         self.running = True
@@ -447,26 +494,54 @@ class PriceAPIServer:
 
     async def get_price(self, request):
         """
-        GET /price/BTC - Returns latest price for symbol
+        GET /price/BTCUSDT - Returns latest price for symbol
+        GET /price/BTCUSDT?timestamp=1707825600&tolerance=60 - Returns historical price
         """
         symbol = request.match_info['symbol'].upper()
 
         if symbol not in PolymarketPriceCollector.SYMBOLS:
             return web.json_response({'error': f'Unsupported symbol: {symbol}'}, status=400)
 
-        result = self.collector.get_latest_price(symbol)
+        # Check if historical price is requested
+        timestamp = request.query.get('timestamp')
+        tolerance = int(request.query.get('tolerance', 60))
 
-        if result:
-            return web.json_response({
-                'symbol': symbol,
-                'price': result['price'],
-                'timestamp': result['timestamp'],
-                'source': 'polymarket_rtds'
-            })
+        if timestamp:
+            # Historical price request
+            try:
+                target_timestamp = int(timestamp)
+            except ValueError:
+                return web.json_response({'error': 'Invalid timestamp'}, status=400)
+
+            result = self.collector.get_price_at_timestamp(symbol, target_timestamp, tolerance)
+
+            if result:
+                return web.json_response({
+                    'symbol': symbol,
+                    'price': result['price'],
+                    'timestamp': result['timestamp'],
+                    'requested_timestamp': target_timestamp,
+                    'source': 'polymarket_rtds'
+                })
+            else:
+                return web.json_response({
+                    'error': f'No price found for {symbol} at timestamp {target_timestamp} (±{tolerance}s)'
+                }, status=404)
         else:
-            return web.json_response({
-                'error': f'No price data available for {symbol}'
-            }, status=404)
+            # Latest price request
+            result = self.collector.get_latest_price(symbol)
+
+            if result:
+                return web.json_response({
+                    'symbol': symbol,
+                    'price': result['price'],
+                    'timestamp': result['timestamp'],
+                    'source': 'polymarket_rtds'
+                })
+            else:
+                return web.json_response({
+                    'error': f'No price data available for {symbol}'
+                }, status=404)
 
     async def get_latest_prices(self, request):
         """GET /latest - Get the latest prices for all symbols"""
