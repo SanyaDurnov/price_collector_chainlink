@@ -10,6 +10,9 @@ from web3.contract import Contract
 from aiohttp import web
 import aiofiles
 
+# Ensure logs directory exists before configuring logging
+os.makedirs('logs', exist_ok=True)
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
