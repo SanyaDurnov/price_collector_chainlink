@@ -157,18 +157,18 @@ class FilePriceStorage:
 
 
 class ChainlinkPriceFetcher:
-    """Fetch prices from Chainlink oracles"""
-    
-    def __init__(self, rpc_url: str, symbols: Dict[str, str]):
-        self.w3 = Web3(Web3.HTTPProvider(rpc_url))
+    """Fetch prices from Chainlink oracles with multiple RPC failover"""
+
+    def __init__(self, rpc_urls: List[str], symbols: Dict[str, str]):
+        self.rpc_urls = rpc_urls
+        self.current_rpc_index = 0
+        self.w3 = None
         self.contracts: Dict[str, Contract] = {}
         self.decimals: Dict[str, int] = {}
-        
-        if not self.w3.is_connected():
-            raise Exception(f"Failed to connect to RPC: {rpc_url}")
-        
-        logger.info(f"Connected to Polygon RPC: {rpc_url}")
-        
+
+        # Try to connect to the first RPC
+        self._connect_to_rpc()
+
         # Chainlink AggregatorV3Interface ABI
         aggregator_abi = [
             {
@@ -192,15 +192,73 @@ class ChainlinkPriceFetcher:
                 "type": "function"
             }
         ]
-        
+
         for symbol, address in symbols.items():
             contract = self.w3.eth.contract(address=address, abi=aggregator_abi)
             self.contracts[symbol] = contract
             self.decimals[symbol] = contract.functions.decimals().call()
             logger.info(f"Initialized {symbol} Chainlink feed: {address} (decimals: {self.decimals[symbol]})")
+
+    def _connect_to_rpc(self):
+        """Connect to RPC with failover"""
+        for attempt in range(len(self.rpc_urls)):
+            rpc_url = self.rpc_urls[self.current_rpc_index]
+            try:
+                self.w3 = Web3(Web3.HTTPProvider(rpc_url))
+                if self.w3.is_connected():
+                    logger.info(f"Connected to Polygon RPC: {rpc_url}")
+                    return
+                else:
+                    logger.warning(f"Failed to connect to RPC: {rpc_url}")
+            except Exception as e:
+                logger.warning(f"Error connecting to RPC {rpc_url}: {e}")
+
+            # Try next RPC
+            self.current_rpc_index = (self.current_rpc_index + 1) % len(self.rpc_urls)
+
+        raise Exception(f"Failed to connect to any RPC endpoint")
+
+    def _switch_rpc(self):
+        """Switch to next RPC endpoint"""
+        old_rpc = self.rpc_urls[self.current_rpc_index]
+        self.current_rpc_index = (self.current_rpc_index + 1) % len(self.rpc_urls)
+        new_rpc = self.rpc_urls[self.current_rpc_index]
+
+        logger.info(f"Switching RPC from {old_rpc} to {new_rpc}")
+        self._connect_to_rpc()
+
+        # Reinitialize contracts with new RPC
+        aggregator_abi = [
+            {
+                "inputs": [],
+                "name": "latestRoundData",
+                "outputs": [
+                    {"internalType": "uint80", "name": "roundId", "type": "uint80"},
+                    {"internalType": "int256", "name": "answer", "type": "int256"},
+                    {"internalType": "uint256", "name": "startedAt", "type": "uint256"},
+                    {"internalType": "uint256", "name": "updatedAt", "type": "uint256"},
+                    {"internalType": "uint80", "name": "answeredInRound", "type": "uint80"}
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "decimals",
+                "outputs": [{"internalType": "uint8", "name": "", "type": "uint8"}],
+                "stateMutability": "view",
+                "type": "function"
+            }
+        ]
+
+        # Reinitialize contracts
+        for symbol in self.contracts.keys():
+            address = self.contracts[symbol].address
+            contract = self.w3.eth.contract(address=address, abi=aggregator_abi)
+            self.contracts[symbol] = contract
     
     def get_latest_price(self, symbol: str, max_retries: int = 3) -> Optional[Dict]:
-        """Get the latest price for a symbol from Chainlink with retry logic"""
+        """Get the latest price for a symbol from Chainlink with retry logic and RPC failover"""
         for attempt in range(max_retries):
             try:
                 contract = self.contracts[symbol]
@@ -223,10 +281,17 @@ class ChainlinkPriceFetcher:
                 error_msg = str(e)
                 if "rate limit" in error_msg.lower() or "too many requests" in error_msg.lower():
                     if attempt < max_retries - 1:
-                        wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
-                        logger.warning(f"Rate limited for {symbol}, retrying in {wait_time}s (attempt {attempt + 1}/{max_retries})")
-                        time.sleep(wait_time)
-                        continue
+                        # Try switching to a different RPC provider
+                        try:
+                            self._switch_rpc()
+                            logger.warning(f"Switched RPC due to rate limit for {symbol}, retrying immediately (attempt {attempt + 1}/{max_retries})")
+                            continue
+                        except Exception as switch_error:
+                            logger.warning(f"Failed to switch RPC: {switch_error}, using backoff instead")
+                            wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
+                            logger.warning(f"Rate limited for {symbol}, retrying in {wait_time}s (attempt {attempt + 1}/{max_retries})")
+                            time.sleep(wait_time)
+                            continue
                     else:
                         logger.error(f"Rate limit exhausted for {symbol} after {max_retries} attempts")
                         return None
@@ -246,7 +311,7 @@ class PriceCollectorService:
             log_dir=config['storage']['log_directory']
         )
         self.fetcher = ChainlinkPriceFetcher(
-            rpc_url=config['rpc_url'],
+            rpc_urls=config['rpc_urls'],
             symbols=config['symbols']
         )
         self.running = False
