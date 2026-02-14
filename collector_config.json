@@ -1,0 +1,23 @@
+{
+  "rpc_url": "https://polygon-rpc.com",
+  "api_port": 3000,
+  "collection_interval": 1,
+  "cleanup_interval": 600,
+  "data_retention_hours": 12,
+  "buffer_max_age_seconds": 60,
+  "symbols": {
+    "BTC": "0xc907E116054Ad103354f2D350FD2514433D57F6f",
+    "ETH": "0xF9680D99D6C9589e2a93a78A04A279e509205945",
+    "SOL": "0x10C8264C0935b3B9870013e057f330Ff3e9C56dC"
+  },
+  "storage": {
+    "type": "file",
+    "data_directory": "data",
+    "log_directory": "logs"
+  },
+  "features": {
+    "et_time_support": true,
+    "buffering": true,
+    "enhanced_cleanup": true
+  }
+}

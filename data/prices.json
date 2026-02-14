@@ -61,5 +61,19 @@
     "timestamp": 1771058681,
     "round_id": 1003,
     "created_at": 1771058681
+  },
+  {
+    "symbol": "BTC",
+    "price": 50000.0,
+    "timestamp": 1234567890,
+    "round_id": 1000,
+    "created_at": 1771081464
+  },
+  {
+    "symbol": "ETH",
+    "price": 3000.0,
+    "timestamp": 1234567890,
+    "round_id": 1000,
+    "created_at": 1771081464
   }
 ]
