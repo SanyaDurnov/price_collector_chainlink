@@ -5,8 +5,10 @@ import os
 import logging
 from datetime import datetime
 from typing import Dict, Optional, List
-from web3 import Web3
-from web3.contract import Contract
+from pathlib import Path
+import tempfile
+
+import websockets
 from aiohttp import web
 import aiofiles
 
@@ -156,193 +158,253 @@ class FilePriceStorage:
             return []
 
 
-class ChainlinkPriceFetcher:
-    """Fetch prices from Chainlink oracles with multiple RPC failover"""
+class PolymarketPriceCollector:
+    """Collect prices from Polymarket RTDS WebSocket - no rate limits!"""
 
-    def __init__(self, rpc_urls: List[str], symbols: Dict[str, str]):
-        self.rpc_urls = rpc_urls
-        self.current_rpc_index = 0
-        self.w3 = None
-        self.contracts: Dict[str, Contract] = {}
-        self.decimals: Dict[str, int] = {}
+    SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
+    RTDS_ENDPOINT = "wss://ws-live-data.polymarket.com"
+    RTDS_TOPIC = "crypto_prices_chainlink"
 
-        # Try to connect to the first RPC
-        self._connect_to_rpc()
+    def __init__(self):
+        self.websocket: Optional[websockets.WebSocketClientProtocol] = None
+        self.running = False
+        self.price_buffers: Dict[str, List[Dict]] = {}
+        self.last_prices: Dict[str, float] = {}
+        self.last_save_time = time.time()
 
-        # Chainlink AggregatorV3Interface ABI
-        aggregator_abi = [
-            {
-                "inputs": [],
-                "name": "latestRoundData",
-                "outputs": [
-                    {"internalType": "uint80", "name": "roundId", "type": "uint80"},
-                    {"internalType": "int256", "name": "answer", "type": "int256"},
-                    {"internalType": "uint256", "name": "startedAt", "type": "uint256"},
-                    {"internalType": "uint256", "name": "updatedAt", "type": "uint256"},
-                    {"internalType": "uint80", "name": "answeredInRound", "type": "uint80"}
-                ],
-                "stateMutability": "view",
-                "type": "function"
-            },
-            {
-                "inputs": [],
-                "name": "decimals",
-                "outputs": [{"internalType": "uint8", "name": "", "type": "uint8"}],
-                "stateMutability": "view",
-                "type": "function"
+        # Create data directory
+        Path("data").mkdir(exist_ok=True)
+
+        # Initialize buffers for each symbol
+        for symbol in self.SYMBOLS:
+            self.price_buffers[symbol] = []
+
+        # Load existing data
+        self._load_existing_data()
+        logger.info("PolymarketPriceCollector initialized")
+
+    def _load_existing_data(self) -> None:
+        """Load existing data from file."""
+        prices_file = Path("data/prices.json")
+        try:
+            if prices_file.exists():
+                with open(prices_file, 'r') as f:
+                    data = json.load(f)
+                    prices_data = data.get('prices', {})
+
+                    for symbol in self.SYMBOLS:
+                        self.price_buffers[symbol] = prices_data.get(symbol, [])
+
+                    total_entries = sum(len(buffer) for buffer in self.price_buffers.values())
+                    logger.info(f"Loaded {total_entries} price entries")
+        except Exception as e:
+            logger.warning(f"Error loading existing data: {e}")
+
+    def _save_data(self) -> None:
+        """Save data to file atomically."""
+        try:
+            # Remove old entries (older than 6 hours)
+            cutoff = time.time() - (6 * 3600)
+            for symbol in self.price_buffers:
+                self.price_buffers[symbol] = [
+                    e for e in self.price_buffers[symbol]
+                    if e.get('timestamp', 0) > cutoff
+                ]
+
+            data = {
+                'last_updated': datetime.now().isoformat(),
+                'prices': self.price_buffers
             }
-        ]
 
-        for symbol, address in symbols.items():
-            contract = self.w3.eth.contract(address=address, abi=aggregator_abi)
-            self.contracts[symbol] = contract
-            self.decimals[symbol] = contract.functions.decimals().call()
-            logger.info(f"Initialized {symbol} Chainlink feed: {address} (decimals: {self.decimals[symbol]})")
-
-    def _connect_to_rpc(self):
-        """Connect to RPC with failover"""
-        for attempt in range(len(self.rpc_urls)):
-            rpc_url = self.rpc_urls[self.current_rpc_index]
+            # Atomic write
+            prices_file = Path("data/prices.json")
+            fd, tmp_path = tempfile.mkstemp(dir=prices_file.parent, suffix='.tmp')
             try:
-                self.w3 = Web3(Web3.HTTPProvider(rpc_url))
-                if self.w3.is_connected():
-                    logger.info(f"Connected to Polygon RPC: {rpc_url}")
-                    return
-                else:
-                    logger.warning(f"Failed to connect to RPC: {rpc_url}")
-            except Exception as e:
-                logger.warning(f"Error connecting to RPC {rpc_url}: {e}")
+                with os.fdopen(fd, 'w') as f:
+                    json.dump(data, f, indent=2)
+                os.replace(tmp_path, str(prices_file))
+            except Exception:
+                if os.path.exists(tmp_path):
+                    os.unlink(tmp_path)
+                raise
 
-            # Try next RPC
-            self.current_rpc_index = (self.current_rpc_index + 1) % len(self.rpc_urls)
+            total_entries = sum(len(buffer) for buffer in self.price_buffers.values())
+            logger.info(f"Saved {total_entries} price entries to {prices_file}")
+            self.last_save_time = time.time()
 
-        raise Exception(f"Failed to connect to any RPC endpoint")
+        except Exception as e:
+            logger.error(f"Error saving data: {e}")
 
-    def _switch_rpc(self):
-        """Switch to next RPC endpoint"""
-        old_rpc = self.rpc_urls[self.current_rpc_index]
-        self.current_rpc_index = (self.current_rpc_index + 1) % len(self.rpc_urls)
-        new_rpc = self.rpc_urls[self.current_rpc_index]
+    def _normalize_symbol(self, raw_symbol: str) -> str:
+        """Normalize symbol from RTDS."""
+        sym = raw_symbol.strip().upper()
+        if "/" in sym:
+            base = sym.split("/", 1)[0]
+            return f"{base}USDT"
+        return sym
 
-        logger.info(f"Switching RPC from {old_rpc} to {new_rpc}")
-        self._connect_to_rpc()
+    async def _handle_price_update(self, msg: dict) -> None:
+        """Handle price update from RTDS."""
+        payload = msg.get("payload", {})
+        symbol_raw = payload.get("symbol", "")
+        symbol = self._normalize_symbol(symbol_raw)
+        price = payload.get("value")
+        ts_ms = payload.get("timestamp", 0)
 
-        # Reinitialize contracts with new RPC
-        aggregator_abi = [
-            {
-                "inputs": [],
-                "name": "latestRoundData",
-                "outputs": [
-                    {"internalType": "uint80", "name": "roundId", "type": "uint80"},
-                    {"internalType": "int256", "name": "answer", "type": "int256"},
-                    {"internalType": "uint256", "name": "startedAt", "type": "uint256"},
-                    {"internalType": "uint256", "name": "updatedAt", "type": "uint256"},
-                    {"internalType": "uint80", "name": "answeredInRound", "type": "uint80"}
-                ],
-                "stateMutability": "view",
-                "type": "function"
-            },
-            {
-                "inputs": [],
-                "name": "decimals",
-                "outputs": [{"internalType": "uint8", "name": "", "type": "uint8"}],
-                "stateMutability": "view",
-                "type": "function"
-            }
-        ]
+        if not symbol or price is None or symbol not in self.SYMBOLS:
+            return
 
-        # Reinitialize contracts
-        for symbol in self.contracts.keys():
-            address = self.contracts[symbol].address
-            contract = self.w3.eth.contract(address=address, abi=aggregator_abi)
-            self.contracts[symbol] = contract
-    
-    def get_latest_price(self, symbol: str, max_retries: int = 3) -> Optional[Dict]:
-        """Get the latest price for a symbol from Chainlink with retry logic and RPC failover"""
-        for attempt in range(max_retries):
+        timestamp = int(ts_ms / 1000)
+        price_float = float(price)
+
+        # Update last price
+        self.last_prices[symbol] = price_float
+
+        # Add to buffer
+        entry = {
+            'timestamp': timestamp,
+            'price': price_float,
+            'datetime': datetime.fromtimestamp(timestamp).isoformat(),
+            'source': 'polymarket_rtds'
+        }
+
+        self.price_buffers[symbol].append(entry)
+        logger.info(f"💰 Price update: {symbol} = ${price_float:.2f} @ {timestamp}")
+
+        # Save periodically
+        if time.time() - self.last_save_time >= 60:  # Every minute
+            self._save_data()
+
+    async def _receive_messages(self) -> None:
+        """Receive messages from WebSocket."""
+        while self.running and self.websocket:
             try:
-                contract = self.contracts[symbol]
-                round_data = contract.functions.latestRoundData().call()
+                raw = await self.websocket.recv()
+                if not raw:
+                    continue
 
-                round_id = round_data[0]
-                price_raw = round_data[1]
-                timestamp = round_data[3]
-                decimals = self.decimals[symbol]
+                try:
+                    msg = json.loads(raw)
+                except json.JSONDecodeError:
+                    continue
 
-                price = float(price_raw) / (10 ** decimals)
+                msg_type = msg.get("type", "")
+                if msg_type == "update":
+                    await self._handle_price_update(msg)
 
-                return {
-                    'symbol': symbol,
-                    'price': price,
-                    'timestamp': timestamp,
-                    'round_id': round_id
+            except Exception as exc:
+                logger.error(f"Error in receive_messages: {exc}")
+                self.running = False
+                break
+
+    async def _ping_loop(self) -> None:
+        """Send ping every 30 seconds."""
+        while self.running and self.websocket:
+            try:
+                await asyncio.sleep(30)
+                if self.websocket and self.running:
+                    await self.websocket.send(json.dumps({"type": "ping"}))
+            except Exception as exc:
+                logger.error(f"Error in ping loop: {exc}")
+                self.running = False
+                break
+
+    def get_latest_price(self, symbol: str) -> Optional[Dict]:
+        """Get latest price for symbol."""
+        if symbol not in self.last_prices:
+            return None
+
+        # Find the most recent entry in buffer
+        buffer = self.price_buffers.get(symbol, [])
+        if not buffer:
+            return None
+
+        latest_entry = max(buffer, key=lambda x: x['timestamp'])
+
+        return {
+            'symbol': symbol,
+            'price': latest_entry['price'],
+            'timestamp': latest_entry['timestamp'],
+            'round_id': 0,  # Not applicable for RTDS
+            'source': 'polymarket_rtds'
+        }
+
+    async def start_collection(self) -> None:
+        """Start WebSocket collection."""
+        self.running = True
+        logger.info(f"Starting Polymarket RTDS collection for {', '.join(self.SYMBOLS)}")
+
+        while self.running:
+            try:
+                # Connect to WebSocket
+                self.websocket = await websockets.connect(
+                    self.RTDS_ENDPOINT,
+                    ping_interval=None,
+                    close_timeout=5,
+                )
+
+                # Subscribe to price updates
+                msg = {
+                    "action": "subscribe",
+                    "subscriptions": [{
+                        "topic": self.RTDS_TOPIC,
+                        "type": "update",
+                    }],
                 }
-            except Exception as e:
-                error_msg = str(e)
-                if "rate limit" in error_msg.lower() or "too many requests" in error_msg.lower():
-                    if attempt < max_retries - 1:
-                        # Try switching to a different RPC provider
-                        try:
-                            self._switch_rpc()
-                            logger.warning(f"Switched RPC due to rate limit for {symbol}, retrying immediately (attempt {attempt + 1}/{max_retries})")
-                            continue
-                        except Exception as switch_error:
-                            logger.warning(f"Failed to switch RPC: {switch_error}, using backoff instead")
-                            wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
-                            logger.warning(f"Rate limited for {symbol}, retrying in {wait_time}s (attempt {attempt + 1}/{max_retries})")
-                            time.sleep(wait_time)
-                            continue
-                    else:
-                        logger.error(f"Rate limit exhausted for {symbol} after {max_retries} attempts")
-                        return None
-                else:
-                    logger.error(f"Error fetching {symbol} price from Chainlink: {e}")
-                    return None
-        return None
+                await self.websocket.send(json.dumps(msg))
+                logger.info("Subscribed to Polymarket RTDS")
+
+                # Start ping loop
+                ping_task = asyncio.create_task(self._ping_loop())
+
+                # Receive messages
+                await self._receive_messages()
+
+                # Clean up
+                ping_task.cancel()
+                try:
+                    await ping_task
+                except asyncio.CancelledError:
+                    pass
+
+            except Exception as conn_exc:
+                logger.error(f"WebSocket connection error: {conn_exc}")
+                if self.running:
+                    logger.info("Retrying connection in 5 seconds...")
+                    await asyncio.sleep(5)
+
+            finally:
+                if self.websocket:
+                    try:
+                        await self.websocket.close()
+                    except:
+                        pass
+                    self.websocket = None
+
+        logger.info("Polymarket RTDS collection stopped")
+
+    def stop_collection(self) -> None:
+        """Stop collection."""
+        self.running = False
+        logger.info("Stopping Polymarket RTDS collection")
 
 
 class PriceCollectorService:
-    """Main service for collecting prices from Chainlink"""
-    
+    """Main service for collecting prices from Polymarket RTDS"""
+
     def __init__(self, config: Dict):
         self.config = config
         self.storage = FilePriceStorage(
             data_dir=config['storage']['data_directory'],
             log_dir=config['storage']['log_directory']
         )
-        # Handle both old rpc_url and new rpc_urls format for backward compatibility
-        if 'rpc_urls' in config:
-            rpc_urls = config['rpc_urls']
-        elif 'rpc_url' in config:
-            rpc_urls = [config['rpc_url']]
-        else:
-            raise ValueError("Config must contain either 'rpc_url' or 'rpc_urls'")
-
-        self.fetcher = ChainlinkPriceFetcher(
-            rpc_urls=rpc_urls,
-            symbols=config['symbols']
-        )
+        self.collector = PolymarketPriceCollector()
         self.running = False
-    
+
     async def collect_prices(self):
-        """Collect prices from Chainlink oracle every second"""
-        while self.running:
-            try:
-                for symbol in self.config['symbols'].keys():
-                    data = self.fetcher.get_latest_price(symbol)
-                    if data:
-                        await self.storage.insert_price(
-                            symbol=data['symbol'],
-                            price=data['price'],
-                            timestamp=data['timestamp'],
-                            round_id=data['round_id']
-                        )
-                
-                await asyncio.sleep(self.config['collection_interval'])
-            except Exception as e:
-                logger.error(f"Error in collect_prices: {e}")
-                await asyncio.sleep(5)
-    
+        """Start WebSocket collection from Polymarket RTDS"""
+        await self.collector.start_collection()
+
     async def cleanup_task(self):
         """Clean up old records every 10 minutes"""
         while self.running:
@@ -351,97 +413,99 @@ class PriceCollectorService:
                 await self.storage.cleanup_old_records(hours=self.config['data_retention_hours'])
             except Exception as e:
                 logger.error(f"Error in cleanup_task: {e}")
-    
+
     async def start(self):
         """Start the price collection service"""
         self.running = True
-        logger.info("Starting Chainlink Price Collector Service...")
-        
+        logger.info("Starting Polymarket RTDS Price Collector Service...")
+
         await asyncio.gather(
             self.collect_prices(),
             self.cleanup_task()
         )
-    
+
     def stop(self):
         """Stop the service"""
         self.running = False
-        logger.info("Stopping Chainlink Price Collector Service...")
+        self.collector.stop_collection()
+        logger.info("Stopping Polymarket RTDS Price Collector Service...")
 
 
 class PriceAPIServer:
     """REST API server for querying prices"""
-    
-    def __init__(self, storage: FilePriceStorage, config: Dict):
-        self.storage = storage
+
+    def __init__(self, collector: PolymarketPriceCollector, config: Dict):
+        self.collector = collector
         self.config = config
         self.app = web.Application()
         self._setup_routes()
-    
+
     def _setup_routes(self):
         self.app.router.add_get('/price/{symbol}', self.get_price)
         self.app.router.add_get('/health', self.health_check)
         self.app.router.add_get('/latest', self.get_latest_prices)
-    
+
     async def get_price(self, request):
         """
-        GET /price/BTC?timestamp=1234567890&tolerance=60
-        Returns price from Chainlink oracle closest to the specified timestamp
+        GET /price/BTC - Returns latest price for symbol
         """
         symbol = request.match_info['symbol'].upper()
-        timestamp = request.query.get('timestamp')
-        tolerance = int(request.query.get('tolerance', 60))
-        
-        if not timestamp:
-            return web.json_response({'error': 'timestamp parameter required'}, status=400)
-        
-        try:
-            timestamp = int(timestamp)
-        except ValueError:
-            return web.json_response({'error': 'Invalid timestamp'}, status=400)
-        
-        result = await self.storage.get_price_at_timestamp(symbol, timestamp, tolerance)
-        
+
+        if symbol not in PolymarketPriceCollector.SYMBOLS:
+            return web.json_response({'error': f'Unsupported symbol: {symbol}'}, status=400)
+
+        result = self.collector.get_latest_price(symbol)
+
         if result:
             return web.json_response({
                 'symbol': symbol,
                 'price': result['price'],
                 'timestamp': result['timestamp'],
-                'requested_timestamp': timestamp,
-                'round_id': result['round_id'],
-                'source': 'chainlink'
+                'source': 'polymarket_rtds'
             })
         else:
             return web.json_response({
-                'error': f'No Chainlink price found for {symbol} at timestamp {timestamp} (±{tolerance}s)'
+                'error': f'No price data available for {symbol}'
             }, status=404)
-    
+
     async def get_latest_prices(self, request):
         """GET /latest - Get the latest prices for all symbols"""
         try:
-            latest_prices = await self.storage.get_latest_prices()
+            latest_prices = []
+            for symbol in PolymarketPriceCollector.SYMBOLS:
+                price_data = self.collector.get_latest_price(symbol)
+                if price_data:
+                    latest_prices.append({
+                        'symbol': symbol,
+                        'price': price_data['price'],
+                        'timestamp': price_data['timestamp'],
+                        'source': 'polymarket_rtds'
+                    })
+
             return web.json_response({
                 'prices': latest_prices,
-                'source': 'chainlink'
+                'source': 'polymarket_rtds'
             })
         except Exception as e:
             logger.error(f"Error getting latest prices: {e}")
             return web.json_response({'error': 'Failed to get latest prices'}, status=500)
-    
+
     async def health_check(self, request):
         return web.json_response({
-            'status': 'ok', 
-            'timestamp': int(time.time()), 
-            'source': 'chainlink',
-            'symbols': list(self.config['symbols'].keys())
+            'status': 'ok',
+            'timestamp': int(time.time()),
+            'source': 'polymarket_rtds',
+            'symbols': PolymarketPriceCollector.SYMBOLS,
+            'websocket_connected': self.collector.websocket is not None
         })
-    
+
     async def start(self):
         runner = web.AppRunner(self.app)
         await runner.setup()
         site = web.TCPSite(runner, '0.0.0.0', self.config['api_port'])
         await site.start()
         logger.info(f"API server running on http://0.0.0.0:{self.config['api_port']}")
-        logger.info("Data source: Chainlink Oracle on Polygon (same as Polymarket)")
+        logger.info("Data source: Polymarket RTDS WebSocket (Chainlink prices)")
 
 
 async def main():
@@ -462,7 +526,7 @@ async def main():
     )
     
     collector = PriceCollectorService(config)
-    api_server = PriceAPIServer(storage, config)
+    api_server = PriceAPIServer(collector.collector, config)
     
     try:
         await asyncio.gather(

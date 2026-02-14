@@ -47,9 +47,9 @@ async def test_websocket_collection():
         else:
             print(f"❌ API not responding: {result.stderr}")
 
-        # Wait another 20 seconds for price collection
-        print("⏳ Waiting 20 seconds for price collection...")
-        await asyncio.sleep(20)
+        # Wait another 60 seconds for price collection
+        print("⏳ Waiting 60 seconds for price collection...")
+        await asyncio.sleep(60)
 
         # Check collected prices
         print("📊 Checking collected prices...")
