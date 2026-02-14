@@ -292,9 +292,13 @@ class PolymarketPriceCollector:
                 if msg_type == "update":
                     await self._handle_price_update(msg)
 
+            except websockets.exceptions.ConnectionClosed as conn_exc:
+                logger.warning(f"WebSocket connection closed: {conn_exc}")
+                # Don't set self.running = False, just break to trigger reconnection
+                break
             except Exception as exc:
                 logger.error(f"Error in receive_messages: {exc}")
-                self.running = False
+                # For other errors, also just break to trigger reconnection
                 break
 
     async def _ping_loop(self) -> None:
@@ -305,8 +309,8 @@ class PolymarketPriceCollector:
                 if self.websocket and self.running:
                     await self.websocket.send(json.dumps({"type": "ping"}))
             except Exception as exc:
-                logger.error(f"Error in ping loop: {exc}")
-                self.running = False
+                logger.warning(f"Error in ping loop: {exc}")
+                # Don't stop the service, just break to trigger reconnection
                 break
 
     def get_latest_price(self, symbol: str) -> Optional[Dict]:
@@ -457,7 +461,9 @@ class PriceCollectorService:
         while self.running:
             try:
                 await asyncio.sleep(self.config['cleanup_interval'])  # 10 minutes
-                await self.storage.cleanup_old_records(hours=self.config['data_retention_hours'])
+                # PolymarketPriceCollector handles its own cleanup in _save_data()
+                # No additional cleanup needed here
+                logger.info("Cleanup task running (Polymarket collector handles its own cleanup)")
             except Exception as e:
                 logger.error(f"Error in cleanup_task: {e}")
 
