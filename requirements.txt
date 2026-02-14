@@ -1,0 +1,4 @@
+aiohttp==3.9.1
+asyncio-mqtt==0.14.0
+python-dotenv==1.0.0
+aiofiles==24.1.0

@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "BTC",
+    "price": 50000.0,
+    "timestamp": 1771058565,
+    "round_id": 1001,
+    "created_at": 1771058565
+  },
+  {
+    "symbol": "ETH",
+    "price": 3000.0,
+    "timestamp": 1771058465,
+    "round_id": 1002,
+    "created_at": 1771058465
+  },
+  {
+    "symbol": "SOL",
+    "price": 100.0,
+    "timestamp": 1771058365,
+    "round_id": 1003,
+    "created_at": 1771058365
+  },
+  {
+    "symbol": "ETH",
+    "price": 3024.813875513727,
+    "timestamp": 1771058679,
+    "round_id": 1001,
+    "created_at": 1771058679
+  },
+  {
+    "symbol": "SOL",
+    "price": 97.32299196689134,
+    "timestamp": 1771058679,
+    "round_id": 1001,
+    "created_at": 1771058679
+  },
+  {
+    "symbol": "BTC",
+    "price": 49677.11294497212,
+    "timestamp": 1771058680,
+    "round_id": 1002,
+    "created_at": 1771058680
+  },
+  {
+    "symbol": "SOL",
+    "price": 94.38991425633243,
+    "timestamp": 1771058680,
+    "round_id": 1002,
+    "created_at": 1771058680
+  },
+  {
+    "symbol": "BTC",
+    "price": 50172.071157845116,
+    "timestamp": 1771058681,
+    "round_id": 1003,
+    "created_at": 1771058681
+  },
+  {
+    "symbol": "ETH",
+    "price": 3058.392229231109,
+    "timestamp": 1771058681,
+    "round_id": 1003,
+    "created_at": 1771058681
+  }
+]
