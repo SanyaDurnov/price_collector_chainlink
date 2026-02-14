@@ -102,4 +102,4 @@ node_modules/
 
 # Temporary folders
 tmp/
-temp/
+temp/data/prices.json
