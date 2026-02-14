@@ -6,4 +6,4 @@ pip install -r requirements.txt
 """
 
 [start]
-command = "cd /opt/app && /opt/venv/bin/python simple_price_service.py"
+command = "cd /opt/app && /opt/venv/bin/python chainlink_price_service.py"

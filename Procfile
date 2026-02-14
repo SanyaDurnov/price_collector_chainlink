@@ -1,1 +1,1 @@
-web: python simple_price_service.py
+web: python chainlink_price_service.py
