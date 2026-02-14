@@ -1,6 +1,11 @@
 {
-  "rpc_url": "https://polygon-rpc.com",
-  "api_port": 8080,
+  "rpc_urls": [
+    "https://polygon-rpc.com",
+    "https://polygon-mainnet.publicnode.com",
+    "https://polygon-bor.publicnode.com",
+    "https://polygon.drpc.org"
+  ],
+  "api_port": 3000,
   "collection_interval": 1,
   "cleanup_interval": 600,
   "data_retention_hours": 6,
