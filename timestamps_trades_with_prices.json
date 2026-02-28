@@ -1,0 +1,2084 @@
+{
+  "metadata": {
+    "input_file": "timestamps_trades",
+    "total_timestamps": 988,
+    "unique_timestamps": 188,
+    "timestamps_with_prices": 0,
+    "price_coverage": 0.0,
+    "btc_prices_found": 0,
+    "eth_prices_found": 0,
+    "sol_prices_found": 0,
+    "generated_at": "2026-02-15T20:21:53.150634",
+    "timezone_conversion": "Local (UTC+3) to ET (UTC-5)"
+  },
+  "timestamps": [
+    {
+      "local_timestamp": 1771166477,
+      "et_timestamp": 1771137677,
+      "datetime_local": "2026-02-15T17:41:17",
+      "datetime_et": "2026-02-15T09:41:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166479,
+      "et_timestamp": 1771137679,
+      "datetime_local": "2026-02-15T17:41:19",
+      "datetime_et": "2026-02-15T09:41:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166481,
+      "et_timestamp": 1771137681,
+      "datetime_local": "2026-02-15T17:41:21",
+      "datetime_et": "2026-02-15T09:41:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166485,
+      "et_timestamp": 1771137685,
+      "datetime_local": "2026-02-15T17:41:25",
+      "datetime_et": "2026-02-15T09:41:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166487,
+      "et_timestamp": 1771137687,
+      "datetime_local": "2026-02-15T17:41:27",
+      "datetime_et": "2026-02-15T09:41:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166489,
+      "et_timestamp": 1771137689,
+      "datetime_local": "2026-02-15T17:41:29",
+      "datetime_et": "2026-02-15T09:41:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166491,
+      "et_timestamp": 1771137691,
+      "datetime_local": "2026-02-15T17:41:31",
+      "datetime_et": "2026-02-15T09:41:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166493,
+      "et_timestamp": 1771137693,
+      "datetime_local": "2026-02-15T17:41:33",
+      "datetime_et": "2026-02-15T09:41:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166495,
+      "et_timestamp": 1771137695,
+      "datetime_local": "2026-02-15T17:41:35",
+      "datetime_et": "2026-02-15T09:41:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166505,
+      "et_timestamp": 1771137705,
+      "datetime_local": "2026-02-15T17:41:45",
+      "datetime_et": "2026-02-15T09:41:45",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166509,
+      "et_timestamp": 1771137709,
+      "datetime_local": "2026-02-15T17:41:49",
+      "datetime_et": "2026-02-15T09:41:49",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166511,
+      "et_timestamp": 1771137711,
+      "datetime_local": "2026-02-15T17:41:51",
+      "datetime_et": "2026-02-15T09:41:51",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166515,
+      "et_timestamp": 1771137715,
+      "datetime_local": "2026-02-15T17:41:55",
+      "datetime_et": "2026-02-15T09:41:55",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166517,
+      "et_timestamp": 1771137717,
+      "datetime_local": "2026-02-15T17:41:57",
+      "datetime_et": "2026-02-15T09:41:57",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166519,
+      "et_timestamp": 1771137719,
+      "datetime_local": "2026-02-15T17:41:59",
+      "datetime_et": "2026-02-15T09:41:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166521,
+      "et_timestamp": 1771137721,
+      "datetime_local": "2026-02-15T17:42:01",
+      "datetime_et": "2026-02-15T09:42:01",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166523,
+      "et_timestamp": 1771137723,
+      "datetime_local": "2026-02-15T17:42:03",
+      "datetime_et": "2026-02-15T09:42:03",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166525,
+      "et_timestamp": 1771137725,
+      "datetime_local": "2026-02-15T17:42:05",
+      "datetime_et": "2026-02-15T09:42:05",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166527,
+      "et_timestamp": 1771137727,
+      "datetime_local": "2026-02-15T17:42:07",
+      "datetime_et": "2026-02-15T09:42:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166535,
+      "et_timestamp": 1771137735,
+      "datetime_local": "2026-02-15T17:42:15",
+      "datetime_et": "2026-02-15T09:42:15",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166537,
+      "et_timestamp": 1771137737,
+      "datetime_local": "2026-02-15T17:42:17",
+      "datetime_et": "2026-02-15T09:42:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166539,
+      "et_timestamp": 1771137739,
+      "datetime_local": "2026-02-15T17:42:19",
+      "datetime_et": "2026-02-15T09:42:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166541,
+      "et_timestamp": 1771137741,
+      "datetime_local": "2026-02-15T17:42:21",
+      "datetime_et": "2026-02-15T09:42:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166543,
+      "et_timestamp": 1771137743,
+      "datetime_local": "2026-02-15T17:42:23",
+      "datetime_et": "2026-02-15T09:42:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166547,
+      "et_timestamp": 1771137747,
+      "datetime_local": "2026-02-15T17:42:27",
+      "datetime_et": "2026-02-15T09:42:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166549,
+      "et_timestamp": 1771137749,
+      "datetime_local": "2026-02-15T17:42:29",
+      "datetime_et": "2026-02-15T09:42:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166551,
+      "et_timestamp": 1771137751,
+      "datetime_local": "2026-02-15T17:42:31",
+      "datetime_et": "2026-02-15T09:42:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166553,
+      "et_timestamp": 1771137753,
+      "datetime_local": "2026-02-15T17:42:33",
+      "datetime_et": "2026-02-15T09:42:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166555,
+      "et_timestamp": 1771137755,
+      "datetime_local": "2026-02-15T17:42:35",
+      "datetime_et": "2026-02-15T09:42:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166557,
+      "et_timestamp": 1771137757,
+      "datetime_local": "2026-02-15T17:42:37",
+      "datetime_et": "2026-02-15T09:42:37",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166559,
+      "et_timestamp": 1771137759,
+      "datetime_local": "2026-02-15T17:42:39",
+      "datetime_et": "2026-02-15T09:42:39",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166565,
+      "et_timestamp": 1771137765,
+      "datetime_local": "2026-02-15T17:42:45",
+      "datetime_et": "2026-02-15T09:42:45",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166571,
+      "et_timestamp": 1771137771,
+      "datetime_local": "2026-02-15T17:42:51",
+      "datetime_et": "2026-02-15T09:42:51",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166575,
+      "et_timestamp": 1771137775,
+      "datetime_local": "2026-02-15T17:42:55",
+      "datetime_et": "2026-02-15T09:42:55",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166577,
+      "et_timestamp": 1771137777,
+      "datetime_local": "2026-02-15T17:42:57",
+      "datetime_et": "2026-02-15T09:42:57",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166579,
+      "et_timestamp": 1771137779,
+      "datetime_local": "2026-02-15T17:42:59",
+      "datetime_et": "2026-02-15T09:42:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166581,
+      "et_timestamp": 1771137781,
+      "datetime_local": "2026-02-15T17:43:01",
+      "datetime_et": "2026-02-15T09:43:01",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166589,
+      "et_timestamp": 1771137789,
+      "datetime_local": "2026-02-15T17:43:09",
+      "datetime_et": "2026-02-15T09:43:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166591,
+      "et_timestamp": 1771137791,
+      "datetime_local": "2026-02-15T17:43:11",
+      "datetime_et": "2026-02-15T09:43:11",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166593,
+      "et_timestamp": 1771137793,
+      "datetime_local": "2026-02-15T17:43:13",
+      "datetime_et": "2026-02-15T09:43:13",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166595,
+      "et_timestamp": 1771137795,
+      "datetime_local": "2026-02-15T17:43:15",
+      "datetime_et": "2026-02-15T09:43:15",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166599,
+      "et_timestamp": 1771137799,
+      "datetime_local": "2026-02-15T17:43:19",
+      "datetime_et": "2026-02-15T09:43:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166601,
+      "et_timestamp": 1771137801,
+      "datetime_local": "2026-02-15T17:43:21",
+      "datetime_et": "2026-02-15T09:43:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166605,
+      "et_timestamp": 1771137805,
+      "datetime_local": "2026-02-15T17:43:25",
+      "datetime_et": "2026-02-15T09:43:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166607,
+      "et_timestamp": 1771137807,
+      "datetime_local": "2026-02-15T17:43:27",
+      "datetime_et": "2026-02-15T09:43:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166609,
+      "et_timestamp": 1771137809,
+      "datetime_local": "2026-02-15T17:43:29",
+      "datetime_et": "2026-02-15T09:43:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166611,
+      "et_timestamp": 1771137811,
+      "datetime_local": "2026-02-15T17:43:31",
+      "datetime_et": "2026-02-15T09:43:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166613,
+      "et_timestamp": 1771137813,
+      "datetime_local": "2026-02-15T17:43:33",
+      "datetime_et": "2026-02-15T09:43:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166615,
+      "et_timestamp": 1771137815,
+      "datetime_local": "2026-02-15T17:43:35",
+      "datetime_et": "2026-02-15T09:43:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166625,
+      "et_timestamp": 1771137825,
+      "datetime_local": "2026-02-15T17:43:45",
+      "datetime_et": "2026-02-15T09:43:45",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166631,
+      "et_timestamp": 1771137831,
+      "datetime_local": "2026-02-15T17:43:51",
+      "datetime_et": "2026-02-15T09:43:51",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166637,
+      "et_timestamp": 1771137837,
+      "datetime_local": "2026-02-15T17:43:57",
+      "datetime_et": "2026-02-15T09:43:57",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166643,
+      "et_timestamp": 1771137843,
+      "datetime_local": "2026-02-15T17:44:03",
+      "datetime_et": "2026-02-15T09:44:03",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166661,
+      "et_timestamp": 1771137861,
+      "datetime_local": "2026-02-15T17:44:21",
+      "datetime_et": "2026-02-15T09:44:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166663,
+      "et_timestamp": 1771137863,
+      "datetime_local": "2026-02-15T17:44:23",
+      "datetime_et": "2026-02-15T09:44:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166665,
+      "et_timestamp": 1771137865,
+      "datetime_local": "2026-02-15T17:44:25",
+      "datetime_et": "2026-02-15T09:44:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166671,
+      "et_timestamp": 1771137871,
+      "datetime_local": "2026-02-15T17:44:31",
+      "datetime_et": "2026-02-15T09:44:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166683,
+      "et_timestamp": 1771137883,
+      "datetime_local": "2026-02-15T17:44:43",
+      "datetime_et": "2026-02-15T09:44:43",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166705,
+      "et_timestamp": 1771137905,
+      "datetime_local": "2026-02-15T17:45:05",
+      "datetime_et": "2026-02-15T09:45:05",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166707,
+      "et_timestamp": 1771137907,
+      "datetime_local": "2026-02-15T17:45:07",
+      "datetime_et": "2026-02-15T09:45:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166709,
+      "et_timestamp": 1771137909,
+      "datetime_local": "2026-02-15T17:45:09",
+      "datetime_et": "2026-02-15T09:45:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166711,
+      "et_timestamp": 1771137911,
+      "datetime_local": "2026-02-15T17:45:11",
+      "datetime_et": "2026-02-15T09:45:11",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166713,
+      "et_timestamp": 1771137913,
+      "datetime_local": "2026-02-15T17:45:13",
+      "datetime_et": "2026-02-15T09:45:13",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166715,
+      "et_timestamp": 1771137915,
+      "datetime_local": "2026-02-15T17:45:15",
+      "datetime_et": "2026-02-15T09:45:15",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166717,
+      "et_timestamp": 1771137917,
+      "datetime_local": "2026-02-15T17:45:17",
+      "datetime_et": "2026-02-15T09:45:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166719,
+      "et_timestamp": 1771137919,
+      "datetime_local": "2026-02-15T17:45:19",
+      "datetime_et": "2026-02-15T09:45:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166723,
+      "et_timestamp": 1771137923,
+      "datetime_local": "2026-02-15T17:45:23",
+      "datetime_et": "2026-02-15T09:45:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166727,
+      "et_timestamp": 1771137927,
+      "datetime_local": "2026-02-15T17:45:27",
+      "datetime_et": "2026-02-15T09:45:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166729,
+      "et_timestamp": 1771137929,
+      "datetime_local": "2026-02-15T17:45:29",
+      "datetime_et": "2026-02-15T09:45:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166731,
+      "et_timestamp": 1771137931,
+      "datetime_local": "2026-02-15T17:45:31",
+      "datetime_et": "2026-02-15T09:45:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166733,
+      "et_timestamp": 1771137933,
+      "datetime_local": "2026-02-15T17:45:33",
+      "datetime_et": "2026-02-15T09:45:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166735,
+      "et_timestamp": 1771137935,
+      "datetime_local": "2026-02-15T17:45:35",
+      "datetime_et": "2026-02-15T09:45:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166737,
+      "et_timestamp": 1771137937,
+      "datetime_local": "2026-02-15T17:45:37",
+      "datetime_et": "2026-02-15T09:45:37",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166739,
+      "et_timestamp": 1771137939,
+      "datetime_local": "2026-02-15T17:45:39",
+      "datetime_et": "2026-02-15T09:45:39",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166743,
+      "et_timestamp": 1771137943,
+      "datetime_local": "2026-02-15T17:45:43",
+      "datetime_et": "2026-02-15T09:45:43",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166745,
+      "et_timestamp": 1771137945,
+      "datetime_local": "2026-02-15T17:45:45",
+      "datetime_et": "2026-02-15T09:45:45",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166749,
+      "et_timestamp": 1771137949,
+      "datetime_local": "2026-02-15T17:45:49",
+      "datetime_et": "2026-02-15T09:45:49",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166751,
+      "et_timestamp": 1771137951,
+      "datetime_local": "2026-02-15T17:45:51",
+      "datetime_et": "2026-02-15T09:45:51",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166755,
+      "et_timestamp": 1771137955,
+      "datetime_local": "2026-02-15T17:45:55",
+      "datetime_et": "2026-02-15T09:45:55",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166757,
+      "et_timestamp": 1771137957,
+      "datetime_local": "2026-02-15T17:45:57",
+      "datetime_et": "2026-02-15T09:45:57",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166761,
+      "et_timestamp": 1771137961,
+      "datetime_local": "2026-02-15T17:46:01",
+      "datetime_et": "2026-02-15T09:46:01",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166763,
+      "et_timestamp": 1771137963,
+      "datetime_local": "2026-02-15T17:46:03",
+      "datetime_et": "2026-02-15T09:46:03",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166767,
+      "et_timestamp": 1771137967,
+      "datetime_local": "2026-02-15T17:46:07",
+      "datetime_et": "2026-02-15T09:46:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166773,
+      "et_timestamp": 1771137973,
+      "datetime_local": "2026-02-15T17:46:13",
+      "datetime_et": "2026-02-15T09:46:13",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166795,
+      "et_timestamp": 1771137995,
+      "datetime_local": "2026-02-15T17:46:35",
+      "datetime_et": "2026-02-15T09:46:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166797,
+      "et_timestamp": 1771137997,
+      "datetime_local": "2026-02-15T17:46:37",
+      "datetime_et": "2026-02-15T09:46:37",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166801,
+      "et_timestamp": 1771138001,
+      "datetime_local": "2026-02-15T17:46:41",
+      "datetime_et": "2026-02-15T09:46:41",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166807,
+      "et_timestamp": 1771138007,
+      "datetime_local": "2026-02-15T17:46:47",
+      "datetime_et": "2026-02-15T09:46:47",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166811,
+      "et_timestamp": 1771138011,
+      "datetime_local": "2026-02-15T17:46:51",
+      "datetime_et": "2026-02-15T09:46:51",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166817,
+      "et_timestamp": 1771138017,
+      "datetime_local": "2026-02-15T17:46:57",
+      "datetime_et": "2026-02-15T09:46:57",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166819,
+      "et_timestamp": 1771138019,
+      "datetime_local": "2026-02-15T17:46:59",
+      "datetime_et": "2026-02-15T09:46:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166821,
+      "et_timestamp": 1771138021,
+      "datetime_local": "2026-02-15T17:47:01",
+      "datetime_et": "2026-02-15T09:47:01",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166823,
+      "et_timestamp": 1771138023,
+      "datetime_local": "2026-02-15T17:47:03",
+      "datetime_et": "2026-02-15T09:47:03",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166827,
+      "et_timestamp": 1771138027,
+      "datetime_local": "2026-02-15T17:47:07",
+      "datetime_et": "2026-02-15T09:47:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166829,
+      "et_timestamp": 1771138029,
+      "datetime_local": "2026-02-15T17:47:09",
+      "datetime_et": "2026-02-15T09:47:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166835,
+      "et_timestamp": 1771138035,
+      "datetime_local": "2026-02-15T17:47:15",
+      "datetime_et": "2026-02-15T09:47:15",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166837,
+      "et_timestamp": 1771138037,
+      "datetime_local": "2026-02-15T17:47:17",
+      "datetime_et": "2026-02-15T09:47:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166839,
+      "et_timestamp": 1771138039,
+      "datetime_local": "2026-02-15T17:47:19",
+      "datetime_et": "2026-02-15T09:47:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166841,
+      "et_timestamp": 1771138041,
+      "datetime_local": "2026-02-15T17:47:21",
+      "datetime_et": "2026-02-15T09:47:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166843,
+      "et_timestamp": 1771138043,
+      "datetime_local": "2026-02-15T17:47:23",
+      "datetime_et": "2026-02-15T09:47:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166849,
+      "et_timestamp": 1771138049,
+      "datetime_local": "2026-02-15T17:47:29",
+      "datetime_et": "2026-02-15T09:47:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166853,
+      "et_timestamp": 1771138053,
+      "datetime_local": "2026-02-15T17:47:33",
+      "datetime_et": "2026-02-15T09:47:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166855,
+      "et_timestamp": 1771138055,
+      "datetime_local": "2026-02-15T17:47:35",
+      "datetime_et": "2026-02-15T09:47:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166861,
+      "et_timestamp": 1771138061,
+      "datetime_local": "2026-02-15T17:47:41",
+      "datetime_et": "2026-02-15T09:47:41",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166863,
+      "et_timestamp": 1771138063,
+      "datetime_local": "2026-02-15T17:47:43",
+      "datetime_et": "2026-02-15T09:47:43",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166869,
+      "et_timestamp": 1771138069,
+      "datetime_local": "2026-02-15T17:47:49",
+      "datetime_et": "2026-02-15T09:47:49",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166895,
+      "et_timestamp": 1771138095,
+      "datetime_local": "2026-02-15T17:48:15",
+      "datetime_et": "2026-02-15T09:48:15",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166897,
+      "et_timestamp": 1771138097,
+      "datetime_local": "2026-02-15T17:48:17",
+      "datetime_et": "2026-02-15T09:48:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166899,
+      "et_timestamp": 1771138099,
+      "datetime_local": "2026-02-15T17:48:19",
+      "datetime_et": "2026-02-15T09:48:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166901,
+      "et_timestamp": 1771138101,
+      "datetime_local": "2026-02-15T17:48:21",
+      "datetime_et": "2026-02-15T09:48:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166903,
+      "et_timestamp": 1771138103,
+      "datetime_local": "2026-02-15T17:48:23",
+      "datetime_et": "2026-02-15T09:48:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166905,
+      "et_timestamp": 1771138105,
+      "datetime_local": "2026-02-15T17:48:25",
+      "datetime_et": "2026-02-15T09:48:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166907,
+      "et_timestamp": 1771138107,
+      "datetime_local": "2026-02-15T17:48:27",
+      "datetime_et": "2026-02-15T09:48:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166909,
+      "et_timestamp": 1771138109,
+      "datetime_local": "2026-02-15T17:48:29",
+      "datetime_et": "2026-02-15T09:48:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166911,
+      "et_timestamp": 1771138111,
+      "datetime_local": "2026-02-15T17:48:31",
+      "datetime_et": "2026-02-15T09:48:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166913,
+      "et_timestamp": 1771138113,
+      "datetime_local": "2026-02-15T17:48:33",
+      "datetime_et": "2026-02-15T09:48:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166915,
+      "et_timestamp": 1771138115,
+      "datetime_local": "2026-02-15T17:48:35",
+      "datetime_et": "2026-02-15T09:48:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166917,
+      "et_timestamp": 1771138117,
+      "datetime_local": "2026-02-15T17:48:37",
+      "datetime_et": "2026-02-15T09:48:37",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166931,
+      "et_timestamp": 1771138131,
+      "datetime_local": "2026-02-15T17:48:51",
+      "datetime_et": "2026-02-15T09:48:51",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166933,
+      "et_timestamp": 1771138133,
+      "datetime_local": "2026-02-15T17:48:53",
+      "datetime_et": "2026-02-15T09:48:53",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166939,
+      "et_timestamp": 1771138139,
+      "datetime_local": "2026-02-15T17:48:59",
+      "datetime_et": "2026-02-15T09:48:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166941,
+      "et_timestamp": 1771138141,
+      "datetime_local": "2026-02-15T17:49:01",
+      "datetime_et": "2026-02-15T09:49:01",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166953,
+      "et_timestamp": 1771138153,
+      "datetime_local": "2026-02-15T17:49:13",
+      "datetime_et": "2026-02-15T09:49:13",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166955,
+      "et_timestamp": 1771138155,
+      "datetime_local": "2026-02-15T17:49:15",
+      "datetime_et": "2026-02-15T09:49:15",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166961,
+      "et_timestamp": 1771138161,
+      "datetime_local": "2026-02-15T17:49:21",
+      "datetime_et": "2026-02-15T09:49:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166963,
+      "et_timestamp": 1771138163,
+      "datetime_local": "2026-02-15T17:49:23",
+      "datetime_et": "2026-02-15T09:49:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166965,
+      "et_timestamp": 1771138165,
+      "datetime_local": "2026-02-15T17:49:25",
+      "datetime_et": "2026-02-15T09:49:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771166981,
+      "et_timestamp": 1771138181,
+      "datetime_local": "2026-02-15T17:49:41",
+      "datetime_et": "2026-02-15T09:49:41",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167009,
+      "et_timestamp": 1771138209,
+      "datetime_local": "2026-02-15T17:50:09",
+      "datetime_et": "2026-02-15T09:50:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167021,
+      "et_timestamp": 1771138221,
+      "datetime_local": "2026-02-15T17:50:21",
+      "datetime_et": "2026-02-15T09:50:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167023,
+      "et_timestamp": 1771138223,
+      "datetime_local": "2026-02-15T17:50:23",
+      "datetime_et": "2026-02-15T09:50:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167025,
+      "et_timestamp": 1771138225,
+      "datetime_local": "2026-02-15T17:50:25",
+      "datetime_et": "2026-02-15T09:50:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167027,
+      "et_timestamp": 1771138227,
+      "datetime_local": "2026-02-15T17:50:27",
+      "datetime_et": "2026-02-15T09:50:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167069,
+      "et_timestamp": 1771138269,
+      "datetime_local": "2026-02-15T17:51:09",
+      "datetime_et": "2026-02-15T09:51:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167077,
+      "et_timestamp": 1771138277,
+      "datetime_local": "2026-02-15T17:51:17",
+      "datetime_et": "2026-02-15T09:51:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167079,
+      "et_timestamp": 1771138279,
+      "datetime_local": "2026-02-15T17:51:19",
+      "datetime_et": "2026-02-15T09:51:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167081,
+      "et_timestamp": 1771138281,
+      "datetime_local": "2026-02-15T17:51:21",
+      "datetime_et": "2026-02-15T09:51:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167083,
+      "et_timestamp": 1771138283,
+      "datetime_local": "2026-02-15T17:51:23",
+      "datetime_et": "2026-02-15T09:51:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167085,
+      "et_timestamp": 1771138285,
+      "datetime_local": "2026-02-15T17:51:25",
+      "datetime_et": "2026-02-15T09:51:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167089,
+      "et_timestamp": 1771138289,
+      "datetime_local": "2026-02-15T17:51:29",
+      "datetime_et": "2026-02-15T09:51:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167093,
+      "et_timestamp": 1771138293,
+      "datetime_local": "2026-02-15T17:51:33",
+      "datetime_et": "2026-02-15T09:51:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167095,
+      "et_timestamp": 1771138295,
+      "datetime_local": "2026-02-15T17:51:35",
+      "datetime_et": "2026-02-15T09:51:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167097,
+      "et_timestamp": 1771138297,
+      "datetime_local": "2026-02-15T17:51:37",
+      "datetime_et": "2026-02-15T09:51:37",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167101,
+      "et_timestamp": 1771138301,
+      "datetime_local": "2026-02-15T17:51:41",
+      "datetime_et": "2026-02-15T09:51:41",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167109,
+      "et_timestamp": 1771138309,
+      "datetime_local": "2026-02-15T17:51:49",
+      "datetime_et": "2026-02-15T09:51:49",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167115,
+      "et_timestamp": 1771138315,
+      "datetime_local": "2026-02-15T17:51:55",
+      "datetime_et": "2026-02-15T09:51:55",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167117,
+      "et_timestamp": 1771138317,
+      "datetime_local": "2026-02-15T17:51:57",
+      "datetime_et": "2026-02-15T09:51:57",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167119,
+      "et_timestamp": 1771138319,
+      "datetime_local": "2026-02-15T17:51:59",
+      "datetime_et": "2026-02-15T09:51:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167125,
+      "et_timestamp": 1771138325,
+      "datetime_local": "2026-02-15T17:52:05",
+      "datetime_et": "2026-02-15T09:52:05",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167127,
+      "et_timestamp": 1771138327,
+      "datetime_local": "2026-02-15T17:52:07",
+      "datetime_et": "2026-02-15T09:52:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167153,
+      "et_timestamp": 1771138353,
+      "datetime_local": "2026-02-15T17:52:33",
+      "datetime_et": "2026-02-15T09:52:33",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167159,
+      "et_timestamp": 1771138359,
+      "datetime_local": "2026-02-15T17:52:39",
+      "datetime_et": "2026-02-15T09:52:39",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167187,
+      "et_timestamp": 1771138387,
+      "datetime_local": "2026-02-15T17:53:07",
+      "datetime_et": "2026-02-15T09:53:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167189,
+      "et_timestamp": 1771138389,
+      "datetime_local": "2026-02-15T17:53:09",
+      "datetime_et": "2026-02-15T09:53:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167199,
+      "et_timestamp": 1771138399,
+      "datetime_local": "2026-02-15T17:53:19",
+      "datetime_et": "2026-02-15T09:53:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167201,
+      "et_timestamp": 1771138401,
+      "datetime_local": "2026-02-15T17:53:21",
+      "datetime_et": "2026-02-15T09:53:21",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167203,
+      "et_timestamp": 1771138403,
+      "datetime_local": "2026-02-15T17:53:23",
+      "datetime_et": "2026-02-15T09:53:23",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167205,
+      "et_timestamp": 1771138405,
+      "datetime_local": "2026-02-15T17:53:25",
+      "datetime_et": "2026-02-15T09:53:25",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167207,
+      "et_timestamp": 1771138407,
+      "datetime_local": "2026-02-15T17:53:27",
+      "datetime_et": "2026-02-15T09:53:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167211,
+      "et_timestamp": 1771138411,
+      "datetime_local": "2026-02-15T17:53:31",
+      "datetime_et": "2026-02-15T09:53:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167223,
+      "et_timestamp": 1771138423,
+      "datetime_local": "2026-02-15T17:53:43",
+      "datetime_et": "2026-02-15T09:53:43",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167225,
+      "et_timestamp": 1771138425,
+      "datetime_local": "2026-02-15T17:53:45",
+      "datetime_et": "2026-02-15T09:53:45",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167227,
+      "et_timestamp": 1771138427,
+      "datetime_local": "2026-02-15T17:53:47",
+      "datetime_et": "2026-02-15T09:53:47",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167281,
+      "et_timestamp": 1771138481,
+      "datetime_local": "2026-02-15T17:54:41",
+      "datetime_et": "2026-02-15T09:54:41",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167317,
+      "et_timestamp": 1771138517,
+      "datetime_local": "2026-02-15T17:55:17",
+      "datetime_et": "2026-02-15T09:55:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167327,
+      "et_timestamp": 1771138527,
+      "datetime_local": "2026-02-15T17:55:27",
+      "datetime_et": "2026-02-15T09:55:27",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167329,
+      "et_timestamp": 1771138529,
+      "datetime_local": "2026-02-15T17:55:29",
+      "datetime_et": "2026-02-15T09:55:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167347,
+      "et_timestamp": 1771138547,
+      "datetime_local": "2026-02-15T17:55:47",
+      "datetime_et": "2026-02-15T09:55:47",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167367,
+      "et_timestamp": 1771138567,
+      "datetime_local": "2026-02-15T17:56:07",
+      "datetime_et": "2026-02-15T09:56:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167369,
+      "et_timestamp": 1771138569,
+      "datetime_local": "2026-02-15T17:56:09",
+      "datetime_et": "2026-02-15T09:56:09",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167389,
+      "et_timestamp": 1771138589,
+      "datetime_local": "2026-02-15T17:56:29",
+      "datetime_et": "2026-02-15T09:56:29",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167395,
+      "et_timestamp": 1771138595,
+      "datetime_local": "2026-02-15T17:56:35",
+      "datetime_et": "2026-02-15T09:56:35",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167397,
+      "et_timestamp": 1771138597,
+      "datetime_local": "2026-02-15T17:56:37",
+      "datetime_et": "2026-02-15T09:56:37",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167415,
+      "et_timestamp": 1771138615,
+      "datetime_local": "2026-02-15T17:56:55",
+      "datetime_et": "2026-02-15T09:56:55",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167419,
+      "et_timestamp": 1771138619,
+      "datetime_local": "2026-02-15T17:56:59",
+      "datetime_et": "2026-02-15T09:56:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167423,
+      "et_timestamp": 1771138623,
+      "datetime_local": "2026-02-15T17:57:03",
+      "datetime_et": "2026-02-15T09:57:03",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167425,
+      "et_timestamp": 1771138625,
+      "datetime_local": "2026-02-15T17:57:05",
+      "datetime_et": "2026-02-15T09:57:05",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167433,
+      "et_timestamp": 1771138633,
+      "datetime_local": "2026-02-15T17:57:13",
+      "datetime_et": "2026-02-15T09:57:13",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167451,
+      "et_timestamp": 1771138651,
+      "datetime_local": "2026-02-15T17:57:31",
+      "datetime_et": "2026-02-15T09:57:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167465,
+      "et_timestamp": 1771138665,
+      "datetime_local": "2026-02-15T17:57:45",
+      "datetime_et": "2026-02-15T09:57:45",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167479,
+      "et_timestamp": 1771138679,
+      "datetime_local": "2026-02-15T17:57:59",
+      "datetime_et": "2026-02-15T09:57:59",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167481,
+      "et_timestamp": 1771138681,
+      "datetime_local": "2026-02-15T17:58:01",
+      "datetime_et": "2026-02-15T09:58:01",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167491,
+      "et_timestamp": 1771138691,
+      "datetime_local": "2026-02-15T17:58:11",
+      "datetime_et": "2026-02-15T09:58:11",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167497,
+      "et_timestamp": 1771138697,
+      "datetime_local": "2026-02-15T17:58:17",
+      "datetime_et": "2026-02-15T09:58:17",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167499,
+      "et_timestamp": 1771138699,
+      "datetime_local": "2026-02-15T17:58:19",
+      "datetime_et": "2026-02-15T09:58:19",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167511,
+      "et_timestamp": 1771138711,
+      "datetime_local": "2026-02-15T17:58:31",
+      "datetime_et": "2026-02-15T09:58:31",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167605,
+      "et_timestamp": 1771138805,
+      "datetime_local": "2026-02-15T18:00:05",
+      "datetime_et": "2026-02-15T10:00:05",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "local_timestamp": 1771167607,
+      "et_timestamp": 1771138807,
+      "datetime_local": "2026-02-15T18:00:07",
+      "datetime_et": "2026-02-15T10:00:07",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    }
+  ]
+}

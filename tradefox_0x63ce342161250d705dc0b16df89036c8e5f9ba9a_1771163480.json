@@ -1,0 +1,3272 @@
+{
+  "metadata": {
+    "address": "0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "portfolio_url": "https://thetradefox.com/portfolio/0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "total_trades": 326,
+    "generated_at": "2026-02-15T16:51:20.355312",
+    "price_source": "http://danunahbot.ru",
+    "source": "thetradefox.com"
+  },
+  "trades": [
+    {
+      "raw_text": "Market Outcome\nAvg Price\nCurrent Price\nQuantity\nAvg Cost Basis Current Position Value\nUnrealized PnL\nRealized PnL",
+      "timestamp": 1771150534,
+      "extracted_at": "2026-02-15T13:15:34.717842",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "1\nBitcoin Up or Down - February 15, 4AM ET\nUp\n35.60\u00a2\n0.05\u00a2\n9,261.69\n$3,297.16\n$4.63\n-$3,292.53\n$0.00",
+      "timestamp": 1771150534,
+      "extracted_at": "2026-02-15T13:15:34.911788",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "2\nBitcoin Up or Down - February 15, 4AM ET\nDown\n40.36\u00a2\n99.95\u00a2\n6,477.38\n$2,614.27\n$6,474.14\n$3,859.87\n$0.00",
+      "timestamp": 1771150534,
+      "extracted_at": "2026-02-15T13:15:34.996504",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "3\nBitcoin Up or Down - February 15, 3AM ET\nUp\n40.66\u00a2\n0.00\u00a2\n5,071.06\n$2,061.89\n$0.00\n-$2,061.89\n$0.00",
+      "timestamp": 1771150535,
+      "extracted_at": "2026-02-15T13:15:35.299582",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "4\nEthereum Up or Down - February 15, 4AM ET\nDown\n32.49\u00a2\n99.95\u00a2\n4,218.54\n$1,370.60\n$4,216.43\n$2,845.82\n$0.00",
+      "timestamp": 1771150536,
+      "extracted_at": "2026-02-15T13:15:36.997176",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "5\nEthereum Up or Down - February 15, 4AM ET\nUp\n43.55\u00a2\n0.05\u00a2\n3,954.06\n$1,721.99\n$1.97\n-$1,720.01\n$0.00",
+      "timestamp": 1771150538,
+      "extracted_at": "2026-02-15T13:15:38.451509",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "6\nBitcoin Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n21.46\u00a2\n17.50\u00a2\n3,356.93\n$720.39\n$587.46\n-$132.93\n-$22.44",
+      "timestamp": 1771150539,
+      "extracted_at": "2026-02-15T13:15:39.276597",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "7\nBitcoin Up or Down - February 15, 3AM ET\nDown\n57.17\u00a2\n100.00\u00a2\n3,196.52\n$1,827.45\n$3,196.52\n$1,369.07\n$0.00",
+      "timestamp": 1771150540,
+      "extracted_at": "2026-02-15T13:15:40.221079",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nBitcoin Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n63.95\u00a2\n82.50\u00a2\n2,726.54\n$1,743.62\n$2,249.40\n$505.77\n-$15.31",
+      "timestamp": 1771150542,
+      "extracted_at": "2026-02-15T13:15:42.181024",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nSolana Up or Down - February 15, 4AM ET\nDown\n17.23\u00a2\n0.05\u00a2\n2,687.62\n$463.07\n$1.34\n-$461.73\n$0.00",
+      "timestamp": 1771150542,
+      "extracted_at": "2026-02-15T13:15:42.534014",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nXRP Up or Down - February 15, 3AM ET\nUp\n42.67\u00a2\n0.00\u00a2\n2,138.09\n$912.32\n$0.00\n-$912.32\n$0.00",
+      "timestamp": 1771150542,
+      "extracted_at": "2026-02-15T13:15:42.781079",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nXRP Up or Down - February 15, 3AM ET\nDown\n39.26\u00a2\n100.00\u00a2\n1,613.62\n$633.66\n$1,613.62\n$979.95\n$0.00",
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.072555",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:05AM-5:10AM ET\nDown\n61.13\u00a2\n100.00\u00a2\n1,357.26\n$829.69\n$1,357.26\n$527.55\n$0.00",
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.362386",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nEthereum Up or Down - February 15, 3AM ET\nUp\n30.40\u00a2\n0.00\u00a2\n1,346.43\n$409.44\n$0.00\n-$409.44\n$0.00",
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.768514",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "14\nXRP Up or Down - February 15, 4AM ET\nUp\n17.76\u00a2\n0.05\u00a2\n1,341.60\n$238.26\n$0.67\n-$237.59\n$0.00",
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.981922",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nEthereum Up or Down - February 15, 5AM ET\nUp\n28.64\u00a2\n24.50\u00a2\n1,340.30\n$383.86\n$328.37\n-$55.48\n$0.00",
+      "timestamp": 1771150544,
+      "extracted_at": "2026-02-15T13:15:44.248368",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nDown\n38.59\u00a2\n40.50\u00a2\n1,336.53\n$515.76\n$541.29\n$25.52\n-$5.76",
+      "timestamp": 1771150544,
+      "extracted_at": "2026-02-15T13:15:44.508512",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nBitcoin Up or Down - February 15, 5AM ET\nDown\n57.28\u00a2\n61.50\u00a2\n1,267.89\n$726.24\n$779.75\n$53.50\n$0.00",
+      "timestamp": 1771150544,
+      "extracted_at": "2026-02-15T13:15:44.700261",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nBitcoin Up or Down - February 15, 4:45AM-5:00AM ET\nUp\n32.56\u00a2\n0.00\u00a2\n1,190.69\n$387.69\n$0.00\n-$387.69\n-$20.71",
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.017913",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n75.50\u00a2\n1,068.05\n$636.88\n$806.38\n$169.50\n$0.00",
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.308203",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n65.08\u00a2\n98.55\u00a2\n1,052.48\n$684.95\n$1,037.22\n$352.26\n$0.00",
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.663920",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nBitcoin Up or Down - February 15, 4:55AM-5:00AM ET\nDown\n30.86\u00a2\n0.00\u00a2\n1,027.78\n$317.27\n$0.00\n-$317.27\n$20.44",
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.953599",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nEthereum Up or Down - February 15, 4:45AM-5:00AM ET\nUp\n29.78\u00a2\n0.00\u00a2\n987.03\n$293.93\n$0.00\n-$293.93\n$0.00",
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.194277",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nBitcoin Up or Down - February 15, 4:55AM-5:00AM ET\nUp\n58.83\u00a2\n100.00\u00a2\n936.79\n$551.11\n$936.79\n$385.67\n$0.00",
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.354208",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nSolana Up or Down - February 15, 3AM ET\nUp\n20.51\u00a2\n0.00\u00a2\n883.19\n$181.14\n$0.00\n-$181.14\n$0.00",
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.661787",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nBitcoin Up or Down - February 15, 5:00AM-5:05AM ET\nDown\n42.32\u00a2\n100.00\u00a2\n879.42\n$372.17\n$879.42\n$507.24\n-$35.97",
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.886414",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.201010",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nEthereum Up or Down - February 15, 3AM ET\nDown\n69.80\u00a2\n100.00\u00a2\n798.37\n$557.26\n$798.37\n$241.10\n$0.00",
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.444056",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n33.50\u00a2\n771.96\n$322.91\n$258.60\n-$64.30\n$0.00",
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.692028",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nBitcoin Up or Down - February 15, 4:45AM-5:00AM ET\nDown\n70.34\u00a2\n100.00\u00a2\n749.43\n$527.14\n$749.43\n$222.28\n$0.00",
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.957462",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nBitcoin Up or Down - February 15, 5AM ET\nUp\n43.91\u00a2\n38.50\u00a2\n747.14\n$328.06\n$287.64\n-$40.42\n$0.00",
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.202952",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nBitcoin Up or Down - February 15, 5:00AM-5:05AM ET\nUp\n41.12\u00a2\n0.00\u00a2\n626.58\n$257.64\n$0.00\n-$257.64\n-$1.79",
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.432797",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.598251",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "33\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n43.35\u00a2\n1.45\u00a2\n533.29\n$231.18\n$7.73\n-$223.45\n$0.00",
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.842579",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "34\nSolana Up or Down - February 15, 5AM ET\nUp\n19.65\u00a2\n17.00\u00a2\n499.59\n$98.17\n$84.93\n-$13.23\n$0.00",
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.059546",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "35\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.16\u00a2\n44.00\u00a2\n484.45\n$218.78\n$213.16\n-$5.61\n$0.00",
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.256681",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "36\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.482120",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "37\nSolana Up or Down - February 15, 3AM ET\nDown\n61.89\u00a2\n100.00\u00a2\n344.73\n$213.35\n$344.73\n$131.37\n$0.00",
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.698840",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "38\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n44.21\u00a2\n49.50\u00a2\n277.26\n$122.58\n$137.24\n$14.66\n$0.00",
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.395280",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "39\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.49\u00a2\n46.50\u00a2\n215.99\n$98.25\n$100.43\n$2.18\n$0.00",
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.627673",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "40\nEthereum Up or Down - February 15, 4:45AM-5:00AM ET\nDown\n77.98\u00a2\n100.00\u00a2\n170.17\n$132.69\n$170.17\n$37.47\n$0.00",
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.815947",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "41\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n59.50\u00a2\n168.11\n$84.99\n$100.02\n$15.02\n$0.00",
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.975583",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "42\nSolana Up or Down - February 15, 5AM ET\nDown\n59.91\u00a2\n83.00\u00a2\n141.34\n$84.67\n$117.31\n$32.63\n$0.00",
+      "timestamp": 1771150551,
+      "extracted_at": "2026-02-15T13:15:51.161463",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "43\nBitcoin Up or Down - February 15, 5:05AM-5:10AM ET\nUp\n49.17\u00a2\n0.00\u00a2\n127.57\n$62.72\n$0.00\n-$62.72\n$0.00",
+      "timestamp": 1771150551,
+      "extracted_at": "2026-02-15T13:15:51.437308",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "44\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771150551,
+      "extracted_at": "2026-02-15T13:15:51.703052",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "34\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n53.95\u00a2\n53.50\u00a2\n531.10\n$286.58\n$284.14\n-$2.44\n$0.00",
+      "timestamp": 1771150605,
+      "extracted_at": "2026-02-15T13:16:45.361986",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "35\nSolana Up or Down - February 15, 5AM ET\nUp\n19.55\u00a2\n17.00\u00a2\n508.35\n$99.38\n$86.42\n-$12.96\n$0.00",
+      "timestamp": 1771150605,
+      "extracted_at": "2026-02-15T13:16:45.707311",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "36\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.16\u00a2\n44.00\u00a2\n477.82\n$215.78\n$210.24\n-$5.54\n-$0.14",
+      "timestamp": 1771150605,
+      "extracted_at": "2026-02-15T13:16:45.931077",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "37\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771150606,
+      "extracted_at": "2026-02-15T13:16:46.347250",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "38\nSolana Up or Down - February 15, 3AM ET\nDown\n61.89\u00a2\n100.00\u00a2\n344.73\n$213.35\n$344.73\n$131.37\n$0.00",
+      "timestamp": 1771150606,
+      "extracted_at": "2026-02-15T13:16:46.788282",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "39\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n58.41\u00a2\n56.00\u00a2\n302.69\n$176.80\n$169.50\n-$7.29\n$0.00",
+      "timestamp": 1771150607,
+      "extracted_at": "2026-02-15T13:16:47.607676",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "40\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n50.50\u00a2\n298.35\n$203.53\n$150.66\n-$52.86\n$0.00",
+      "timestamp": 1771150608,
+      "extracted_at": "2026-02-15T13:16:48.023103",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "41\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n44.21\u00a2\n49.50\u00a2\n277.26\n$122.58\n$137.24\n$14.66\n$0.00",
+      "timestamp": 1771150608,
+      "extracted_at": "2026-02-15T13:16:48.372479",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "42\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.49\u00a2\n46.50\u00a2\n215.99\n$98.25\n$100.43\n$2.18\n$0.00",
+      "timestamp": 1771150608,
+      "extracted_at": "2026-02-15T13:16:48.613717",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "43\nEthereum Up or Down - February 15, 4:45AM-5:00AM ET\nDown\n77.98\u00a2\n100.00\u00a2\n170.17\n$132.69\n$170.17\n$37.47\n$0.00",
+      "timestamp": 1771150609,
+      "extracted_at": "2026-02-15T13:16:49.525540",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "44\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n59.50\u00a2\n168.11\n$84.99\n$100.02\n$15.02\n$0.00",
+      "timestamp": 1771150609,
+      "extracted_at": "2026-02-15T13:16:49.943783",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "45\nSolana Up or Down - February 15, 5AM ET\nDown\n59.91\u00a2\n83.00\u00a2\n141.34\n$84.67\n$117.31\n$32.63\n$0.00",
+      "timestamp": 1771150610,
+      "extracted_at": "2026-02-15T13:16:50.313569",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "46\nBitcoin Up or Down - February 15, 5:05AM-5:10AM ET\nUp\n49.17\u00a2\n0.00\u00a2\n127.57\n$62.72\n$0.00\n-$62.72\n$0.00",
+      "timestamp": 1771150610,
+      "extracted_at": "2026-02-15T13:16:50.907290",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "47\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771150611,
+      "extracted_at": "2026-02-15T13:16:51.238804",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.49\u00a2\n44.00\u00a2\n1,679.41\n$763.96\n$738.94\n-$25.02\n-$0.14",
+      "timestamp": 1771150655,
+      "extracted_at": "2026-02-15T13:17:35.321048",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nXRP Up or Down - February 15, 3AM ET\nDown\n39.26\u00a2\n100.00\u00a2\n1,613.62\n$633.66\n$1,613.62\n$979.95\n$0.00",
+      "timestamp": 1771150655,
+      "extracted_at": "2026-02-15T13:17:35.638117",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n52.77\u00a2\n46.50\u00a2\n1,490.80\n$786.69\n$693.22\n-$93.47\n$0.00",
+      "timestamp": 1771150656,
+      "extracted_at": "2026-02-15T13:17:36.817398",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "14\nEthereum Up or Down - February 15, 5AM ET\nUp\n28.09\u00a2\n24.50\u00a2\n1,406.82\n$395.17\n$344.67\n-$50.50\n$0.00",
+      "timestamp": 1771150657,
+      "extracted_at": "2026-02-15T13:17:37.472987",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nBitcoin Up or Down - February 15, 5:05AM-5:10AM ET\nDown\n61.13\u00a2\n100.00\u00a2\n1,357.26\n$829.69\n$1,357.26\n$527.55\n$0.00",
+      "timestamp": 1771150657,
+      "extracted_at": "2026-02-15T13:17:37.714954",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.29\u00a2\n56.00\u00a2\n1,351.11\n$638.94\n$756.62\n$117.68\n-$18.95",
+      "timestamp": 1771150658,
+      "extracted_at": "2026-02-15T13:17:38.745032",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 3AM ET\nUp\n30.40\u00a2\n0.00\u00a2\n1,346.43\n$409.44\n$0.00\n-$409.44\n$0.00",
+      "timestamp": 1771150659,
+      "extracted_at": "2026-02-15T13:17:39.142575",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n41.25\u00a2\n49.50\u00a2\n1,341.73\n$553.46\n$664.15\n$110.69\n$0.00",
+      "timestamp": 1771150659,
+      "extracted_at": "2026-02-15T13:17:39.477233",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nXRP Up or Down - February 15, 4AM ET\nUp\n17.76\u00a2\n0.05\u00a2\n1,341.60\n$238.26\n$0.67\n-$237.59\n$0.00",
+      "timestamp": 1771150659,
+      "extracted_at": "2026-02-15T13:17:39.802176",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nDown\n38.59\u00a2\n40.50\u00a2\n1,336.53\n$515.76\n$541.29\n$25.52\n-$5.76",
+      "timestamp": 1771150660,
+      "extracted_at": "2026-02-15T13:17:40.287150",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nBitcoin Up or Down - February 15, 5AM ET\nDown\n57.28\u00a2\n61.50\u00a2\n1,267.89\n$726.24\n$779.75\n$53.50\n$0.00",
+      "timestamp": 1771150660,
+      "extracted_at": "2026-02-15T13:17:40.763520",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.41\u00a2\n53.50\u00a2\n1,193.05\n$505.97\n$638.28\n$132.30\n-$43.70",
+      "timestamp": 1771150660,
+      "extracted_at": "2026-02-15T13:17:40.968796",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nBitcoin Up or Down - February 15, 4:45AM-5:00AM ET\nUp\n32.56\u00a2\n0.00\u00a2\n1,190.69\n$387.69\n$0.00\n-$387.69\n-$20.71",
+      "timestamp": 1771150661,
+      "extracted_at": "2026-02-15T13:17:41.240141",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n75.50\u00a2\n1,068.05\n$636.88\n$806.38\n$169.50\n$0.00",
+      "timestamp": 1771150661,
+      "extracted_at": "2026-02-15T13:17:41.596859",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n65.08\u00a2\n98.55\u00a2\n1,052.48\n$684.95\n$1,037.22\n$352.26\n$0.00",
+      "timestamp": 1771150661,
+      "extracted_at": "2026-02-15T13:17:41.915715",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nBitcoin Up or Down - February 15, 4:55AM-5:00AM ET\nDown\n30.86\u00a2\n0.00\u00a2\n1,027.78\n$317.27\n$0.00\n-$317.27\n$20.44",
+      "timestamp": 1771150662,
+      "extracted_at": "2026-02-15T13:17:42.606589",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nEthereum Up or Down - February 15, 4:45AM-5:00AM ET\nUp\n29.78\u00a2\n0.00\u00a2\n987.03\n$293.93\n$0.00\n-$293.93\n$0.00",
+      "timestamp": 1771150662,
+      "extracted_at": "2026-02-15T13:17:42.927743",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n83.00\u00a2\n942.05\n$789.15\n$781.90\n-$7.25\n$0.00",
+      "timestamp": 1771150663,
+      "extracted_at": "2026-02-15T13:17:43.371871",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nBitcoin Up or Down - February 15, 4:55AM-5:00AM ET\nUp\n58.83\u00a2\n100.00\u00a2\n936.79\n$551.11\n$936.79\n$385.67\n$0.00",
+      "timestamp": 1771150663,
+      "extracted_at": "2026-02-15T13:17:43.610095",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nSolana Up or Down - February 15, 3AM ET\nUp\n20.51\u00a2\n0.00\u00a2\n883.19\n$181.14\n$0.00\n-$181.14\n$0.00",
+      "timestamp": 1771150664,
+      "extracted_at": "2026-02-15T13:17:44.180015",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nBitcoin Up or Down - February 15, 5:00AM-5:05AM ET\nDown\n42.32\u00a2\n100.00\u00a2\n879.42\n$372.17\n$879.42\n$507.24\n-$35.97",
+      "timestamp": 1771150664,
+      "extracted_at": "2026-02-15T13:17:44.512283",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771150666,
+      "extracted_at": "2026-02-15T13:17:46.080133",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "33\nEthereum Up or Down - February 15, 3AM ET\nDown\n69.80\u00a2\n100.00\u00a2\n798.37\n$557.26\n$798.37\n$241.10\n$0.00",
+      "timestamp": 1771150666,
+      "extracted_at": "2026-02-15T13:17:46.350905",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "34\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n33.50\u00a2\n771.96\n$322.91\n$258.60\n-$64.30\n$0.00",
+      "timestamp": 1771150667,
+      "extracted_at": "2026-02-15T13:17:47.457974",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "35\nBitcoin Up or Down - February 15, 4:45AM-5:00AM ET\nDown\n70.34\u00a2\n100.00\u00a2\n749.43\n$527.14\n$749.43\n$222.28\n$0.00",
+      "timestamp": 1771150667,
+      "extracted_at": "2026-02-15T13:17:47.678451",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "36\nBitcoin Up or Down - February 15, 5AM ET\nUp\n43.91\u00a2\n38.50\u00a2\n747.14\n$328.06\n$287.64\n-$40.42\n$0.00",
+      "timestamp": 1771150668,
+      "extracted_at": "2026-02-15T13:17:48.576102",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "37\nBitcoin Up or Down - February 15, 5:00AM-5:05AM ET\nUp\n41.12\u00a2\n0.00\u00a2\n626.58\n$257.64\n$0.00\n-$257.64\n-$1.79",
+      "timestamp": 1771150668,
+      "extracted_at": "2026-02-15T13:17:48.844068",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "38\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771150669,
+      "extracted_at": "2026-02-15T13:17:49.366572",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "39\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n43.35\u00a2\n1.45\u00a2\n533.29\n$231.18\n$7.73\n-$223.45\n$0.00",
+      "timestamp": 1771150669,
+      "extracted_at": "2026-02-15T13:17:49.661095",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "40\nSolana Up or Down - February 15, 5AM ET\nUp\n19.55\u00a2\n17.00\u00a2\n508.35\n$99.38\n$86.42\n-$12.96\n$0.00",
+      "timestamp": 1771150670,
+      "extracted_at": "2026-02-15T13:17:50.448501",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "41\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771150672,
+      "extracted_at": "2026-02-15T13:17:52.013114",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "42\nSolana Up or Down - February 15, 3AM ET\nDown\n61.89\u00a2\n100.00\u00a2\n344.73\n$213.35\n$344.73\n$131.37\n$0.00",
+      "timestamp": 1771150672,
+      "extracted_at": "2026-02-15T13:17:52.224309",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "45\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n50.50\u00a2\n145.35\n$99.15\n$73.40\n-$25.75\n-$20.22",
+      "timestamp": 1771150674,
+      "extracted_at": "2026-02-15T13:17:54.609710",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "48\nXRP Up or Down - February 15, 5AM ET\nDown\n69.98\u00a2\n66.50\u00a2\n40.52\n$28.35\n$26.94\n-$1.41\n$0.00",
+      "timestamp": 1771150676,
+      "extracted_at": "2026-02-15T13:17:56.375132",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "3\nEthereum Up or Down - February 15, 4AM ET\nDown\n32.49\u00a2\n99.95\u00a2\n4,218.54\n$1,370.60\n$4,216.43\n$2,845.82\n$0.00",
+      "timestamp": 1771150762,
+      "extracted_at": "2026-02-15T13:19:22.967400",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "4\nEthereum Up or Down - February 15, 4AM ET\nUp\n43.55\u00a2\n0.05\u00a2\n3,954.06\n$1,721.99\n$1.97\n-$1,720.01\n$0.00",
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.236622",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "5\nBitcoin Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n21.46\u00a2\n0.00\u00a2\n3,356.93\n$720.39\n$0.00\n-$720.39\n-$22.44",
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.502442",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "6\nBitcoin Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n63.95\u00a2\n100.00\u00a2\n2,726.54\n$1,743.62\n$2,726.54\n$982.92\n-$15.31",
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.683739",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "7\nSolana Up or Down - February 15, 4AM ET\nDown\n17.23\u00a2\n0.05\u00a2\n2,687.62\n$463.07\n$1.34\n-$461.73\n$0.00",
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.991922",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.54\u00a2\n37.50\u00a2\n1,692.41\n$770.72\n$634.65\n-$136.06\n-$0.14",
+      "timestamp": 1771150764,
+      "extracted_at": "2026-02-15T13:19:24.518217",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n53.05\u00a2\n38.50\u00a2\n1,550.20\n$822.53\n$596.82\n-$225.71\n$0.00",
+      "timestamp": 1771150765,
+      "extracted_at": "2026-02-15T13:19:25.043556",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n41.73\u00a2\n61.50\u00a2\n1,490.53\n$621.99\n$916.67\n$294.67\n-$69.34",
+      "timestamp": 1771150765,
+      "extracted_at": "2026-02-15T13:19:25.381883",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nEthereum Up or Down - February 15, 5AM ET\nUp\n28.09\u00a2\n17.50\u00a2\n1,406.82\n$395.17\n$246.19\n-$148.97\n$0.00",
+      "timestamp": 1771150765,
+      "extracted_at": "2026-02-15T13:19:25.823232",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n41.25\u00a2\n30.50\u00a2\n1,341.73\n$553.46\n$409.22\n-$144.22\n$0.00",
+      "timestamp": 1771150766,
+      "extracted_at": "2026-02-15T13:19:26.215524",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nXRP Up or Down - February 15, 4AM ET\nUp\n17.76\u00a2\n0.05\u00a2\n1,341.60\n$238.26\n$0.67\n-$237.59\n$0.00",
+      "timestamp": 1771150766,
+      "extracted_at": "2026-02-15T13:19:26.594031",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "14\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nDown\n38.59\u00a2\n100.00\u00a2\n1,336.53\n$515.76\n$1,336.53\n$820.76\n-$5.76",
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.034535",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n62.50\u00a2\n1,279.10\n$603.74\n$799.44\n$195.70\n-$29.56",
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.458714",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nBitcoin Up or Down - February 15, 5AM ET\nDown\n57.28\u00a2\n62.50\u00a2\n1,267.89\n$726.24\n$792.43\n$66.18\n$0.00",
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.723208",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n82.50\u00a2\n1,068.05\n$636.88\n$881.14\n$244.26\n$0.00",
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.949037",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n65.08\u00a2\n100.00\u00a2\n1,052.48\n$684.95\n$1,052.48\n$367.52\n$0.00",
+      "timestamp": 1771150768,
+      "extracted_at": "2026-02-15T13:19:28.182726",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n84.50\u00a2\n942.05\n$789.15\n$796.03\n$6.87\n$0.00",
+      "timestamp": 1771150768,
+      "extracted_at": "2026-02-15T13:19:28.464910",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771150768,
+      "extracted_at": "2026-02-15T13:19:28.808038",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n35.00\u00a2\n771.96\n$322.91\n$270.18\n-$52.72\n$0.00",
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.038643",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nBitcoin Up or Down - February 15, 5AM ET\nUp\n43.91\u00a2\n37.50\u00a2\n747.14\n$328.06\n$280.17\n-$47.89\n$0.00",
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.453711",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.718070",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n43.35\u00a2\n0.00\u00a2\n533.29\n$231.18\n$0.00\n-$231.18\n$0.00",
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.949754",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nSolana Up or Down - February 15, 5AM ET\nUp\n19.55\u00a2\n15.50\u00a2\n508.35\n$99.38\n$78.79\n-$20.58\n$0.00",
+      "timestamp": 1771150770,
+      "extracted_at": "2026-02-15T13:19:30.251079",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771150770,
+      "extracted_at": "2026-02-15T13:19:30.514742",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nXRP Up or Down - February 15, 5AM ET\nDown\n75.94\u00a2\n65.00\u00a2\n260.52\n$197.83\n$169.33\n-$28.50\n$0.00",
+      "timestamp": 1771150770,
+      "extracted_at": "2026-02-15T13:19:30.961752",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n0.00\u00a2\n168.11\n$84.99\n$0.00\n-$84.99\n$0.00",
+      "timestamp": 1771150771,
+      "extracted_at": "2026-02-15T13:19:31.365219",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n69.48\u00a2\n145.35\n$99.15\n$101.00\n$1.84\n-$20.22",
+      "timestamp": 1771150771,
+      "extracted_at": "2026-02-15T13:19:31.615722",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771150771,
+      "extracted_at": "2026-02-15T13:19:31.958787",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.34\u00a2\n61.50\u00a2\n1,710.53\n$724.23\n$1,051.97\n$327.73\n-$69.34",
+      "timestamp": 1771150800,
+      "extracted_at": "2026-02-15T13:20:00.669101",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n45.54\u00a2\n37.50\u00a2\n1,604.41\n$730.64\n$601.65\n-$128.99\n-$2.38",
+      "timestamp": 1771150800,
+      "extracted_at": "2026-02-15T13:20:00.923667",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n53.05\u00a2\n38.50\u00a2\n1,550.20\n$822.53\n$596.82\n-$225.71\n$0.00",
+      "timestamp": 1771150801,
+      "extracted_at": "2026-02-15T13:20:01.269440",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nBitcoin Up or Down - February 15, 5AM ET\nUp\n40.36\u00a2\n37.50\u00a2\n1,005.61\n$405.86\n$377.10\n-$28.76\n$0.00",
+      "timestamp": 1771150805,
+      "extracted_at": "2026-02-15T13:20:05.374549",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n84.50\u00a2\n942.05\n$789.15\n$796.03\n$6.87\n$0.00",
+      "timestamp": 1771150805,
+      "extracted_at": "2026-02-15T13:20:05.642321",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771150806,
+      "extracted_at": "2026-02-15T13:20:06.231517",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n35.00\u00a2\n771.96\n$322.91\n$270.18\n-$52.72\n$0.00",
+      "timestamp": 1771150806,
+      "extracted_at": "2026-02-15T13:20:06.590009",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.23\u00a2\n37.50\u00a2\n2,320.25\n$1,026.24\n$870.09\n-$156.15\n$0.00",
+      "timestamp": 1771151015,
+      "extracted_at": "2026-02-15T13:23:35.065420",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n36.55\u00a2\n32.50\u00a2\n2,253.28\n$823.80\n$732.31\n-$91.48\n-$2.38",
+      "timestamp": 1771151015,
+      "extracted_at": "2026-02-15T13:23:35.530370",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nEthereum Up or Down - February 15, 5AM ET\nUp\n26.54\u00a2\n18.50\u00a2\n1,877.77\n$498.36\n$347.38\n-$150.97\n$0.00",
+      "timestamp": 1771151015,
+      "extracted_at": "2026-02-15T13:23:35.951328",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.34\u00a2\n62.50\u00a2\n1,710.53\n$724.23\n$1,069.08\n$344.84\n-$69.34",
+      "timestamp": 1771151016,
+      "extracted_at": "2026-02-15T13:23:36.810801",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n41.25\u00a2\n0.00\u00a2\n1,341.73\n$553.46\n$0.00\n-$553.46\n$0.00",
+      "timestamp": 1771151017,
+      "extracted_at": "2026-02-15T13:23:37.170350",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nBitcoin Up or Down - February 15, 5AM ET\nUp\n42.41\u00a2\n36.50\u00a2\n1,294.98\n$549.20\n$472.67\n-$76.53\n$0.00",
+      "timestamp": 1771151019,
+      "extracted_at": "2026-02-15T13:23:39.519213",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n67.50\u00a2\n1,279.10\n$603.74\n$863.40\n$259.66\n-$29.56",
+      "timestamp": 1771151020,
+      "extracted_at": "2026-02-15T13:23:40.021248",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nBitcoin Up or Down - February 15, 5AM ET\nDown\n57.28\u00a2\n63.50\u00a2\n1,267.89\n$726.24\n$805.11\n$78.86\n$0.00",
+      "timestamp": 1771151020,
+      "extracted_at": "2026-02-15T13:23:40.580941",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n81.48\u00a2\n1,068.05\n$636.88\n$870.36\n$233.47\n$0.00",
+      "timestamp": 1771151020,
+      "extracted_at": "2026-02-15T13:23:40.862753",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n65.08\u00a2\n100.00\u00a2\n1,052.48\n$684.95\n$1,052.48\n$367.52\n$0.00",
+      "timestamp": 1771151021,
+      "extracted_at": "2026-02-15T13:23:41.587659",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nSolana Up or Down - February 15, 5AM ET\nUp\n16.60\u00a2\n12.50\u00a2\n1,042.73\n$173.09\n$130.34\n-$42.75\n$0.00",
+      "timestamp": 1771151022,
+      "extracted_at": "2026-02-15T13:23:42.419240",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n87.50\u00a2\n942.05\n$789.15\n$824.29\n$35.13\n$0.00",
+      "timestamp": 1771151022,
+      "extracted_at": "2026-02-15T13:23:42.925646",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771151024,
+      "extracted_at": "2026-02-15T13:23:44.031452",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n21.50\u00a2\n771.96\n$322.91\n$165.97\n-$156.94\n$0.00",
+      "timestamp": 1771151024,
+      "extracted_at": "2026-02-15T13:23:44.407657",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771151025,
+      "extracted_at": "2026-02-15T13:23:45.450579",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n43.35\u00a2\n0.00\u00a2\n533.29\n$231.18\n$0.00\n-$231.18\n$0.00",
+      "timestamp": 1771151025,
+      "extracted_at": "2026-02-15T13:23:45.916813",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nBitcoin Up or Down - February 15, 5:20AM-5:25AM ET\nDown\n31.25\u00a2\n40.50\u00a2\n440.06\n$137.51\n$178.22\n$40.70\n$0.00",
+      "timestamp": 1771151027,
+      "extracted_at": "2026-02-15T13:23:47.332580",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nXRP Up or Down - February 15, 5AM ET\nDown\n75.94\u00a2\n78.50\u00a2\n260.52\n$197.83\n$204.50\n$6.66\n$0.00",
+      "timestamp": 1771151027,
+      "extracted_at": "2026-02-15T13:23:47.586340",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n0.00\u00a2\n168.11\n$84.99\n$0.00\n-$84.99\n$0.00",
+      "timestamp": 1771151028,
+      "extracted_at": "2026-02-15T13:23:48.000914",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n100.00\u00a2\n145.35\n$99.15\n$145.35\n$46.19\n-$20.22",
+      "timestamp": 1771151028,
+      "extracted_at": "2026-02-15T13:23:48.318548",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771151028,
+      "extracted_at": "2026-02-15T13:23:48.607415",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n35.44\u00a2\n32.50\u00a2\n2,342.48\n$830.17\n$761.31\n-$68.86\n-$2.38",
+      "timestamp": 1771151121,
+      "extracted_at": "2026-02-15T13:25:21.376007",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.15\u00a2\n37.50\u00a2\n2,325.67\n$1,026.78\n$872.12\n-$154.65\n$0.00",
+      "timestamp": 1771151121,
+      "extracted_at": "2026-02-15T13:25:21.896539",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nEthereum Up or Down - February 15, 5AM ET\nUp\n26.80\u00a2\n18.50\u00a2\n2,059.40\n$551.91\n$380.99\n-$170.93\n$0.00",
+      "timestamp": 1771151122,
+      "extracted_at": "2026-02-15T13:25:22.496757",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5AM ET\nUp\n44.24\u00a2\n36.50\u00a2\n1,536.81\n$679.88\n$560.92\n-$118.94\n$0.00",
+      "timestamp": 1771151123,
+      "extracted_at": "2026-02-15T13:25:23.076003",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n41.25\u00a2\n0.00\u00a2\n1,341.73\n$553.46\n$0.00\n-$553.46\n$0.00",
+      "timestamp": 1771151123,
+      "extracted_at": "2026-02-15T13:25:23.252764",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nDown\n38.59\u00a2\n100.00\u00a2\n1,336.53\n$515.76\n$1,336.53\n$820.76\n-$5.76",
+      "timestamp": 1771151125,
+      "extracted_at": "2026-02-15T13:25:25.890930",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nBitcoin Up or Down - February 15, 5AM ET\nDown\n57.03\u00a2\n63.50\u00a2\n1,296.83\n$739.59\n$823.49\n$83.90\n$0.00",
+      "timestamp": 1771151126,
+      "extracted_at": "2026-02-15T13:25:26.873542",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n67.50\u00a2\n1,279.10\n$603.74\n$863.40\n$259.66\n-$29.56",
+      "timestamp": 1771151127,
+      "extracted_at": "2026-02-15T13:25:27.758826",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nSolana Up or Down - February 15, 5AM ET\nUp\n16.53\u00a2\n12.50\u00a2\n1,091.70\n$180.45\n$136.46\n-$43.99\n$0.00",
+      "timestamp": 1771151128,
+      "extracted_at": "2026-02-15T13:25:28.479289",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n81.48\u00a2\n1,068.05\n$636.88\n$870.36\n$233.47\n$0.00",
+      "timestamp": 1771151129,
+      "extracted_at": "2026-02-15T13:25:29.279659",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nDown\n65.08\u00a2\n100.00\u00a2\n1,052.48\n$684.95\n$1,052.48\n$367.52\n$0.00",
+      "timestamp": 1771151130,
+      "extracted_at": "2026-02-15T13:25:30.798306",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n13.50\u00a2\n2,624.49\n$858.99\n$354.30\n-$504.68\n-$2.38",
+      "timestamp": 1771151236,
+      "extracted_at": "2026-02-15T13:27:16.864746",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.15\u00a2\n9.50\u00a2\n2,325.67\n$1,026.78\n$220.93\n-$805.84\n$0.00",
+      "timestamp": 1771151237,
+      "extracted_at": "2026-02-15T13:27:17.083842",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nEthereum Up or Down - February 15, 5AM ET\nUp\n26.52\u00a2\n21.50\u00a2\n2,162.21\n$573.63\n$464.87\n-$108.75\n$0.00",
+      "timestamp": 1771151237,
+      "extracted_at": "2026-02-15T13:27:17.441937",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.34\u00a2\n90.50\u00a2\n1,710.53\n$724.23\n$1,548.03\n$823.79\n-$69.34",
+      "timestamp": 1771151238,
+      "extracted_at": "2026-02-15T13:27:18.299803",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5AM ET\nUp\n44.65\u00a2\n50.50\u00a2\n1,636.81\n$730.83\n$826.59\n$95.75\n$0.00",
+      "timestamp": 1771151238,
+      "extracted_at": "2026-02-15T13:27:18.625027",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nBitcoin Up or Down - February 15, 5AM ET\nDown\n55.92\u00a2\n49.50\u00a2\n1,540.84\n$861.64\n$762.71\n-$98.92\n$0.00",
+      "timestamp": 1771151239,
+      "extracted_at": "2026-02-15T13:27:19.012306",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "14\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nDown\n41.25\u00a2\n0.00\u00a2\n1,341.73\n$553.46\n$0.00\n-$553.46\n$0.00",
+      "timestamp": 1771151239,
+      "extracted_at": "2026-02-15T13:27:19.355647",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nXRP Up or Down - February 15, 4AM ET\nUp\n17.76\u00a2\n0.05\u00a2\n1,341.60\n$238.26\n$0.67\n-$237.59\n$0.00",
+      "timestamp": 1771151239,
+      "extracted_at": "2026-02-15T13:27:19.683771",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nDown\n38.59\u00a2\n100.00\u00a2\n1,336.53\n$515.76\n$1,336.53\n$820.76\n-$5.76",
+      "timestamp": 1771151240,
+      "extracted_at": "2026-02-15T13:27:20.447001",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n86.50\u00a2\n1,279.10\n$603.74\n$1,106.43\n$502.69\n-$29.56",
+      "timestamp": 1771151240,
+      "extracted_at": "2026-02-15T13:27:20.899447",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nSolana Up or Down - February 15, 5AM ET\nUp\n16.53\u00a2\n13.00\u00a2\n1,091.70\n$180.45\n$141.91\n-$38.53\n$0.00",
+      "timestamp": 1771151241,
+      "extracted_at": "2026-02-15T13:27:21.838685",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n78.50\u00a2\n1,068.05\n$636.88\n$838.42\n$201.54\n$0.00",
+      "timestamp": 1771151242,
+      "extracted_at": "2026-02-15T13:27:22.144830",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n87.00\u00a2\n942.05\n$789.15\n$819.58\n$30.42\n$0.00",
+      "timestamp": 1771151242,
+      "extracted_at": "2026-02-15T13:27:22.596205",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n28.49\u00a2\n771.96\n$322.91\n$219.93\n-$102.98\n$0.00",
+      "timestamp": 1771151243,
+      "extracted_at": "2026-02-15T13:27:23.824399",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nBitcoin Up or Down - February 15, 5:20AM-5:25AM ET\nDown\n31.25\u00a2\n1.50\u00a2\n440.06\n$137.51\n$6.60\n-$130.91\n$0.00",
+      "timestamp": 1771151245,
+      "extracted_at": "2026-02-15T13:27:25.084480",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nDown\n45.87\u00a2\n49.50\u00a2\n371.39\n$170.36\n$183.84\n$13.48\n$0.00",
+      "timestamp": 1771151245,
+      "extracted_at": "2026-02-15T13:27:25.323592",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nUp\n53.41\u00a2\n50.50\u00a2\n331.02\n$176.79\n$167.16\n-$9.63\n$0.00",
+      "timestamp": 1771151245,
+      "extracted_at": "2026-02-15T13:27:25.739591",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nXRP Up or Down - February 15, 5AM ET\nDown\n75.50\u00a2\n71.50\u00a2\n267.52\n$201.97\n$191.27\n-$10.70\n$0.00",
+      "timestamp": 1771151246,
+      "extracted_at": "2026-02-15T13:27:26.112355",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n0.00\u00a2\n168.11\n$84.99\n$0.00\n-$84.99\n$0.00",
+      "timestamp": 1771151246,
+      "extracted_at": "2026-02-15T13:27:26.700070",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n100.00\u00a2\n145.35\n$99.15\n$145.35\n$46.19\n-$20.22",
+      "timestamp": 1771151247,
+      "extracted_at": "2026-02-15T13:27:27.671166",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "33\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771151247,
+      "extracted_at": "2026-02-15T13:27:27.903853",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n2.50\u00a2\n2,624.49\n$858.99\n$65.61\n-$793.38\n-$2.38",
+      "timestamp": 1771151381,
+      "extracted_at": "2026-02-15T13:29:41.203614",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nEthereum Up or Down - February 15, 5AM ET\nUp\n26.11\u00a2\n22.50\u00a2\n2,338.92\n$610.91\n$526.26\n-$84.66\n$0.00",
+      "timestamp": 1771151381,
+      "extracted_at": "2026-02-15T13:29:41.838882",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.15\u00a2\n3.50\u00a2\n2,325.67\n$1,026.78\n$81.39\n-$945.38\n$0.00",
+      "timestamp": 1771151382,
+      "extracted_at": "2026-02-15T13:29:42.593999",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nBitcoin Up or Down - February 15, 5AM ET\nUp\n45.84\u00a2\n55.50\u00a2\n1,811.11\n$830.21\n$1,005.17\n$174.95\n$0.00",
+      "timestamp": 1771151382,
+      "extracted_at": "2026-02-15T13:29:42.873135",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5AM ET\nDown\n54.25\u00a2\n44.50\u00a2\n1,791.84\n$972.07\n$797.37\n-$174.70\n$0.00",
+      "timestamp": 1771151383,
+      "extracted_at": "2026-02-15T13:29:43.200761",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.34\u00a2\n96.50\u00a2\n1,710.53\n$724.23\n$1,650.66\n$926.42\n-$69.34",
+      "timestamp": 1771151383,
+      "extracted_at": "2026-02-15T13:29:43.596936",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n97.50\u00a2\n1,279.10\n$603.74\n$1,247.14\n$643.39\n-$29.56",
+      "timestamp": 1771151386,
+      "extracted_at": "2026-02-15T13:29:46.633413",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nSolana Up or Down - February 15, 5AM ET\nUp\n16.53\u00a2\n11.50\u00a2\n1,091.70\n$180.45\n$125.54\n-$54.91\n$0.00",
+      "timestamp": 1771151386,
+      "extracted_at": "2026-02-15T13:29:46.952003",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n77.50\u00a2\n1,068.05\n$636.88\n$827.74\n$190.86\n$0.00",
+      "timestamp": 1771151387,
+      "extracted_at": "2026-02-15T13:29:47.306475",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n88.50\u00a2\n942.05\n$789.15\n$833.71\n$44.55\n$0.00",
+      "timestamp": 1771151388,
+      "extracted_at": "2026-02-15T13:29:48.118726",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n41.00\u00a2\n771.96\n$322.91\n$316.50\n-$6.40\n$0.00",
+      "timestamp": 1771151388,
+      "extracted_at": "2026-02-15T13:29:48.850085",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nDown\n40.76\u00a2\n36.00\u00a2\n524.39\n$213.74\n$188.78\n-$24.96\n$0.00",
+      "timestamp": 1771151390,
+      "extracted_at": "2026-02-15T13:29:50.687577",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nXRP Up or Down - February 15, 5AM ET\nDown\n63.02\u00a2\n59.00\u00a2\n469.52\n$295.89\n$277.01\n-$18.87\n$0.00",
+      "timestamp": 1771151390,
+      "extracted_at": "2026-02-15T13:29:50.950240",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771151391,
+      "extracted_at": "2026-02-15T13:29:51.456690",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nBitcoin Up or Down - February 15, 5:20AM-5:25AM ET\nDown\n31.25\u00a2\n0.00\u00a2\n440.06\n$137.51\n$0.00\n-$137.51\n$0.00",
+      "timestamp": 1771151391,
+      "extracted_at": "2026-02-15T13:29:51.790625",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nUp\n55.20\u00a2\n64.00\u00a2\n389.62\n$215.07\n$249.35\n$34.28\n$0.00",
+      "timestamp": 1771151392,
+      "extracted_at": "2026-02-15T13:29:52.442219",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n1.50\u00a2\n2,624.49\n$858.99\n$39.36\n-$819.62\n-$2.38",
+      "timestamp": 1771151511,
+      "extracted_at": "2026-02-15T13:31:51.212037",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nEthereum Up or Down - February 15, 5AM ET\nUp\n26.00\u00a2\n18.50\u00a2\n2,372.65\n$616.89\n$438.94\n-$177.94\n$0.00",
+      "timestamp": 1771151511,
+      "extracted_at": "2026-02-15T13:31:51.619444",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.15\u00a2\n0.95\u00a2\n2,325.67\n$1,026.78\n$22.09\n-$1,004.68\n$0.00",
+      "timestamp": 1771151511,
+      "extracted_at": "2026-02-15T13:31:51.838336",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nBitcoin Up or Down - February 15, 5AM ET\nUp\n45.90\u00a2\n47.50\u00a2\n2,092.03\n$960.24\n$993.71\n$33.47\n$0.00",
+      "timestamp": 1771151512,
+      "extracted_at": "2026-02-15T13:31:52.030686",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5AM ET\nDown\n54.25\u00a2\n52.50\u00a2\n1,791.84\n$972.07\n$940.71\n-$31.35\n$0.00",
+      "timestamp": 1771151512,
+      "extracted_at": "2026-02-15T13:31:52.245241",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.34\u00a2\n99.05\u00a2\n1,710.53\n$724.23\n$1,694.28\n$970.04\n-$69.34",
+      "timestamp": 1771151512,
+      "extracted_at": "2026-02-15T13:31:52.552634",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n98.50\u00a2\n1,279.10\n$603.74\n$1,259.93\n$656.18\n-$29.56",
+      "timestamp": 1771151514,
+      "extracted_at": "2026-02-15T13:31:54.698967",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nSolana Up or Down - February 15, 5AM ET\nUp\n16.53\u00a2\n9.50\u00a2\n1,091.70\n$180.45\n$103.71\n-$76.73\n$0.00",
+      "timestamp": 1771151514,
+      "extracted_at": "2026-02-15T13:31:54.918829",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n90.50\u00a2\n942.05\n$789.15\n$852.55\n$63.40\n$0.00",
+      "timestamp": 1771151515,
+      "extracted_at": "2026-02-15T13:31:55.663790",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n48.44\u00a2\n49.50\u00a2\n831.05\n$402.56\n$411.37\n$8.80\n$0.00",
+      "timestamp": 1771151517,
+      "extracted_at": "2026-02-15T13:31:57.352762",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771151517,
+      "extracted_at": "2026-02-15T13:31:57.896885",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nXRP Up or Down - February 15, 5AM ET\nUp\n41.83\u00a2\n52.50\u00a2\n771.96\n$322.91\n$405.28\n$82.36\n$0.00",
+      "timestamp": 1771151518,
+      "extracted_at": "2026-02-15T13:31:58.169192",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771151519,
+      "extracted_at": "2026-02-15T13:31:59.164846",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nXRP Up or Down - February 15, 5AM ET\nDown\n58.33\u00a2\n47.50\u00a2\n585.78\n$341.68\n$278.24\n-$63.44\n$0.00",
+      "timestamp": 1771151519,
+      "extracted_at": "2026-02-15T13:31:59.789599",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nEthereum Up or Down - February 15, 5:00AM-5:15AM ET\nUp\n43.35\u00a2\n0.00\u00a2\n533.29\n$231.18\n$0.00\n-$231.18\n$0.00",
+      "timestamp": 1771151520,
+      "extracted_at": "2026-02-15T13:32:00.406818",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nDown\n40.76\u00a2\n62.50\u00a2\n524.39\n$213.74\n$327.74\n$114.00\n$0.00",
+      "timestamp": 1771151520,
+      "extracted_at": "2026-02-15T13:32:00.773105",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771151521,
+      "extracted_at": "2026-02-15T13:32:01.245354",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nBitcoin Up or Down - February 15, 5:20AM-5:25AM ET\nDown\n31.25\u00a2\n0.00\u00a2\n440.06\n$137.51\n$0.00\n-$137.51\n$0.00",
+      "timestamp": 1771151521,
+      "extracted_at": "2026-02-15T13:32:01.966347",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nUp\n55.20\u00a2\n37.50\u00a2\n389.62\n$215.07\n$146.10\n-$68.95\n$0.00",
+      "timestamp": 1771151522,
+      "extracted_at": "2026-02-15T13:32:02.222184",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nUp\n33.85\u00a2\n50.50\u00a2\n355.29\n$120.26\n$179.42\n$59.15\n$0.00",
+      "timestamp": 1771151522,
+      "extracted_at": "2026-02-15T13:32:02.732146",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "33\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nDown\n53.69\u00a2\n49.50\u00a2\n286.25\n$153.68\n$141.69\n-$11.99\n$0.00",
+      "timestamp": 1771151523,
+      "extracted_at": "2026-02-15T13:32:03.314350",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "34\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n0.00\u00a2\n168.11\n$84.99\n$0.00\n-$84.99\n$0.00",
+      "timestamp": 1771151523,
+      "extracted_at": "2026-02-15T13:32:03.982672",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "35\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n100.00\u00a2\n145.35\n$99.15\n$145.35\n$46.19\n-$20.22",
+      "timestamp": 1771151524,
+      "extracted_at": "2026-02-15T13:32:04.568189",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "36\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771151524,
+      "extracted_at": "2026-02-15T13:32:04.801942",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "37\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n50.00\u00a2\n49.00\u00a2\n72.72\n$36.36\n$35.63\n-$0.72\n$0.00",
+      "timestamp": 1771151524,
+      "extracted_at": "2026-02-15T13:32:04.964169",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "38\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n45.57\u00a2\n51.00\u00a2\n8.47\n$3.86\n$4.32\n$0.46\n$0.00",
+      "timestamp": 1771151525,
+      "extracted_at": "2026-02-15T13:32:05.290755",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nEthereum Up or Down - February 15, 5AM ET\nUp\n25.80\u00a2\n18.50\u00a2\n2,420.69\n$624.53\n$447.82\n-$176.71\n$0.00",
+      "timestamp": 1771151621,
+      "extracted_at": "2026-02-15T13:33:41.827425",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5AM ET\nDown\n54.05\u00a2\n52.50\u00a2\n1,860.26\n$1,005.47\n$976.63\n-$28.83\n$0.00",
+      "timestamp": 1771151626,
+      "extracted_at": "2026-02-15T13:33:46.953181",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n48.54\u00a2\n49.50\u00a2\n968.82\n$470.26\n$479.56\n$9.30\n$0.00",
+      "timestamp": 1771151632,
+      "extracted_at": "2026-02-15T13:33:52.957812",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n90.50\u00a2\n942.05\n$789.15\n$852.55\n$63.40\n$0.00",
+      "timestamp": 1771151633,
+      "extracted_at": "2026-02-15T13:33:53.378033",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nXRP Up or Down - February 15, 5AM ET\nDown\n57.94\u00a2\n47.50\u00a2\n594.20\n$344.28\n$282.24\n-$62.03\n$0.00",
+      "timestamp": 1771151636,
+      "extracted_at": "2026-02-15T13:33:56.190827",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nUp\n30.15\u00a2\n50.50\u00a2\n429.49\n$129.49\n$216.89\n$87.40\n$13.49",
+      "timestamp": 1771151638,
+      "extracted_at": "2026-02-15T13:33:58.237052",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nUp\n55.20\u00a2\n37.50\u00a2\n389.62\n$215.07\n$146.10\n-$68.95\n$0.00",
+      "timestamp": 1771151638,
+      "extracted_at": "2026-02-15T13:33:58.908832",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "33\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nDown\n56.38\u00a2\n49.50\u00a2\n371.80\n$209.65\n$184.04\n-$25.61\n$0.00",
+      "timestamp": 1771151639,
+      "extracted_at": "2026-02-15T13:33:59.166266",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "34\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n43.48\u00a2\n50.50\u00a2\n188.11\n$81.79\n$94.99\n$13.20\n$0.00",
+      "timestamp": 1771151639,
+      "extracted_at": "2026-02-15T13:33:59.486489",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "35\nBitcoin Up or Down - February 15, 5:10AM-5:15AM ET\nUp\n50.56\u00a2\n0.00\u00a2\n168.11\n$84.99\n$0.00\n-$84.99\n$0.00",
+      "timestamp": 1771151640,
+      "extracted_at": "2026-02-15T13:34:00.371671",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "36\nBitcoin Up or Down - February 15, 5:15AM-5:20AM ET\nUp\n68.22\u00a2\n100.00\u00a2\n145.35\n$99.15\n$145.35\n$46.19\n-$20.22",
+      "timestamp": 1771151644,
+      "extracted_at": "2026-02-15T13:34:04.195167",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "37\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771151644,
+      "extracted_at": "2026-02-15T13:34:04.649729",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "38\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n42.33\u00a2\n51.00\u00a2\n101.95\n$43.15\n$51.99\n$8.83\n$0.00",
+      "timestamp": 1771151645,
+      "extracted_at": "2026-02-15T13:34:05.545080",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "39\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n50.00\u00a2\n49.00\u00a2\n77.64\n$38.82\n$38.04\n-$0.77\n$0.00",
+      "timestamp": 1771151646,
+      "extracted_at": "2026-02-15T13:34:06.377698",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "5\nSolana Up or Down - February 15, 4AM ET\nDown\n17.23\u00a2\n0.05\u00a2\n2,687.62\n$463.07\n$1.34\n-$461.73\n$0.00",
+      "timestamp": 1771151761,
+      "extracted_at": "2026-02-15T13:36:01.300731",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "6\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n0.00\u00a2\n2,624.49\n$858.99\n$0.00\n-$858.99\n-$2.38",
+      "timestamp": 1771151762,
+      "extracted_at": "2026-02-15T13:36:02.111847",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "7\nEthereum Up or Down - February 15, 5AM ET\nUp\n25.36\u00a2\n10.50\u00a2\n2,496.81\n$633.44\n$262.16\n-$371.27\n$0.00",
+      "timestamp": 1771151762,
+      "extracted_at": "2026-02-15T13:36:02.354789",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nBitcoin Up or Down - February 15, 5AM ET\nUp\n43.98\u00a2\n37.50\u00a2\n2,343.03\n$1,030.46\n$878.63\n-$151.82\n$0.00",
+      "timestamp": 1771151762,
+      "extracted_at": "2026-02-15T13:36:02.972718",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.15\u00a2\n0.00\u00a2\n2,325.67\n$1,026.78\n$0.00\n-$1,026.78\n$0.00",
+      "timestamp": 1771151763,
+      "extracted_at": "2026-02-15T13:36:03.317456",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5AM ET\nDown\n55.11\u00a2\n62.50\u00a2\n2,192.88\n$1,208.49\n$1,370.55\n$162.05\n$0.00",
+      "timestamp": 1771151764,
+      "extracted_at": "2026-02-15T13:36:04.491211",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "11\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n42.34\u00a2\n100.00\u00a2\n1,710.53\n$724.23\n$1,710.53\n$986.29\n-$69.34",
+      "timestamp": 1771151765,
+      "extracted_at": "2026-02-15T13:36:05.995270",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n53.69\u00a2\n68.50\u00a2\n1,351.46\n$725.60\n$925.75\n$200.15\n$0.00",
+      "timestamp": 1771151766,
+      "extracted_at": "2026-02-15T13:36:06.531772",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "14\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n100.00\u00a2\n1,279.10\n$603.74\n$1,279.10\n$675.37\n-$29.56",
+      "timestamp": 1771151767,
+      "extracted_at": "2026-02-15T13:36:07.343510",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nSolana Up or Down - February 15, 5AM ET\nUp\n15.60\u00a2\n3.50\u00a2\n1,179.41\n$183.98\n$41.27\n-$142.69\n$0.00",
+      "timestamp": 1771151767,
+      "extracted_at": "2026-02-15T13:36:07.853318",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n89.50\u00a2\n1,068.05\n$636.88\n$955.91\n$319.02\n$0.00",
+      "timestamp": 1771151768,
+      "extracted_at": "2026-02-15T13:36:08.528582",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nXRP Up or Down - February 15, 5AM ET\nUp\n40.22\u00a2\n46.50\u00a2\n975.72\n$392.43\n$453.70\n$61.27\n$0.00",
+      "timestamp": 1771151769,
+      "extracted_at": "2026-02-15T13:36:09.764767",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n96.50\u00a2\n942.05\n$789.15\n$909.08\n$119.92\n$0.00",
+      "timestamp": 1771151770,
+      "extracted_at": "2026-02-15T13:36:10.170336",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nXRP Up or Down - February 13, 5AM ET\nUp\n61.38\u00a2\n99.95\u00a2\n811.74\n$498.25\n$811.34\n$313.08\n$0.00",
+      "timestamp": 1771151770,
+      "extracted_at": "2026-02-15T13:36:10.659455",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nXRP Up or Down - February 15, 5AM ET\nDown\n58.62\u00a2\n53.50\u00a2\n692.64\n$406.03\n$370.56\n-$35.46\n$0.00",
+      "timestamp": 1771151770,
+      "extracted_at": "2026-02-15T13:36:10.978552",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771151771,
+      "extracted_at": "2026-02-15T13:36:11.330941",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nUp\n23.18\u00a2\n5.50\u00a2\n582.48\n$135.02\n$32.03\n-$102.98\n$13.49",
+      "timestamp": 1771151772,
+      "extracted_at": "2026-02-15T13:36:12.080869",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nDown\n40.76\u00a2\n0.00\u00a2\n524.39\n$213.74\n$0.00\n-$213.74\n$0.00",
+      "timestamp": 1771151772,
+      "extracted_at": "2026-02-15T13:36:12.671344",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771151773,
+      "extracted_at": "2026-02-15T13:36:13.793693",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nUp\n55.20\u00a2\n100.00\u00a2\n389.62\n$215.07\n$389.62\n$174.55\n$0.00",
+      "timestamp": 1771151774,
+      "extracted_at": "2026-02-15T13:36:14.601052",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n34.27\u00a2\n31.50\u00a2\n389.26\n$133.40\n$122.61\n-$10.78\n$1.67",
+      "timestamp": 1771151774,
+      "extracted_at": "2026-02-15T13:36:14.860410",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nDown\n57.77\u00a2\n94.50\u00a2\n371.80\n$214.79\n$351.35\n$136.56\n$0.00",
+      "timestamp": 1771151775,
+      "extracted_at": "2026-02-15T13:36:15.166245",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n61.90\u00a2\n64.50\u00a2\n255.46\n$158.13\n$164.77\n$6.64\n$0.00",
+      "timestamp": 1771151776,
+      "extracted_at": "2026-02-15T13:36:16.007996",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n39.95\u00a2\n35.50\u00a2\n155.63\n$62.17\n$55.25\n-$6.92\n$0.00",
+      "timestamp": 1771151776,
+      "extracted_at": "2026-02-15T13:36:16.588748",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nBitcoin Up or Down - February 15, 5:35AM-5:40AM ET\nDown\n51.44\u00a2\n50.00\u00a2\n140.29\n$72.16\n$70.14\n-$2.02\n$0.00",
+      "timestamp": 1771151777,
+      "extracted_at": "2026-02-15T13:36:17.031586",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "5\nBitcoin Up or Down - February 15, 5AM ET\nUp\n38.54\u00a2\n37.50\u00a2\n3,483.82\n$1,342.66\n$1,306.43\n-$36.22\n$0.00",
+      "timestamp": 1771151970,
+      "extracted_at": "2026-02-15T13:39:30.231275",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "6\nSolana Up or Down - February 15, 4AM ET\nDown\n17.23\u00a2\n0.05\u00a2\n2,687.62\n$463.07\n$1.34\n-$461.73\n$0.00",
+      "timestamp": 1771151970,
+      "extracted_at": "2026-02-15T13:39:30.732665",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "7\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n0.00\u00a2\n2,624.49\n$858.99\n$0.00\n-$858.99\n-$2.38",
+      "timestamp": 1771151971,
+      "extracted_at": "2026-02-15T13:39:31.051005",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5AM ET\nUp\n25.36\u00a2\n10.50\u00a2\n2,496.81\n$633.44\n$262.16\n-$371.27\n$0.00",
+      "timestamp": 1771151971,
+      "extracted_at": "2026-02-15T13:39:31.425976",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5AM ET\nDown\n55.15\u00a2\n62.50\u00a2\n2,202.14\n$1,214.48\n$1,376.34\n$161.85\n$0.00",
+      "timestamp": 1771151972,
+      "extracted_at": "2026-02-15T13:39:32.032341",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n57.46\u00a2\n68.50\u00a2\n1,657.23\n$952.24\n$1,135.20\n$182.95\n$0.00",
+      "timestamp": 1771151972,
+      "extracted_at": "2026-02-15T13:39:32.708397",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nSolana Up or Down - February 15, 5AM ET\nUp\n15.60\u00a2\n4.00\u00a2\n1,179.41\n$183.98\n$47.17\n-$136.81\n$0.00",
+      "timestamp": 1771151973,
+      "extracted_at": "2026-02-15T13:39:33.603277",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nXRP Up or Down - February 15, 5AM ET\nUp\n38.29\u00a2\n46.50\u00a2\n1,177.72\n$450.94\n$547.63\n$96.69\n$0.00",
+      "timestamp": 1771151974,
+      "extracted_at": "2026-02-15T13:39:34.320456",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n89.50\u00a2\n1,068.05\n$636.88\n$955.91\n$319.02\n$0.00",
+      "timestamp": 1771151974,
+      "extracted_at": "2026-02-15T13:39:34.860084",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n96.00\u00a2\n942.05\n$789.15\n$904.37\n$115.21\n$0.00",
+      "timestamp": 1771151975,
+      "extracted_at": "2026-02-15T13:39:35.476351",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nXRP Up or Down - February 15, 5AM ET\nDown\n60.14\u00a2\n53.50\u00a2\n774.91\n$466.03\n$414.58\n-$51.45\n$0.00",
+      "timestamp": 1771151976,
+      "extracted_at": "2026-02-15T13:39:36.898999",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n27.80\u00a2\n31.50\u00a2\n631.92\n$175.67\n$199.05\n$23.38\n$4.90",
+      "timestamp": 1771151977,
+      "extracted_at": "2026-02-15T13:39:37.364279",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nSolana Up or Down - February 15, 4AM ET\nUp\n63.68\u00a2\n99.95\u00a2\n622.36\n$396.32\n$622.04\n$225.73\n$0.00",
+      "timestamp": 1771151978,
+      "extracted_at": "2026-02-15T13:39:38.106652",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "23\nBitcoin Up or Down - February 15, 5:35AM-5:40AM ET\nDown\n62.36\u00a2\n44.50\u00a2\n598.41\n$373.17\n$266.29\n-$106.87\n$0.00",
+      "timestamp": 1771151978,
+      "extracted_at": "2026-02-15T13:39:38.356282",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nUp\n23.18\u00a2\n0.00\u00a2\n582.48\n$135.02\n$0.00\n-$135.02\n$13.49",
+      "timestamp": 1771151979,
+      "extracted_at": "2026-02-15T13:39:39.665797",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nBitcoin Up or Down - February 15, 5:35AM-5:40AM ET\nUp\n30.65\u00a2\n55.50\u00a2\n564.17\n$172.92\n$313.12\n$140.19\n$0.00",
+      "timestamp": 1771151980,
+      "extracted_at": "2026-02-15T13:39:40.462839",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nDown\n40.76\u00a2\n0.00\u00a2\n524.39\n$213.74\n$0.00\n-$213.74\n$0.00",
+      "timestamp": 1771151980,
+      "extracted_at": "2026-02-15T13:39:40.788746",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nXRP Up or Down - February 13, 5AM ET\nDown\n39.16\u00a2\n0.05\u00a2\n455.02\n$178.18\n$0.22\n-$177.95\n$0.00",
+      "timestamp": 1771151981,
+      "extracted_at": "2026-02-15T13:39:41.162953",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n35.04\u00a2\n35.50\u00a2\n444.35\n$155.69\n$157.74\n$2.04\n$0.00",
+      "timestamp": 1771151981,
+      "extracted_at": "2026-02-15T13:39:41.561221",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n72.03\u00a2\n64.50\u00a2\n397.23\n$286.13\n$256.20\n-$29.91\n$0.00",
+      "timestamp": 1771151981,
+      "extracted_at": "2026-02-15T13:39:41.805325",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "30\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nUp\n55.20\u00a2\n100.00\u00a2\n389.62\n$215.07\n$389.62\n$174.55\n$0.00",
+      "timestamp": 1771151983,
+      "extracted_at": "2026-02-15T13:39:43.653615",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "31\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nDown\n57.77\u00a2\n100.00\u00a2\n371.80\n$214.79\n$371.80\n$157.01\n$0.00",
+      "timestamp": 1771151983,
+      "extracted_at": "2026-02-15T13:39:43.951130",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771151984,
+      "extracted_at": "2026-02-15T13:39:44.206427",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "5\nBitcoin Up or Down - February 15, 5AM ET\nUp\n38.54\u00a2\n41.50\u00a2\n3,617.82\n$1,394.30\n$1,501.39\n$107.08\n$0.00",
+      "timestamp": 1771152058,
+      "extracted_at": "2026-02-15T13:40:58.659334",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5AM ET\nUp\n25.36\u00a2\n8.00\u00a2\n2,496.81\n$633.44\n$199.74\n-$433.69\n$0.00",
+      "timestamp": 1771152059,
+      "extracted_at": "2026-02-15T13:40:59.653889",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5AM ET\nDown\n55.77\u00a2\n58.50\u00a2\n2,259.39\n$1,260.29\n$1,321.74\n$61.45\n$0.00",
+      "timestamp": 1771152060,
+      "extracted_at": "2026-02-15T13:41:00.268156",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n57.46\u00a2\n63.50\u00a2\n1,657.23\n$952.24\n$1,052.33\n$100.09\n$0.00",
+      "timestamp": 1771152060,
+      "extracted_at": "2026-02-15T13:41:00.896179",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nXRP Up or Down - February 15, 5AM ET\nUp\n38.29\u00a2\n35.50\u00a2\n1,177.72\n$450.94\n$418.09\n-$32.85\n$0.00",
+      "timestamp": 1771152062,
+      "extracted_at": "2026-02-15T13:41:02.990430",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n92.00\u00a2\n1,068.05\n$636.88\n$982.61\n$345.73\n$0.00",
+      "timestamp": 1771152063,
+      "extracted_at": "2026-02-15T13:41:03.496537",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n23.05\u00a2\n36.50\u00a2\n868.95\n$200.29\n$317.16\n$116.87\n$4.90",
+      "timestamp": 1771152065,
+      "extracted_at": "2026-02-15T13:41:05.094587",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "21\nXRP Up or Down - February 15, 5AM ET\nDown\n60.14\u00a2\n64.50\u00a2\n774.91\n$466.03\n$499.82\n$33.78\n$0.00",
+      "timestamp": 1771152065,
+      "extracted_at": "2026-02-15T13:41:05.895365",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "28\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n35.04\u00a2\n26.50\u00a2\n444.35\n$155.69\n$117.75\n-$37.94\n$0.00",
+      "timestamp": 1771152068,
+      "extracted_at": "2026-02-15T13:41:08.952136",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n72.03\u00a2\n73.50\u00a2\n397.23\n$286.13\n$291.97\n$5.83\n$0.00",
+      "timestamp": 1771152069,
+      "extracted_at": "2026-02-15T13:41:09.488515",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "5\nBitcoin Up or Down - February 15, 5AM ET\nUp\n37.85\u00a2\n41.50\u00a2\n3,617.82\n$1,369.34\n$1,501.39\n$132.05\n$0.00",
+      "timestamp": 1771152176,
+      "extracted_at": "2026-02-15T13:42:56.499053",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "7\nEthereum Up or Down - February 15, 5AM ET\nUp\n24.10\u00a2\n8.00\u00a2\n2,647.81\n$638.12\n$211.82\n-$426.29\n$0.00",
+      "timestamp": 1771152177,
+      "extracted_at": "2026-02-15T13:42:57.763945",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n0.00\u00a2\n2,624.49\n$858.99\n$0.00\n-$858.99\n-$2.38",
+      "timestamp": 1771152178,
+      "extracted_at": "2026-02-15T13:42:58.751864",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nBitcoin Up or Down - February 15, 5AM ET\nDown\n56.93\u00a2\n58.50\u00a2\n2,508.44\n$1,428.06\n$1,467.44\n$39.38\n$0.00",
+      "timestamp": 1771152179,
+      "extracted_at": "2026-02-15T13:42:59.520439",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "10\nBitcoin Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n44.15\u00a2\n0.00\u00a2\n2,325.67\n$1,026.78\n$0.00\n-$1,026.78\n$0.00",
+      "timestamp": 1771152179,
+      "extracted_at": "2026-02-15T13:42:59.901449",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nXRP Up or Down - February 15, 5AM ET\nUp\n36.34\u00a2\n35.50\u00a2\n1,379.72\n$501.39\n$489.80\n-$11.58\n$0.00",
+      "timestamp": 1771152183,
+      "extracted_at": "2026-02-15T13:43:03.027665",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "15\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nUp\n47.20\u00a2\n100.00\u00a2\n1,279.10\n$603.74\n$1,279.10\n$675.37\n-$29.56",
+      "timestamp": 1771152184,
+      "extracted_at": "2026-02-15T13:43:04.440474",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "16\nSolana Up or Down - February 15, 5AM ET\nUp\n15.60\u00a2\n2.25\u00a2\n1,179.41\n$183.98\n$26.53\n-$157.44\n$0.00",
+      "timestamp": 1771152185,
+      "extracted_at": "2026-02-15T13:43:05.241243",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n20.65\u00a2\n36.50\u00a2\n1,105.92\n$228.37\n$403.66\n$175.28\n$4.90",
+      "timestamp": 1771152186,
+      "extracted_at": "2026-02-15T13:43:06.033469",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n92.00\u00a2\n1,068.05\n$636.88\n$982.61\n$345.73\n$0.00",
+      "timestamp": 1771152186,
+      "extracted_at": "2026-02-15T13:43:06.384766",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "19\nSolana Up or Down - February 15, 5AM ET\nDown\n83.77\u00a2\n97.75\u00a2\n942.05\n$789.15\n$920.85\n$131.69\n$0.00",
+      "timestamp": 1771152187,
+      "extracted_at": "2026-02-15T13:43:07.681278",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n20.34\u00a2\n26.50\u00a2\n939.23\n$191.13\n$248.89\n$57.76\n$0.00",
+      "timestamp": 1771152188,
+      "extracted_at": "2026-02-15T13:43:08.069813",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nXRP Up or Down - February 15, 5AM ET\nDown\n60.14\u00a2\n64.50\u00a2\n774.91\n$466.03\n$499.82\n$33.78\n$0.00",
+      "timestamp": 1771152190,
+      "extracted_at": "2026-02-15T13:43:10.278472",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "24\nBitcoin Up or Down - February 15, 5:35AM-5:40AM ET\nDown\n62.36\u00a2\n99.50\u00a2\n598.41\n$373.17\n$595.42\n$222.25\n$0.00",
+      "timestamp": 1771152191,
+      "extracted_at": "2026-02-15T13:43:11.208177",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "25\nBitcoin Up or Down - February 15, 5:30AM-5:35AM ET\nUp\n23.18\u00a2\n0.00\u00a2\n582.48\n$135.02\n$0.00\n-$135.02\n$13.49",
+      "timestamp": 1771152191,
+      "extracted_at": "2026-02-15T13:43:11.493511",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "26\nBitcoin Up or Down - February 15, 5:35AM-5:40AM ET\nUp\n30.65\u00a2\n0.50\u00a2\n564.17\n$172.92\n$2.82\n-$170.10\n$0.00",
+      "timestamp": 1771152191,
+      "extracted_at": "2026-02-15T13:43:11.784467",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "27\nBitcoin Up or Down - February 15, 5:25AM-5:30AM ET\nDown\n40.76\u00a2\n0.00\u00a2\n524.39\n$213.74\n$0.00\n-$213.74\n$0.00",
+      "timestamp": 1771152193,
+      "extracted_at": "2026-02-15T13:43:13.452929",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "32\nBitcoin Up or Down - February 15, 5:40AM-5:45AM ET\nUp\n65.59\u00a2\n62.50\u00a2\n241.57\n$158.44\n$150.97\n-$7.46\n$0.00",
+      "timestamp": 1771152197,
+      "extracted_at": "2026-02-15T13:43:17.202452",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "33\nBitcoin Up or Down - February 15, 5:40AM-5:45AM ET\nDown\n16.46\u00a2\n37.50\u00a2\n219.31\n$36.09\n$82.24\n$46.14\n$0.00",
+      "timestamp": 1771152197,
+      "extracted_at": "2026-02-15T13:43:17.496363",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "34\nXRP Up or Down - February 15, 4AM ET\nDown\n55.38\u00a2\n99.95\u00a2\n107.10\n$59.31\n$107.04\n$47.73\n$0.00",
+      "timestamp": 1771152197,
+      "extracted_at": "2026-02-15T13:43:17.973238",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "3\nBitcoin Up or Down - February 15, 5AM ET\nUp\n39.42\u00a2\n25.50\u00a2\n4,557.79\n$1,796.68\n$1,162.23\n-$634.44\n$0.00",
+      "timestamp": 1771152308,
+      "extracted_at": "2026-02-15T13:45:08.516459",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "6\nBitcoin Up or Down - February 15, 5AM ET\nDown\n56.20\u00a2\n74.50\u00a2\n3,003.99\n$1,688.24\n$2,237.96\n$549.73\n$0.00",
+      "timestamp": 1771152311,
+      "extracted_at": "2026-02-15T13:45:11.246516",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "8\nEthereum Up or Down - February 15, 5AM ET\nUp\n24.10\u00a2\n2.00\u00a2\n2,647.81\n$638.12\n$52.95\n-$585.16\n$0.00",
+      "timestamp": 1771152312,
+      "extracted_at": "2026-02-15T13:45:12.593831",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "9\nEthereum Up or Down - February 15, 5:15AM-5:30AM ET\nDown\n32.72\u00a2\n0.00\u00a2\n2,624.49\n$858.99\n$0.00\n-$858.99\n-$2.38",
+      "timestamp": 1771152312,
+      "extracted_at": "2026-02-15T13:45:12.946682",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "12\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n57.46\u00a2\n87.50\u00a2\n1,657.23\n$952.24\n$1,450.08\n$497.83\n$0.00",
+      "timestamp": 1771152314,
+      "extracted_at": "2026-02-15T13:45:14.503623",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "13\nXRP Up or Down - February 15, 5AM ET\nUp\n36.34\u00a2\n16.50\u00a2\n1,379.72\n$501.39\n$227.65\n-$273.73\n$0.00",
+      "timestamp": 1771152314,
+      "extracted_at": "2026-02-15T13:45:14.834500",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "17\nBitcoin Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n20.65\u00a2\n12.50\u00a2\n1,105.92\n$228.37\n$138.24\n-$90.13\n$4.90",
+      "timestamp": 1771152316,
+      "extracted_at": "2026-02-15T13:45:16.185050",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "18\nEthereum Up or Down - February 15, 5AM ET\nDown\n59.63\u00a2\n98.00\u00a2\n1,068.05\n$636.88\n$1,046.69\n$409.81\n$0.00",
+      "timestamp": 1771152316,
+      "extracted_at": "2026-02-15T13:45:16.658483",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "20\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nUp\n20.34\u00a2\n3.50\u00a2\n939.23\n$191.13\n$32.86\n-$158.26\n$0.00",
+      "timestamp": 1771152317,
+      "extracted_at": "2026-02-15T13:45:17.682133",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "22\nXRP Up or Down - February 15, 5AM ET\nDown\n60.14\u00a2\n83.50\u00a2\n774.91\n$466.03\n$647.04\n$181.02\n$0.00",
+      "timestamp": 1771152318,
+      "extracted_at": "2026-02-15T13:45:18.870050",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "raw_text": "29\nEthereum Up or Down - February 15, 5:30AM-5:45AM ET\nDown\n72.03\u00a2\n96.50\u00a2\n397.23\n$286.13\n$383.33\n$97.20\n$0.00",
+      "timestamp": 1771152320,
+      "extracted_at": "2026-02-15T13:45:20.940018",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    }
+  ]
+}

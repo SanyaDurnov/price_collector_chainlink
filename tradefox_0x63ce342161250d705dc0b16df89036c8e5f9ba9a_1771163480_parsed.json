@@ -1,0 +1,6677 @@
+{
+  "metadata": {
+    "address": "0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "portfolio_url": "https://thetradefox.com/portfolio/0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "total_trades": 326,
+    "generated_at": "2026-02-15T16:51:20.355312",
+    "price_source": "http://danunahbot.ru",
+    "source": "thetradefox.com",
+    "parsed_at": "2026-02-15T17:00:58.066100",
+    "total_parsed_trades": 325,
+    "winning_trades": 160,
+    "losing_trades": 165,
+    "win_rate": 0.49230769230769234,
+    "total_pnl": 1701.4299999999996,
+    "total_quantity": 380467.64,
+    "avg_pnl_per_trade": 5.2351692307692295
+  },
+  "market_summary": {
+    "Bitcoin Up or Down - February 15, 4AM ET": {
+      "count": 2,
+      "total_pnl": 567.3399999999997,
+      "total_quantity": 15739.07
+    },
+    "Bitcoin Up or Down - February 15, 3AM ET": {
+      "count": 2,
+      "total_pnl": -692.8199999999999,
+      "total_quantity": 8267.58
+    },
+    "Ethereum Up or Down - February 15, 4AM ET": {
+      "count": 4,
+      "total_pnl": 2251.62,
+      "total_quantity": 16345.199999999999
+    },
+    "Bitcoin Up or Down - February 15, 5:00AM-5:15AM ET": {
+      "count": 4,
+      "total_pnl": 559.8699999999999,
+      "total_quantity": 12166.939999999999
+    },
+    "Solana Up or Down - February 15, 4AM ET": {
+      "count": 11,
+      "total_pnl": -266.81000000000006,
+      "total_quantity": 15107.0
+    },
+    "XRP Up or Down - February 15, 3AM ET": {
+      "count": 3,
+      "total_pnl": 1047.58,
+      "total_quantity": 5365.33
+    },
+    "Bitcoin Up or Down - February 15, 5:05AM-5:10AM ET": {
+      "count": 4,
+      "total_pnl": 929.6599999999999,
+      "total_quantity": 2969.66
+    },
+    "Ethereum Up or Down - February 15, 3AM ET": {
+      "count": 4,
+      "total_pnl": -336.67999999999995,
+      "total_quantity": 4289.6
+    },
+    "XRP Up or Down - February 15, 4AM ET": {
+      "count": 13,
+      "total_pnl": -520.79,
+      "total_quantity": 6330.300000000003
+    },
+    "Ethereum Up or Down - February 15, 5AM ET": {
+      "count": 26,
+      "total_pnl": -130.6799999999999,
+      "total_quantity": 42988.23
+    },
+    "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET": {
+      "count": 12,
+      "total_pnl": 2089.6100000000006,
+      "total_quantity": 7859.419999999997
+    },
+    "Bitcoin Up or Down - February 15, 5AM ET": {
+      "count": 28,
+      "total_pnl": 344.46,
+      "total_quantity": 54759.06
+    },
+    "Bitcoin Up or Down - February 15, 4:45AM-5:00AM ET": {
+      "count": 4,
+      "total_pnl": -372.24,
+      "total_quantity": 3880.24
+    },
+    "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET": {
+      "count": 10,
+      "total_pnl": 666.6399999999999,
+      "total_quantity": 7928.850000000001
+    },
+    "Bitcoin Up or Down - February 15, 4:55AM-5:00AM ET": {
+      "count": 4,
+      "total_pnl": 177.68000000000006,
+      "total_quantity": 3929.14
+    },
+    "Ethereum Up or Down - February 15, 4:45AM-5:00AM ET": {
+      "count": 4,
+      "total_pnl": -512.9200000000001,
+      "total_quantity": 2314.4
+    },
+    "Solana Up or Down - February 15, 3AM ET": {
+      "count": 5,
+      "total_pnl": 31.83000000000004,
+      "total_quantity": 2800.57
+    },
+    "Bitcoin Up or Down - February 15, 5:00AM-5:05AM ET": {
+      "count": 4,
+      "total_pnl": 423.6799999999999,
+      "total_quantity": 3012.0
+    },
+    "XRP Up or Down - February 13, 5AM ET": {
+      "count": 15,
+      "total_pnl": 767.9599999999996,
+      "total_quantity": 9322.34
+    },
+    "XRP Up or Down - February 15, 5AM ET": {
+      "count": 25,
+      "total_pnl": -594.8200000000002,
+      "total_quantity": 18537.139999999996
+    },
+    "Solana Up or Down - February 15, 5AM ET": {
+      "count": 25,
+      "total_pnl": -78.11000000000001,
+      "total_quantity": 21617.629999999997
+    },
+    "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET": {
+      "count": 24,
+      "total_pnl": -2316.4399999999996,
+      "total_quantity": 40792.28999999998
+    },
+    "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET": {
+      "count": 14,
+      "total_pnl": -1677.9199999999998,
+      "total_quantity": 8433.62
+    },
+    "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET": {
+      "count": 21,
+      "total_pnl": -1386.23,
+      "total_quantity": 34775.30999999999
+    },
+    "Bitcoin Up or Down - February 15, 5:20AM-5:25AM ET": {
+      "count": 4,
+      "total_pnl": -365.22999999999996,
+      "total_quantity": 1760.24
+    },
+    "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET": {
+      "count": 12,
+      "total_pnl": -302.85,
+      "total_quantity": 5272.46
+    },
+    "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET": {
+      "count": 12,
+      "total_pnl": 1248.21,
+      "total_quantity": 12413.1
+    },
+    "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET": {
+      "count": 9,
+      "total_pnl": 83.45999999999994,
+      "total_quantity": 3933.8700000000003
+    },
+    "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET": {
+      "count": 13,
+      "total_pnl": -55.75999999999998,
+      "total_quantity": 4630.719999999999
+    },
+    "Bitcoin Up or Down - February 15, 5:35AM-5:40AM ET": {
+      "count": 5,
+      "total_pnl": 83.45000000000002,
+      "total_quantity": 2465.45
+    },
+    "Bitcoin Up or Down - February 15, 5:40AM-5:45AM ET": {
+      "count": 2,
+      "total_pnl": 38.68,
+      "total_quantity": 460.88
+    }
+  },
+  "trades": [
+    {
+      "trade_id": 1,
+      "market": "Bitcoin Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.35600000000000004,
+      "current_price": 0.0005,
+      "quantity": 9261.69,
+      "avg_cost_basis": 3297.16,
+      "current_position_value": 4.63,
+      "unrealized_pnl": -3292.53,
+      "realized_pnl": 0.0,
+      "total_pnl": -3292.53,
+      "timestamp": 1771150534,
+      "extracted_at": "2026-02-15T13:15:34.911788",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 2,
+      "market": "Bitcoin Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4036,
+      "current_price": 0.9995,
+      "quantity": 6477.38,
+      "avg_cost_basis": 2614.27,
+      "current_position_value": 6474.14,
+      "unrealized_pnl": 3859.87,
+      "realized_pnl": 0.0,
+      "total_pnl": 3859.87,
+      "timestamp": 1771150534,
+      "extracted_at": "2026-02-15T13:15:34.996504",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 3,
+      "market": "Bitcoin Up or Down - February 15, 3AM ET",
+      "outcome": "Up",
+      "avg_price": 0.40659999999999996,
+      "current_price": 0.0,
+      "quantity": 5071.06,
+      "avg_cost_basis": 2061.89,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -2061.89,
+      "realized_pnl": 0.0,
+      "total_pnl": -2061.89,
+      "timestamp": 1771150535,
+      "extracted_at": "2026-02-15T13:15:35.299582",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 4,
+      "market": "Ethereum Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3249,
+      "current_price": 0.9995,
+      "quantity": 4218.54,
+      "avg_cost_basis": 1370.6,
+      "current_position_value": 4216.43,
+      "unrealized_pnl": 2845.82,
+      "realized_pnl": 0.0,
+      "total_pnl": 2845.82,
+      "timestamp": 1771150536,
+      "extracted_at": "2026-02-15T13:15:36.997176",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 5,
+      "market": "Ethereum Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4355,
+      "current_price": 0.0005,
+      "quantity": 3954.06,
+      "avg_cost_basis": 1721.99,
+      "current_position_value": 1.97,
+      "unrealized_pnl": -1720.01,
+      "realized_pnl": 0.0,
+      "total_pnl": -1720.01,
+      "timestamp": 1771150538,
+      "extracted_at": "2026-02-15T13:15:38.451509",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 6,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2146,
+      "current_price": 0.175,
+      "quantity": 3356.93,
+      "avg_cost_basis": 720.39,
+      "current_position_value": 587.46,
+      "unrealized_pnl": -132.93,
+      "realized_pnl": -22.44,
+      "total_pnl": -155.37,
+      "timestamp": 1771150539,
+      "extracted_at": "2026-02-15T13:15:39.276597",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 7,
+      "market": "Bitcoin Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5717,
+      "current_price": 1.0,
+      "quantity": 3196.52,
+      "avg_cost_basis": 1827.45,
+      "current_position_value": 3196.52,
+      "unrealized_pnl": 1369.07,
+      "realized_pnl": 0.0,
+      "total_pnl": 1369.07,
+      "timestamp": 1771150540,
+      "extracted_at": "2026-02-15T13:15:40.221079",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6395000000000001,
+      "current_price": 0.825,
+      "quantity": 2726.54,
+      "avg_cost_basis": 1743.62,
+      "current_position_value": 2249.4,
+      "unrealized_pnl": 505.77,
+      "realized_pnl": -15.31,
+      "total_pnl": 490.46,
+      "timestamp": 1771150542,
+      "extracted_at": "2026-02-15T13:15:42.181024",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.1723,
+      "current_price": 0.0005,
+      "quantity": 2687.62,
+      "avg_cost_basis": 463.07,
+      "current_position_value": 1.34,
+      "unrealized_pnl": -461.73,
+      "realized_pnl": 0.0,
+      "total_pnl": -461.73,
+      "timestamp": 1771150542,
+      "extracted_at": "2026-02-15T13:15:42.534014",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "XRP Up or Down - February 15, 3AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4267,
+      "current_price": 0.0,
+      "quantity": 2138.09,
+      "avg_cost_basis": 912.32,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -912.32,
+      "realized_pnl": 0.0,
+      "total_pnl": -912.32,
+      "timestamp": 1771150542,
+      "extracted_at": "2026-02-15T13:15:42.781079",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "XRP Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3926,
+      "current_price": 1.0,
+      "quantity": 1613.62,
+      "avg_cost_basis": 633.66,
+      "current_position_value": 1613.62,
+      "unrealized_pnl": 979.95,
+      "realized_pnl": 0.0,
+      "total_pnl": 979.95,
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.072555",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:05AM-5:10AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6113000000000001,
+      "current_price": 1.0,
+      "quantity": 1357.26,
+      "avg_cost_basis": 829.69,
+      "current_position_value": 1357.26,
+      "unrealized_pnl": 527.55,
+      "realized_pnl": 0.0,
+      "total_pnl": 527.55,
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.362386",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "Ethereum Up or Down - February 15, 3AM ET",
+      "outcome": "Up",
+      "avg_price": 0.304,
+      "current_price": 0.0,
+      "quantity": 1346.43,
+      "avg_cost_basis": 409.44,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -409.44,
+      "realized_pnl": 0.0,
+      "total_pnl": -409.44,
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.768514",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 14,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1776,
+      "current_price": 0.0005,
+      "quantity": 1341.6,
+      "avg_cost_basis": 238.26,
+      "current_position_value": 0.67,
+      "unrealized_pnl": -237.59,
+      "realized_pnl": 0.0,
+      "total_pnl": -237.59,
+      "timestamp": 1771150543,
+      "extracted_at": "2026-02-15T13:15:43.981922",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2864,
+      "current_price": 0.245,
+      "quantity": 1340.3,
+      "avg_cost_basis": 383.86,
+      "current_position_value": 328.37,
+      "unrealized_pnl": -55.48,
+      "realized_pnl": 0.0,
+      "total_pnl": -55.48,
+      "timestamp": 1771150544,
+      "extracted_at": "2026-02-15T13:15:44.248368",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3859,
+      "current_price": 0.405,
+      "quantity": 1336.53,
+      "avg_cost_basis": 515.76,
+      "current_position_value": 541.29,
+      "unrealized_pnl": 25.52,
+      "realized_pnl": -5.76,
+      "total_pnl": 19.759999999999998,
+      "timestamp": 1771150544,
+      "extracted_at": "2026-02-15T13:15:44.508512",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5728,
+      "current_price": 0.615,
+      "quantity": 1267.89,
+      "avg_cost_basis": 726.24,
+      "current_position_value": 779.75,
+      "unrealized_pnl": 53.5,
+      "realized_pnl": 0.0,
+      "total_pnl": 53.5,
+      "timestamp": 1771150544,
+      "extracted_at": "2026-02-15T13:15:44.700261",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Bitcoin Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3256,
+      "current_price": 0.0,
+      "quantity": 1190.69,
+      "avg_cost_basis": 387.69,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -387.69,
+      "realized_pnl": -20.71,
+      "total_pnl": -408.4,
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.017913",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.755,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 806.38,
+      "unrealized_pnl": 169.5,
+      "realized_pnl": 0.0,
+      "total_pnl": 169.5,
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.308203",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6507999999999999,
+      "current_price": 0.9854999999999999,
+      "quantity": 1052.48,
+      "avg_cost_basis": 684.95,
+      "current_position_value": 1037.22,
+      "unrealized_pnl": 352.26,
+      "realized_pnl": 0.0,
+      "total_pnl": 352.26,
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.663920",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Bitcoin Up or Down - February 15, 4:55AM-5:00AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3086,
+      "current_price": 0.0,
+      "quantity": 1027.78,
+      "avg_cost_basis": 317.27,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -317.27,
+      "realized_pnl": 20.44,
+      "total_pnl": -296.83,
+      "timestamp": 1771150545,
+      "extracted_at": "2026-02-15T13:15:45.953599",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Ethereum Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2978,
+      "current_price": 0.0,
+      "quantity": 987.03,
+      "avg_cost_basis": 293.93,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -293.93,
+      "realized_pnl": 0.0,
+      "total_pnl": -293.93,
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.194277",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "Bitcoin Up or Down - February 15, 4:55AM-5:00AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5882999999999999,
+      "current_price": 1.0,
+      "quantity": 936.79,
+      "avg_cost_basis": 551.11,
+      "current_position_value": 936.79,
+      "unrealized_pnl": 385.67,
+      "realized_pnl": 0.0,
+      "total_pnl": 385.67,
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.354208",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "Solana Up or Down - February 15, 3AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2051,
+      "current_price": 0.0,
+      "quantity": 883.19,
+      "avg_cost_basis": 181.14,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -181.14,
+      "realized_pnl": 0.0,
+      "total_pnl": -181.14,
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.661787",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:05AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4232,
+      "current_price": 1.0,
+      "quantity": 879.42,
+      "avg_cost_basis": 372.17,
+      "current_position_value": 879.42,
+      "unrealized_pnl": 507.24,
+      "realized_pnl": -35.97,
+      "total_pnl": 471.27,
+      "timestamp": 1771150546,
+      "extracted_at": "2026-02-15T13:15:46.886414",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.201010",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Ethereum Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.698,
+      "current_price": 1.0,
+      "quantity": 798.37,
+      "avg_cost_basis": 557.26,
+      "current_position_value": 798.37,
+      "unrealized_pnl": 241.1,
+      "realized_pnl": 0.0,
+      "total_pnl": 241.1,
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.444056",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.335,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 258.6,
+      "unrealized_pnl": -64.3,
+      "realized_pnl": 0.0,
+      "total_pnl": -64.3,
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.692028",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Bitcoin Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7034,
+      "current_price": 1.0,
+      "quantity": 749.43,
+      "avg_cost_basis": 527.14,
+      "current_position_value": 749.43,
+      "unrealized_pnl": 222.28,
+      "realized_pnl": 0.0,
+      "total_pnl": 222.28,
+      "timestamp": 1771150547,
+      "extracted_at": "2026-02-15T13:15:47.957462",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4391,
+      "current_price": 0.385,
+      "quantity": 747.14,
+      "avg_cost_basis": 328.06,
+      "current_position_value": 287.64,
+      "unrealized_pnl": -40.42,
+      "realized_pnl": 0.0,
+      "total_pnl": -40.42,
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.202952",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:05AM ET",
+      "outcome": "Up",
+      "avg_price": 0.41119999999999995,
+      "current_price": 0.0,
+      "quantity": 626.58,
+      "avg_cost_basis": 257.64,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -257.64,
+      "realized_pnl": -1.79,
+      "total_pnl": -259.43,
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.432797",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.598251",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 33,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4335,
+      "current_price": 0.014499999999999999,
+      "quantity": 533.29,
+      "avg_cost_basis": 231.18,
+      "current_position_value": 7.73,
+      "unrealized_pnl": -223.45,
+      "realized_pnl": 0.0,
+      "total_pnl": -223.45,
+      "timestamp": 1771150548,
+      "extracted_at": "2026-02-15T13:15:48.842579",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 34,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.19649999999999998,
+      "current_price": 0.17,
+      "quantity": 499.59,
+      "avg_cost_basis": 98.17,
+      "current_position_value": 84.93,
+      "unrealized_pnl": -13.23,
+      "realized_pnl": 0.0,
+      "total_pnl": -13.23,
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.059546",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 35,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.45159999999999995,
+      "current_price": 0.44,
+      "quantity": 484.45,
+      "avg_cost_basis": 218.78,
+      "current_position_value": 213.16,
+      "unrealized_pnl": -5.61,
+      "realized_pnl": 0.0,
+      "total_pnl": -5.61,
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.256681",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 36,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.482120",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 37,
+      "market": "Solana Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6189,
+      "current_price": 1.0,
+      "quantity": 344.73,
+      "avg_cost_basis": 213.35,
+      "current_position_value": 344.73,
+      "unrealized_pnl": 131.37,
+      "realized_pnl": 0.0,
+      "total_pnl": 131.37,
+      "timestamp": 1771150549,
+      "extracted_at": "2026-02-15T13:15:49.698840",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 38,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4421,
+      "current_price": 0.495,
+      "quantity": 277.26,
+      "avg_cost_basis": 122.58,
+      "current_position_value": 137.24,
+      "unrealized_pnl": 14.66,
+      "realized_pnl": 0.0,
+      "total_pnl": 14.66,
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.395280",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 39,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4549,
+      "current_price": 0.465,
+      "quantity": 215.99,
+      "avg_cost_basis": 98.25,
+      "current_position_value": 100.43,
+      "unrealized_pnl": 2.18,
+      "realized_pnl": 0.0,
+      "total_pnl": 2.18,
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.627673",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 40,
+      "market": "Ethereum Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7798,
+      "current_price": 1.0,
+      "quantity": 170.17,
+      "avg_cost_basis": 132.69,
+      "current_position_value": 170.17,
+      "unrealized_pnl": 37.47,
+      "realized_pnl": 0.0,
+      "total_pnl": 37.47,
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.815947",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 41,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.595,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 100.02,
+      "unrealized_pnl": 15.02,
+      "realized_pnl": 0.0,
+      "total_pnl": 15.02,
+      "timestamp": 1771150550,
+      "extracted_at": "2026-02-15T13:15:50.975583",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 42,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5991,
+      "current_price": 0.83,
+      "quantity": 141.34,
+      "avg_cost_basis": 84.67,
+      "current_position_value": 117.31,
+      "unrealized_pnl": 32.63,
+      "realized_pnl": 0.0,
+      "total_pnl": 32.63,
+      "timestamp": 1771150551,
+      "extracted_at": "2026-02-15T13:15:51.161463",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 43,
+      "market": "Bitcoin Up or Down - February 15, 5:05AM-5:10AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4917,
+      "current_price": 0.0,
+      "quantity": 127.57,
+      "avg_cost_basis": 62.72,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -62.72,
+      "realized_pnl": 0.0,
+      "total_pnl": -62.72,
+      "timestamp": 1771150551,
+      "extracted_at": "2026-02-15T13:15:51.437308",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 44,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771150551,
+      "extracted_at": "2026-02-15T13:15:51.703052",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 34,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5395,
+      "current_price": 0.535,
+      "quantity": 531.1,
+      "avg_cost_basis": 286.58,
+      "current_position_value": 284.14,
+      "unrealized_pnl": -2.44,
+      "realized_pnl": 0.0,
+      "total_pnl": -2.44,
+      "timestamp": 1771150605,
+      "extracted_at": "2026-02-15T13:16:45.361986",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 35,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1955,
+      "current_price": 0.17,
+      "quantity": 508.35,
+      "avg_cost_basis": 99.38,
+      "current_position_value": 86.42,
+      "unrealized_pnl": -12.96,
+      "realized_pnl": 0.0,
+      "total_pnl": -12.96,
+      "timestamp": 1771150605,
+      "extracted_at": "2026-02-15T13:16:45.707311",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 36,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.45159999999999995,
+      "current_price": 0.44,
+      "quantity": 477.82,
+      "avg_cost_basis": 215.78,
+      "current_position_value": 210.24,
+      "unrealized_pnl": -5.54,
+      "realized_pnl": -0.14,
+      "total_pnl": -5.68,
+      "timestamp": 1771150605,
+      "extracted_at": "2026-02-15T13:16:45.931077",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 37,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771150606,
+      "extracted_at": "2026-02-15T13:16:46.347250",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 38,
+      "market": "Solana Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6189,
+      "current_price": 1.0,
+      "quantity": 344.73,
+      "avg_cost_basis": 213.35,
+      "current_position_value": 344.73,
+      "unrealized_pnl": 131.37,
+      "realized_pnl": 0.0,
+      "total_pnl": 131.37,
+      "timestamp": 1771150606,
+      "extracted_at": "2026-02-15T13:16:46.788282",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 39,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5841,
+      "current_price": 0.56,
+      "quantity": 302.69,
+      "avg_cost_basis": 176.8,
+      "current_position_value": 169.5,
+      "unrealized_pnl": -7.29,
+      "realized_pnl": 0.0,
+      "total_pnl": -7.29,
+      "timestamp": 1771150607,
+      "extracted_at": "2026-02-15T13:16:47.607676",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 40,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 0.505,
+      "quantity": 298.35,
+      "avg_cost_basis": 203.53,
+      "current_position_value": 150.66,
+      "unrealized_pnl": -52.86,
+      "realized_pnl": 0.0,
+      "total_pnl": -52.86,
+      "timestamp": 1771150608,
+      "extracted_at": "2026-02-15T13:16:48.023103",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 41,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4421,
+      "current_price": 0.495,
+      "quantity": 277.26,
+      "avg_cost_basis": 122.58,
+      "current_position_value": 137.24,
+      "unrealized_pnl": 14.66,
+      "realized_pnl": 0.0,
+      "total_pnl": 14.66,
+      "timestamp": 1771150608,
+      "extracted_at": "2026-02-15T13:16:48.372479",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 42,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4549,
+      "current_price": 0.465,
+      "quantity": 215.99,
+      "avg_cost_basis": 98.25,
+      "current_position_value": 100.43,
+      "unrealized_pnl": 2.18,
+      "realized_pnl": 0.0,
+      "total_pnl": 2.18,
+      "timestamp": 1771150608,
+      "extracted_at": "2026-02-15T13:16:48.613717",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 43,
+      "market": "Ethereum Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7798,
+      "current_price": 1.0,
+      "quantity": 170.17,
+      "avg_cost_basis": 132.69,
+      "current_position_value": 170.17,
+      "unrealized_pnl": 37.47,
+      "realized_pnl": 0.0,
+      "total_pnl": 37.47,
+      "timestamp": 1771150609,
+      "extracted_at": "2026-02-15T13:16:49.525540",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 44,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.595,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 100.02,
+      "unrealized_pnl": 15.02,
+      "realized_pnl": 0.0,
+      "total_pnl": 15.02,
+      "timestamp": 1771150609,
+      "extracted_at": "2026-02-15T13:16:49.943783",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 45,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5991,
+      "current_price": 0.83,
+      "quantity": 141.34,
+      "avg_cost_basis": 84.67,
+      "current_position_value": 117.31,
+      "unrealized_pnl": 32.63,
+      "realized_pnl": 0.0,
+      "total_pnl": 32.63,
+      "timestamp": 1771150610,
+      "extracted_at": "2026-02-15T13:16:50.313569",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 46,
+      "market": "Bitcoin Up or Down - February 15, 5:05AM-5:10AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4917,
+      "current_price": 0.0,
+      "quantity": 127.57,
+      "avg_cost_basis": 62.72,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -62.72,
+      "realized_pnl": 0.0,
+      "total_pnl": -62.72,
+      "timestamp": 1771150610,
+      "extracted_at": "2026-02-15T13:16:50.907290",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 47,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771150611,
+      "extracted_at": "2026-02-15T13:16:51.238804",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4549,
+      "current_price": 0.44,
+      "quantity": 1679.41,
+      "avg_cost_basis": 763.96,
+      "current_position_value": 738.94,
+      "unrealized_pnl": -25.02,
+      "realized_pnl": -0.14,
+      "total_pnl": -25.16,
+      "timestamp": 1771150655,
+      "extracted_at": "2026-02-15T13:17:35.321048",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "XRP Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3926,
+      "current_price": 1.0,
+      "quantity": 1613.62,
+      "avg_cost_basis": 633.66,
+      "current_position_value": 1613.62,
+      "unrealized_pnl": 979.95,
+      "realized_pnl": 0.0,
+      "total_pnl": 979.95,
+      "timestamp": 1771150655,
+      "extracted_at": "2026-02-15T13:17:35.638117",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5277000000000001,
+      "current_price": 0.465,
+      "quantity": 1490.8,
+      "avg_cost_basis": 786.69,
+      "current_position_value": 693.22,
+      "unrealized_pnl": -93.47,
+      "realized_pnl": 0.0,
+      "total_pnl": -93.47,
+      "timestamp": 1771150656,
+      "extracted_at": "2026-02-15T13:17:36.817398",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 14,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2809,
+      "current_price": 0.245,
+      "quantity": 1406.82,
+      "avg_cost_basis": 395.17,
+      "current_position_value": 344.67,
+      "unrealized_pnl": -50.5,
+      "realized_pnl": 0.0,
+      "total_pnl": -50.5,
+      "timestamp": 1771150657,
+      "extracted_at": "2026-02-15T13:17:37.472987",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Bitcoin Up or Down - February 15, 5:05AM-5:10AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6113000000000001,
+      "current_price": 1.0,
+      "quantity": 1357.26,
+      "avg_cost_basis": 829.69,
+      "current_position_value": 1357.26,
+      "unrealized_pnl": 527.55,
+      "realized_pnl": 0.0,
+      "total_pnl": 527.55,
+      "timestamp": 1771150657,
+      "extracted_at": "2026-02-15T13:17:37.714954",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4729,
+      "current_price": 0.56,
+      "quantity": 1351.11,
+      "avg_cost_basis": 638.94,
+      "current_position_value": 756.62,
+      "unrealized_pnl": 117.68,
+      "realized_pnl": -18.95,
+      "total_pnl": 98.73,
+      "timestamp": 1771150658,
+      "extracted_at": "2026-02-15T13:17:38.745032",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 3AM ET",
+      "outcome": "Up",
+      "avg_price": 0.304,
+      "current_price": 0.0,
+      "quantity": 1346.43,
+      "avg_cost_basis": 409.44,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -409.44,
+      "realized_pnl": 0.0,
+      "total_pnl": -409.44,
+      "timestamp": 1771150659,
+      "extracted_at": "2026-02-15T13:17:39.142575",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4125,
+      "current_price": 0.495,
+      "quantity": 1341.73,
+      "avg_cost_basis": 553.46,
+      "current_position_value": 664.15,
+      "unrealized_pnl": 110.69,
+      "realized_pnl": 0.0,
+      "total_pnl": 110.69,
+      "timestamp": 1771150659,
+      "extracted_at": "2026-02-15T13:17:39.477233",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1776,
+      "current_price": 0.0005,
+      "quantity": 1341.6,
+      "avg_cost_basis": 238.26,
+      "current_position_value": 0.67,
+      "unrealized_pnl": -237.59,
+      "realized_pnl": 0.0,
+      "total_pnl": -237.59,
+      "timestamp": 1771150659,
+      "extracted_at": "2026-02-15T13:17:39.802176",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3859,
+      "current_price": 0.405,
+      "quantity": 1336.53,
+      "avg_cost_basis": 515.76,
+      "current_position_value": 541.29,
+      "unrealized_pnl": 25.52,
+      "realized_pnl": -5.76,
+      "total_pnl": 19.759999999999998,
+      "timestamp": 1771150660,
+      "extracted_at": "2026-02-15T13:17:40.287150",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5728,
+      "current_price": 0.615,
+      "quantity": 1267.89,
+      "avg_cost_basis": 726.24,
+      "current_position_value": 779.75,
+      "unrealized_pnl": 53.5,
+      "realized_pnl": 0.0,
+      "total_pnl": 53.5,
+      "timestamp": 1771150660,
+      "extracted_at": "2026-02-15T13:17:40.763520",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4241,
+      "current_price": 0.535,
+      "quantity": 1193.05,
+      "avg_cost_basis": 505.97,
+      "current_position_value": 638.28,
+      "unrealized_pnl": 132.3,
+      "realized_pnl": -43.7,
+      "total_pnl": 88.60000000000001,
+      "timestamp": 1771150660,
+      "extracted_at": "2026-02-15T13:17:40.968796",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "Bitcoin Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3256,
+      "current_price": 0.0,
+      "quantity": 1190.69,
+      "avg_cost_basis": 387.69,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -387.69,
+      "realized_pnl": -20.71,
+      "total_pnl": -408.4,
+      "timestamp": 1771150661,
+      "extracted_at": "2026-02-15T13:17:41.240141",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.755,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 806.38,
+      "unrealized_pnl": 169.5,
+      "realized_pnl": 0.0,
+      "total_pnl": 169.5,
+      "timestamp": 1771150661,
+      "extracted_at": "2026-02-15T13:17:41.596859",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6507999999999999,
+      "current_price": 0.9854999999999999,
+      "quantity": 1052.48,
+      "avg_cost_basis": 684.95,
+      "current_position_value": 1037.22,
+      "unrealized_pnl": 352.26,
+      "realized_pnl": 0.0,
+      "total_pnl": 352.26,
+      "timestamp": 1771150661,
+      "extracted_at": "2026-02-15T13:17:41.915715",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "Bitcoin Up or Down - February 15, 4:55AM-5:00AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3086,
+      "current_price": 0.0,
+      "quantity": 1027.78,
+      "avg_cost_basis": 317.27,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -317.27,
+      "realized_pnl": 20.44,
+      "total_pnl": -296.83,
+      "timestamp": 1771150662,
+      "extracted_at": "2026-02-15T13:17:42.606589",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Ethereum Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2978,
+      "current_price": 0.0,
+      "quantity": 987.03,
+      "avg_cost_basis": 293.93,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -293.93,
+      "realized_pnl": 0.0,
+      "total_pnl": -293.93,
+      "timestamp": 1771150662,
+      "extracted_at": "2026-02-15T13:17:42.927743",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.83,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 781.9,
+      "unrealized_pnl": -7.25,
+      "realized_pnl": 0.0,
+      "total_pnl": -7.25,
+      "timestamp": 1771150663,
+      "extracted_at": "2026-02-15T13:17:43.371871",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Bitcoin Up or Down - February 15, 4:55AM-5:00AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5882999999999999,
+      "current_price": 1.0,
+      "quantity": 936.79,
+      "avg_cost_basis": 551.11,
+      "current_position_value": 936.79,
+      "unrealized_pnl": 385.67,
+      "realized_pnl": 0.0,
+      "total_pnl": 385.67,
+      "timestamp": 1771150663,
+      "extracted_at": "2026-02-15T13:17:43.610095",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Solana Up or Down - February 15, 3AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2051,
+      "current_price": 0.0,
+      "quantity": 883.19,
+      "avg_cost_basis": 181.14,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -181.14,
+      "realized_pnl": 0.0,
+      "total_pnl": -181.14,
+      "timestamp": 1771150664,
+      "extracted_at": "2026-02-15T13:17:44.180015",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:05AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4232,
+      "current_price": 1.0,
+      "quantity": 879.42,
+      "avg_cost_basis": 372.17,
+      "current_position_value": 879.42,
+      "unrealized_pnl": 507.24,
+      "realized_pnl": -35.97,
+      "total_pnl": 471.27,
+      "timestamp": 1771150664,
+      "extracted_at": "2026-02-15T13:17:44.512283",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771150666,
+      "extracted_at": "2026-02-15T13:17:46.080133",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 33,
+      "market": "Ethereum Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.698,
+      "current_price": 1.0,
+      "quantity": 798.37,
+      "avg_cost_basis": 557.26,
+      "current_position_value": 798.37,
+      "unrealized_pnl": 241.1,
+      "realized_pnl": 0.0,
+      "total_pnl": 241.1,
+      "timestamp": 1771150666,
+      "extracted_at": "2026-02-15T13:17:46.350905",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 34,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.335,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 258.6,
+      "unrealized_pnl": -64.3,
+      "realized_pnl": 0.0,
+      "total_pnl": -64.3,
+      "timestamp": 1771150667,
+      "extracted_at": "2026-02-15T13:17:47.457974",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 35,
+      "market": "Bitcoin Up or Down - February 15, 4:45AM-5:00AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7034,
+      "current_price": 1.0,
+      "quantity": 749.43,
+      "avg_cost_basis": 527.14,
+      "current_position_value": 749.43,
+      "unrealized_pnl": 222.28,
+      "realized_pnl": 0.0,
+      "total_pnl": 222.28,
+      "timestamp": 1771150667,
+      "extracted_at": "2026-02-15T13:17:47.678451",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 36,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4391,
+      "current_price": 0.385,
+      "quantity": 747.14,
+      "avg_cost_basis": 328.06,
+      "current_position_value": 287.64,
+      "unrealized_pnl": -40.42,
+      "realized_pnl": 0.0,
+      "total_pnl": -40.42,
+      "timestamp": 1771150668,
+      "extracted_at": "2026-02-15T13:17:48.576102",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 37,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:05AM ET",
+      "outcome": "Up",
+      "avg_price": 0.41119999999999995,
+      "current_price": 0.0,
+      "quantity": 626.58,
+      "avg_cost_basis": 257.64,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -257.64,
+      "realized_pnl": -1.79,
+      "total_pnl": -259.43,
+      "timestamp": 1771150668,
+      "extracted_at": "2026-02-15T13:17:48.844068",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 38,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771150669,
+      "extracted_at": "2026-02-15T13:17:49.366572",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 39,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4335,
+      "current_price": 0.014499999999999999,
+      "quantity": 533.29,
+      "avg_cost_basis": 231.18,
+      "current_position_value": 7.73,
+      "unrealized_pnl": -223.45,
+      "realized_pnl": 0.0,
+      "total_pnl": -223.45,
+      "timestamp": 1771150669,
+      "extracted_at": "2026-02-15T13:17:49.661095",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 40,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1955,
+      "current_price": 0.17,
+      "quantity": 508.35,
+      "avg_cost_basis": 99.38,
+      "current_position_value": 86.42,
+      "unrealized_pnl": -12.96,
+      "realized_pnl": 0.0,
+      "total_pnl": -12.96,
+      "timestamp": 1771150670,
+      "extracted_at": "2026-02-15T13:17:50.448501",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 41,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771150672,
+      "extracted_at": "2026-02-15T13:17:52.013114",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 42,
+      "market": "Solana Up or Down - February 15, 3AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6189,
+      "current_price": 1.0,
+      "quantity": 344.73,
+      "avg_cost_basis": 213.35,
+      "current_position_value": 344.73,
+      "unrealized_pnl": 131.37,
+      "realized_pnl": 0.0,
+      "total_pnl": 131.37,
+      "timestamp": 1771150672,
+      "extracted_at": "2026-02-15T13:17:52.224309",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 45,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 0.505,
+      "quantity": 145.35,
+      "avg_cost_basis": 99.15,
+      "current_position_value": 73.4,
+      "unrealized_pnl": -25.75,
+      "realized_pnl": -20.22,
+      "total_pnl": -45.97,
+      "timestamp": 1771150674,
+      "extracted_at": "2026-02-15T13:17:54.609710",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 48,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6998000000000001,
+      "current_price": 0.665,
+      "quantity": 40.52,
+      "avg_cost_basis": 28.35,
+      "current_position_value": 26.94,
+      "unrealized_pnl": -1.41,
+      "realized_pnl": 0.0,
+      "total_pnl": -1.41,
+      "timestamp": 1771150676,
+      "extracted_at": "2026-02-15T13:17:56.375132",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 3,
+      "market": "Ethereum Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3249,
+      "current_price": 0.9995,
+      "quantity": 4218.54,
+      "avg_cost_basis": 1370.6,
+      "current_position_value": 4216.43,
+      "unrealized_pnl": 2845.82,
+      "realized_pnl": 0.0,
+      "total_pnl": 2845.82,
+      "timestamp": 1771150762,
+      "extracted_at": "2026-02-15T13:19:22.967400",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 4,
+      "market": "Ethereum Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4355,
+      "current_price": 0.0005,
+      "quantity": 3954.06,
+      "avg_cost_basis": 1721.99,
+      "current_position_value": 1.97,
+      "unrealized_pnl": -1720.01,
+      "realized_pnl": 0.0,
+      "total_pnl": -1720.01,
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.236622",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 5,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2146,
+      "current_price": 0.0,
+      "quantity": 3356.93,
+      "avg_cost_basis": 720.39,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -720.39,
+      "realized_pnl": -22.44,
+      "total_pnl": -742.83,
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.502442",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 6,
+      "market": "Bitcoin Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6395000000000001,
+      "current_price": 1.0,
+      "quantity": 2726.54,
+      "avg_cost_basis": 1743.62,
+      "current_position_value": 2726.54,
+      "unrealized_pnl": 982.92,
+      "realized_pnl": -15.31,
+      "total_pnl": 967.61,
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.683739",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 7,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.1723,
+      "current_price": 0.0005,
+      "quantity": 2687.62,
+      "avg_cost_basis": 463.07,
+      "current_position_value": 1.34,
+      "unrealized_pnl": -461.73,
+      "realized_pnl": 0.0,
+      "total_pnl": -461.73,
+      "timestamp": 1771150763,
+      "extracted_at": "2026-02-15T13:19:23.991922",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.45539999999999997,
+      "current_price": 0.375,
+      "quantity": 1692.41,
+      "avg_cost_basis": 770.72,
+      "current_position_value": 634.65,
+      "unrealized_pnl": -136.06,
+      "realized_pnl": -0.14,
+      "total_pnl": -136.2,
+      "timestamp": 1771150764,
+      "extracted_at": "2026-02-15T13:19:24.518217",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5305,
+      "current_price": 0.385,
+      "quantity": 1550.2,
+      "avg_cost_basis": 822.53,
+      "current_position_value": 596.82,
+      "unrealized_pnl": -225.71,
+      "realized_pnl": 0.0,
+      "total_pnl": -225.71,
+      "timestamp": 1771150765,
+      "extracted_at": "2026-02-15T13:19:25.043556",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.41729999999999995,
+      "current_price": 0.615,
+      "quantity": 1490.53,
+      "avg_cost_basis": 621.99,
+      "current_position_value": 916.67,
+      "unrealized_pnl": 294.67,
+      "realized_pnl": -69.34,
+      "total_pnl": 225.33,
+      "timestamp": 1771150765,
+      "extracted_at": "2026-02-15T13:19:25.381883",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2809,
+      "current_price": 0.175,
+      "quantity": 1406.82,
+      "avg_cost_basis": 395.17,
+      "current_position_value": 246.19,
+      "unrealized_pnl": -148.97,
+      "realized_pnl": 0.0,
+      "total_pnl": -148.97,
+      "timestamp": 1771150765,
+      "extracted_at": "2026-02-15T13:19:25.823232",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4125,
+      "current_price": 0.305,
+      "quantity": 1341.73,
+      "avg_cost_basis": 553.46,
+      "current_position_value": 409.22,
+      "unrealized_pnl": -144.22,
+      "realized_pnl": 0.0,
+      "total_pnl": -144.22,
+      "timestamp": 1771150766,
+      "extracted_at": "2026-02-15T13:19:26.215524",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1776,
+      "current_price": 0.0005,
+      "quantity": 1341.6,
+      "avg_cost_basis": 238.26,
+      "current_position_value": 0.67,
+      "unrealized_pnl": -237.59,
+      "realized_pnl": 0.0,
+      "total_pnl": -237.59,
+      "timestamp": 1771150766,
+      "extracted_at": "2026-02-15T13:19:26.594031",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 14,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3859,
+      "current_price": 1.0,
+      "quantity": 1336.53,
+      "avg_cost_basis": 515.76,
+      "current_position_value": 1336.53,
+      "unrealized_pnl": 820.76,
+      "realized_pnl": -5.76,
+      "total_pnl": 815.0,
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.034535",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 0.625,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 799.44,
+      "unrealized_pnl": 195.7,
+      "realized_pnl": -29.56,
+      "total_pnl": 166.14,
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.458714",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5728,
+      "current_price": 0.625,
+      "quantity": 1267.89,
+      "avg_cost_basis": 726.24,
+      "current_position_value": 792.43,
+      "unrealized_pnl": 66.18,
+      "realized_pnl": 0.0,
+      "total_pnl": 66.18,
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.723208",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.825,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 881.14,
+      "unrealized_pnl": 244.26,
+      "realized_pnl": 0.0,
+      "total_pnl": 244.26,
+      "timestamp": 1771150767,
+      "extracted_at": "2026-02-15T13:19:27.949037",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6507999999999999,
+      "current_price": 1.0,
+      "quantity": 1052.48,
+      "avg_cost_basis": 684.95,
+      "current_position_value": 1052.48,
+      "unrealized_pnl": 367.52,
+      "realized_pnl": 0.0,
+      "total_pnl": 367.52,
+      "timestamp": 1771150768,
+      "extracted_at": "2026-02-15T13:19:28.182726",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.845,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 796.03,
+      "unrealized_pnl": 6.87,
+      "realized_pnl": 0.0,
+      "total_pnl": 6.87,
+      "timestamp": 1771150768,
+      "extracted_at": "2026-02-15T13:19:28.464910",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771150768,
+      "extracted_at": "2026-02-15T13:19:28.808038",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.35,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 270.18,
+      "unrealized_pnl": -52.72,
+      "realized_pnl": 0.0,
+      "total_pnl": -52.72,
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.038643",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4391,
+      "current_price": 0.375,
+      "quantity": 747.14,
+      "avg_cost_basis": 328.06,
+      "current_position_value": 280.17,
+      "unrealized_pnl": -47.89,
+      "realized_pnl": 0.0,
+      "total_pnl": -47.89,
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.453711",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.718070",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4335,
+      "current_price": 0.0,
+      "quantity": 533.29,
+      "avg_cost_basis": 231.18,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -231.18,
+      "realized_pnl": 0.0,
+      "total_pnl": -231.18,
+      "timestamp": 1771150769,
+      "extracted_at": "2026-02-15T13:19:29.949754",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1955,
+      "current_price": 0.155,
+      "quantity": 508.35,
+      "avg_cost_basis": 99.38,
+      "current_position_value": 78.79,
+      "unrealized_pnl": -20.58,
+      "realized_pnl": 0.0,
+      "total_pnl": -20.58,
+      "timestamp": 1771150770,
+      "extracted_at": "2026-02-15T13:19:30.251079",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771150770,
+      "extracted_at": "2026-02-15T13:19:30.514742",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7594,
+      "current_price": 0.65,
+      "quantity": 260.52,
+      "avg_cost_basis": 197.83,
+      "current_position_value": 169.33,
+      "unrealized_pnl": -28.5,
+      "realized_pnl": 0.0,
+      "total_pnl": -28.5,
+      "timestamp": 1771150770,
+      "extracted_at": "2026-02-15T13:19:30.961752",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.0,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -84.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -84.99,
+      "timestamp": 1771150771,
+      "extracted_at": "2026-02-15T13:19:31.365219",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 0.6948000000000001,
+      "quantity": 145.35,
+      "avg_cost_basis": 99.15,
+      "current_position_value": 101.0,
+      "unrealized_pnl": 1.84,
+      "realized_pnl": -20.22,
+      "total_pnl": -18.38,
+      "timestamp": 1771150771,
+      "extracted_at": "2026-02-15T13:19:31.615722",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771150771,
+      "extracted_at": "2026-02-15T13:19:31.958787",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.42340000000000005,
+      "current_price": 0.615,
+      "quantity": 1710.53,
+      "avg_cost_basis": 724.23,
+      "current_position_value": 1051.97,
+      "unrealized_pnl": 327.73,
+      "realized_pnl": -69.34,
+      "total_pnl": 258.39,
+      "timestamp": 1771150800,
+      "extracted_at": "2026-02-15T13:20:00.669101",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.45539999999999997,
+      "current_price": 0.375,
+      "quantity": 1604.41,
+      "avg_cost_basis": 730.64,
+      "current_position_value": 601.65,
+      "unrealized_pnl": -128.99,
+      "realized_pnl": -2.38,
+      "total_pnl": -131.37,
+      "timestamp": 1771150800,
+      "extracted_at": "2026-02-15T13:20:00.923667",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5305,
+      "current_price": 0.385,
+      "quantity": 1550.2,
+      "avg_cost_basis": 822.53,
+      "current_position_value": 596.82,
+      "unrealized_pnl": -225.71,
+      "realized_pnl": 0.0,
+      "total_pnl": -225.71,
+      "timestamp": 1771150801,
+      "extracted_at": "2026-02-15T13:20:01.269440",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4036,
+      "current_price": 0.375,
+      "quantity": 1005.61,
+      "avg_cost_basis": 405.86,
+      "current_position_value": 377.1,
+      "unrealized_pnl": -28.76,
+      "realized_pnl": 0.0,
+      "total_pnl": -28.76,
+      "timestamp": 1771150805,
+      "extracted_at": "2026-02-15T13:20:05.374549",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.845,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 796.03,
+      "unrealized_pnl": 6.87,
+      "realized_pnl": 0.0,
+      "total_pnl": 6.87,
+      "timestamp": 1771150805,
+      "extracted_at": "2026-02-15T13:20:05.642321",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771150806,
+      "extracted_at": "2026-02-15T13:20:06.231517",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.35,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 270.18,
+      "unrealized_pnl": -52.72,
+      "realized_pnl": 0.0,
+      "total_pnl": -52.72,
+      "timestamp": 1771150806,
+      "extracted_at": "2026-02-15T13:20:06.590009",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.44229999999999997,
+      "current_price": 0.375,
+      "quantity": 2320.25,
+      "avg_cost_basis": 1026.24,
+      "current_position_value": 870.09,
+      "unrealized_pnl": -156.15,
+      "realized_pnl": 0.0,
+      "total_pnl": -156.15,
+      "timestamp": 1771151015,
+      "extracted_at": "2026-02-15T13:23:35.065420",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3655,
+      "current_price": 0.325,
+      "quantity": 2253.28,
+      "avg_cost_basis": 823.8,
+      "current_position_value": 732.31,
+      "unrealized_pnl": -91.48,
+      "realized_pnl": -2.38,
+      "total_pnl": -93.86,
+      "timestamp": 1771151015,
+      "extracted_at": "2026-02-15T13:23:35.530370",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.26539999999999997,
+      "current_price": 0.185,
+      "quantity": 1877.77,
+      "avg_cost_basis": 498.36,
+      "current_position_value": 347.38,
+      "unrealized_pnl": -150.97,
+      "realized_pnl": 0.0,
+      "total_pnl": -150.97,
+      "timestamp": 1771151015,
+      "extracted_at": "2026-02-15T13:23:35.951328",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.42340000000000005,
+      "current_price": 0.625,
+      "quantity": 1710.53,
+      "avg_cost_basis": 724.23,
+      "current_position_value": 1069.08,
+      "unrealized_pnl": 344.84,
+      "realized_pnl": -69.34,
+      "total_pnl": 275.5,
+      "timestamp": 1771151016,
+      "extracted_at": "2026-02-15T13:23:36.810801",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4125,
+      "current_price": 0.0,
+      "quantity": 1341.73,
+      "avg_cost_basis": 553.46,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -553.46,
+      "realized_pnl": 0.0,
+      "total_pnl": -553.46,
+      "timestamp": 1771151017,
+      "extracted_at": "2026-02-15T13:23:37.170350",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4241,
+      "current_price": 0.365,
+      "quantity": 1294.98,
+      "avg_cost_basis": 549.2,
+      "current_position_value": 472.67,
+      "unrealized_pnl": -76.53,
+      "realized_pnl": 0.0,
+      "total_pnl": -76.53,
+      "timestamp": 1771151019,
+      "extracted_at": "2026-02-15T13:23:39.519213",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 0.675,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 863.4,
+      "unrealized_pnl": 259.66,
+      "realized_pnl": -29.56,
+      "total_pnl": 230.10000000000002,
+      "timestamp": 1771151020,
+      "extracted_at": "2026-02-15T13:23:40.021248",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5728,
+      "current_price": 0.635,
+      "quantity": 1267.89,
+      "avg_cost_basis": 726.24,
+      "current_position_value": 805.11,
+      "unrealized_pnl": 78.86,
+      "realized_pnl": 0.0,
+      "total_pnl": 78.86,
+      "timestamp": 1771151020,
+      "extracted_at": "2026-02-15T13:23:40.580941",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.8148000000000001,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 870.36,
+      "unrealized_pnl": 233.47,
+      "realized_pnl": 0.0,
+      "total_pnl": 233.47,
+      "timestamp": 1771151020,
+      "extracted_at": "2026-02-15T13:23:40.862753",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6507999999999999,
+      "current_price": 1.0,
+      "quantity": 1052.48,
+      "avg_cost_basis": 684.95,
+      "current_position_value": 1052.48,
+      "unrealized_pnl": 367.52,
+      "realized_pnl": 0.0,
+      "total_pnl": 367.52,
+      "timestamp": 1771151021,
+      "extracted_at": "2026-02-15T13:23:41.587659",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.166,
+      "current_price": 0.125,
+      "quantity": 1042.73,
+      "avg_cost_basis": 173.09,
+      "current_position_value": 130.34,
+      "unrealized_pnl": -42.75,
+      "realized_pnl": 0.0,
+      "total_pnl": -42.75,
+      "timestamp": 1771151022,
+      "extracted_at": "2026-02-15T13:23:42.419240",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.875,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 824.29,
+      "unrealized_pnl": 35.13,
+      "realized_pnl": 0.0,
+      "total_pnl": 35.13,
+      "timestamp": 1771151022,
+      "extracted_at": "2026-02-15T13:23:42.925646",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771151024,
+      "extracted_at": "2026-02-15T13:23:44.031452",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.215,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 165.97,
+      "unrealized_pnl": -156.94,
+      "realized_pnl": 0.0,
+      "total_pnl": -156.94,
+      "timestamp": 1771151024,
+      "extracted_at": "2026-02-15T13:23:44.407657",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771151025,
+      "extracted_at": "2026-02-15T13:23:45.450579",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4335,
+      "current_price": 0.0,
+      "quantity": 533.29,
+      "avg_cost_basis": 231.18,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -231.18,
+      "realized_pnl": 0.0,
+      "total_pnl": -231.18,
+      "timestamp": 1771151025,
+      "extracted_at": "2026-02-15T13:23:45.916813",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Bitcoin Up or Down - February 15, 5:20AM-5:25AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3125,
+      "current_price": 0.405,
+      "quantity": 440.06,
+      "avg_cost_basis": 137.51,
+      "current_position_value": 178.22,
+      "unrealized_pnl": 40.7,
+      "realized_pnl": 0.0,
+      "total_pnl": 40.7,
+      "timestamp": 1771151027,
+      "extracted_at": "2026-02-15T13:23:47.332580",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7594,
+      "current_price": 0.785,
+      "quantity": 260.52,
+      "avg_cost_basis": 197.83,
+      "current_position_value": 204.5,
+      "unrealized_pnl": 6.66,
+      "realized_pnl": 0.0,
+      "total_pnl": 6.66,
+      "timestamp": 1771151027,
+      "extracted_at": "2026-02-15T13:23:47.586340",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.0,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -84.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -84.99,
+      "timestamp": 1771151028,
+      "extracted_at": "2026-02-15T13:23:48.000914",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 1.0,
+      "quantity": 145.35,
+      "avg_cost_basis": 99.15,
+      "current_position_value": 145.35,
+      "unrealized_pnl": 46.19,
+      "realized_pnl": -20.22,
+      "total_pnl": 25.97,
+      "timestamp": 1771151028,
+      "extracted_at": "2026-02-15T13:23:48.318548",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771151028,
+      "extracted_at": "2026-02-15T13:23:48.607415",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3544,
+      "current_price": 0.325,
+      "quantity": 2342.48,
+      "avg_cost_basis": 830.17,
+      "current_position_value": 761.31,
+      "unrealized_pnl": -68.86,
+      "realized_pnl": -2.38,
+      "total_pnl": -71.24,
+      "timestamp": 1771151121,
+      "extracted_at": "2026-02-15T13:25:21.376007",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4415,
+      "current_price": 0.375,
+      "quantity": 2325.67,
+      "avg_cost_basis": 1026.78,
+      "current_position_value": 872.12,
+      "unrealized_pnl": -154.65,
+      "realized_pnl": 0.0,
+      "total_pnl": -154.65,
+      "timestamp": 1771151121,
+      "extracted_at": "2026-02-15T13:25:21.896539",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.268,
+      "current_price": 0.185,
+      "quantity": 2059.4,
+      "avg_cost_basis": 551.91,
+      "current_position_value": 380.99,
+      "unrealized_pnl": -170.93,
+      "realized_pnl": 0.0,
+      "total_pnl": -170.93,
+      "timestamp": 1771151122,
+      "extracted_at": "2026-02-15T13:25:22.496757",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4424,
+      "current_price": 0.365,
+      "quantity": 1536.81,
+      "avg_cost_basis": 679.88,
+      "current_position_value": 560.92,
+      "unrealized_pnl": -118.94,
+      "realized_pnl": 0.0,
+      "total_pnl": -118.94,
+      "timestamp": 1771151123,
+      "extracted_at": "2026-02-15T13:25:23.076003",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4125,
+      "current_price": 0.0,
+      "quantity": 1341.73,
+      "avg_cost_basis": 553.46,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -553.46,
+      "realized_pnl": 0.0,
+      "total_pnl": -553.46,
+      "timestamp": 1771151123,
+      "extracted_at": "2026-02-15T13:25:23.252764",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3859,
+      "current_price": 1.0,
+      "quantity": 1336.53,
+      "avg_cost_basis": 515.76,
+      "current_position_value": 1336.53,
+      "unrealized_pnl": 820.76,
+      "realized_pnl": -5.76,
+      "total_pnl": 815.0,
+      "timestamp": 1771151125,
+      "extracted_at": "2026-02-15T13:25:25.890930",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5703,
+      "current_price": 0.635,
+      "quantity": 1296.83,
+      "avg_cost_basis": 739.59,
+      "current_position_value": 823.49,
+      "unrealized_pnl": 83.9,
+      "realized_pnl": 0.0,
+      "total_pnl": 83.9,
+      "timestamp": 1771151126,
+      "extracted_at": "2026-02-15T13:25:26.873542",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 0.675,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 863.4,
+      "unrealized_pnl": 259.66,
+      "realized_pnl": -29.56,
+      "total_pnl": 230.10000000000002,
+      "timestamp": 1771151127,
+      "extracted_at": "2026-02-15T13:25:27.758826",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1653,
+      "current_price": 0.125,
+      "quantity": 1091.7,
+      "avg_cost_basis": 180.45,
+      "current_position_value": 136.46,
+      "unrealized_pnl": -43.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -43.99,
+      "timestamp": 1771151128,
+      "extracted_at": "2026-02-15T13:25:28.479289",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.8148000000000001,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 870.36,
+      "unrealized_pnl": 233.47,
+      "realized_pnl": 0.0,
+      "total_pnl": 233.47,
+      "timestamp": 1771151129,
+      "extracted_at": "2026-02-15T13:25:29.279659",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6507999999999999,
+      "current_price": 1.0,
+      "quantity": 1052.48,
+      "avg_cost_basis": 684.95,
+      "current_position_value": 1052.48,
+      "unrealized_pnl": 367.52,
+      "realized_pnl": 0.0,
+      "total_pnl": 367.52,
+      "timestamp": 1771151130,
+      "extracted_at": "2026-02-15T13:25:30.798306",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.135,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 354.3,
+      "unrealized_pnl": -504.68,
+      "realized_pnl": -2.38,
+      "total_pnl": -507.06,
+      "timestamp": 1771151236,
+      "extracted_at": "2026-02-15T13:27:16.864746",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4415,
+      "current_price": 0.095,
+      "quantity": 2325.67,
+      "avg_cost_basis": 1026.78,
+      "current_position_value": 220.93,
+      "unrealized_pnl": -805.84,
+      "realized_pnl": 0.0,
+      "total_pnl": -805.84,
+      "timestamp": 1771151237,
+      "extracted_at": "2026-02-15T13:27:17.083842",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2652,
+      "current_price": 0.215,
+      "quantity": 2162.21,
+      "avg_cost_basis": 573.63,
+      "current_position_value": 464.87,
+      "unrealized_pnl": -108.75,
+      "realized_pnl": 0.0,
+      "total_pnl": -108.75,
+      "timestamp": 1771151237,
+      "extracted_at": "2026-02-15T13:27:17.441937",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.42340000000000005,
+      "current_price": 0.905,
+      "quantity": 1710.53,
+      "avg_cost_basis": 724.23,
+      "current_position_value": 1548.03,
+      "unrealized_pnl": 823.79,
+      "realized_pnl": -69.34,
+      "total_pnl": 754.4499999999999,
+      "timestamp": 1771151238,
+      "extracted_at": "2026-02-15T13:27:18.299803",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4465,
+      "current_price": 0.505,
+      "quantity": 1636.81,
+      "avg_cost_basis": 730.83,
+      "current_position_value": 826.59,
+      "unrealized_pnl": 95.75,
+      "realized_pnl": 0.0,
+      "total_pnl": 95.75,
+      "timestamp": 1771151238,
+      "extracted_at": "2026-02-15T13:27:18.625027",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5592,
+      "current_price": 0.495,
+      "quantity": 1540.84,
+      "avg_cost_basis": 861.64,
+      "current_position_value": 762.71,
+      "unrealized_pnl": -98.92,
+      "realized_pnl": 0.0,
+      "total_pnl": -98.92,
+      "timestamp": 1771151239,
+      "extracted_at": "2026-02-15T13:27:19.012306",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 14,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4125,
+      "current_price": 0.0,
+      "quantity": 1341.73,
+      "avg_cost_basis": 553.46,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -553.46,
+      "realized_pnl": 0.0,
+      "total_pnl": -553.46,
+      "timestamp": 1771151239,
+      "extracted_at": "2026-02-15T13:27:19.355647",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1776,
+      "current_price": 0.0005,
+      "quantity": 1341.6,
+      "avg_cost_basis": 238.26,
+      "current_position_value": 0.67,
+      "unrealized_pnl": -237.59,
+      "realized_pnl": 0.0,
+      "total_pnl": -237.59,
+      "timestamp": 1771151239,
+      "extracted_at": "2026-02-15T13:27:19.683771",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3859,
+      "current_price": 1.0,
+      "quantity": 1336.53,
+      "avg_cost_basis": 515.76,
+      "current_position_value": 1336.53,
+      "unrealized_pnl": 820.76,
+      "realized_pnl": -5.76,
+      "total_pnl": 815.0,
+      "timestamp": 1771151240,
+      "extracted_at": "2026-02-15T13:27:20.447001",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 0.865,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 1106.43,
+      "unrealized_pnl": 502.69,
+      "realized_pnl": -29.56,
+      "total_pnl": 473.13,
+      "timestamp": 1771151240,
+      "extracted_at": "2026-02-15T13:27:20.899447",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1653,
+      "current_price": 0.13,
+      "quantity": 1091.7,
+      "avg_cost_basis": 180.45,
+      "current_position_value": 141.91,
+      "unrealized_pnl": -38.53,
+      "realized_pnl": 0.0,
+      "total_pnl": -38.53,
+      "timestamp": 1771151241,
+      "extracted_at": "2026-02-15T13:27:21.838685",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.785,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 838.42,
+      "unrealized_pnl": 201.54,
+      "realized_pnl": 0.0,
+      "total_pnl": 201.54,
+      "timestamp": 1771151242,
+      "extracted_at": "2026-02-15T13:27:22.144830",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.87,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 819.58,
+      "unrealized_pnl": 30.42,
+      "realized_pnl": 0.0,
+      "total_pnl": 30.42,
+      "timestamp": 1771151242,
+      "extracted_at": "2026-02-15T13:27:22.596205",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.2849,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 219.93,
+      "unrealized_pnl": -102.98,
+      "realized_pnl": 0.0,
+      "total_pnl": -102.98,
+      "timestamp": 1771151243,
+      "extracted_at": "2026-02-15T13:27:23.824399",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Bitcoin Up or Down - February 15, 5:20AM-5:25AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3125,
+      "current_price": 0.015,
+      "quantity": 440.06,
+      "avg_cost_basis": 137.51,
+      "current_position_value": 6.6,
+      "unrealized_pnl": -130.91,
+      "realized_pnl": 0.0,
+      "total_pnl": -130.91,
+      "timestamp": 1771151245,
+      "extracted_at": "2026-02-15T13:27:25.084480",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4587,
+      "current_price": 0.495,
+      "quantity": 371.39,
+      "avg_cost_basis": 170.36,
+      "current_position_value": 183.84,
+      "unrealized_pnl": 13.48,
+      "realized_pnl": 0.0,
+      "total_pnl": 13.48,
+      "timestamp": 1771151245,
+      "extracted_at": "2026-02-15T13:27:25.323592",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5341,
+      "current_price": 0.505,
+      "quantity": 331.02,
+      "avg_cost_basis": 176.79,
+      "current_position_value": 167.16,
+      "unrealized_pnl": -9.63,
+      "realized_pnl": 0.0,
+      "total_pnl": -9.63,
+      "timestamp": 1771151245,
+      "extracted_at": "2026-02-15T13:27:25.739591",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.755,
+      "current_price": 0.715,
+      "quantity": 267.52,
+      "avg_cost_basis": 201.97,
+      "current_position_value": 191.27,
+      "unrealized_pnl": -10.7,
+      "realized_pnl": 0.0,
+      "total_pnl": -10.7,
+      "timestamp": 1771151246,
+      "extracted_at": "2026-02-15T13:27:26.112355",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.0,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -84.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -84.99,
+      "timestamp": 1771151246,
+      "extracted_at": "2026-02-15T13:27:26.700070",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 1.0,
+      "quantity": 145.35,
+      "avg_cost_basis": 99.15,
+      "current_position_value": 145.35,
+      "unrealized_pnl": 46.19,
+      "realized_pnl": -20.22,
+      "total_pnl": 25.97,
+      "timestamp": 1771151247,
+      "extracted_at": "2026-02-15T13:27:27.671166",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 33,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771151247,
+      "extracted_at": "2026-02-15T13:27:27.903853",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.025,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 65.61,
+      "unrealized_pnl": -793.38,
+      "realized_pnl": -2.38,
+      "total_pnl": -795.76,
+      "timestamp": 1771151381,
+      "extracted_at": "2026-02-15T13:29:41.203614",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2611,
+      "current_price": 0.225,
+      "quantity": 2338.92,
+      "avg_cost_basis": 610.91,
+      "current_position_value": 526.26,
+      "unrealized_pnl": -84.66,
+      "realized_pnl": 0.0,
+      "total_pnl": -84.66,
+      "timestamp": 1771151381,
+      "extracted_at": "2026-02-15T13:29:41.838882",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4415,
+      "current_price": 0.035,
+      "quantity": 2325.67,
+      "avg_cost_basis": 1026.78,
+      "current_position_value": 81.39,
+      "unrealized_pnl": -945.38,
+      "realized_pnl": 0.0,
+      "total_pnl": -945.38,
+      "timestamp": 1771151382,
+      "extracted_at": "2026-02-15T13:29:42.593999",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.45840000000000003,
+      "current_price": 0.555,
+      "quantity": 1811.11,
+      "avg_cost_basis": 830.21,
+      "current_position_value": 1005.17,
+      "unrealized_pnl": 174.95,
+      "realized_pnl": 0.0,
+      "total_pnl": 174.95,
+      "timestamp": 1771151382,
+      "extracted_at": "2026-02-15T13:29:42.873135",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5425,
+      "current_price": 0.445,
+      "quantity": 1791.84,
+      "avg_cost_basis": 972.07,
+      "current_position_value": 797.37,
+      "unrealized_pnl": -174.7,
+      "realized_pnl": 0.0,
+      "total_pnl": -174.7,
+      "timestamp": 1771151383,
+      "extracted_at": "2026-02-15T13:29:43.200761",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.42340000000000005,
+      "current_price": 0.965,
+      "quantity": 1710.53,
+      "avg_cost_basis": 724.23,
+      "current_position_value": 1650.66,
+      "unrealized_pnl": 926.42,
+      "realized_pnl": -69.34,
+      "total_pnl": 857.0799999999999,
+      "timestamp": 1771151383,
+      "extracted_at": "2026-02-15T13:29:43.596936",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 0.975,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 1247.14,
+      "unrealized_pnl": 643.39,
+      "realized_pnl": -29.56,
+      "total_pnl": 613.83,
+      "timestamp": 1771151386,
+      "extracted_at": "2026-02-15T13:29:46.633413",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1653,
+      "current_price": 0.115,
+      "quantity": 1091.7,
+      "avg_cost_basis": 180.45,
+      "current_position_value": 125.54,
+      "unrealized_pnl": -54.91,
+      "realized_pnl": 0.0,
+      "total_pnl": -54.91,
+      "timestamp": 1771151386,
+      "extracted_at": "2026-02-15T13:29:46.952003",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.775,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 827.74,
+      "unrealized_pnl": 190.86,
+      "realized_pnl": 0.0,
+      "total_pnl": 190.86,
+      "timestamp": 1771151387,
+      "extracted_at": "2026-02-15T13:29:47.306475",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.885,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 833.71,
+      "unrealized_pnl": 44.55,
+      "realized_pnl": 0.0,
+      "total_pnl": 44.55,
+      "timestamp": 1771151388,
+      "extracted_at": "2026-02-15T13:29:48.118726",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.41,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 316.5,
+      "unrealized_pnl": -6.4,
+      "realized_pnl": 0.0,
+      "total_pnl": -6.4,
+      "timestamp": 1771151388,
+      "extracted_at": "2026-02-15T13:29:48.850085",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.40759999999999996,
+      "current_price": 0.36,
+      "quantity": 524.39,
+      "avg_cost_basis": 213.74,
+      "current_position_value": 188.78,
+      "unrealized_pnl": -24.96,
+      "realized_pnl": 0.0,
+      "total_pnl": -24.96,
+      "timestamp": 1771151390,
+      "extracted_at": "2026-02-15T13:29:50.687577",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6302,
+      "current_price": 0.59,
+      "quantity": 469.52,
+      "avg_cost_basis": 295.89,
+      "current_position_value": 277.01,
+      "unrealized_pnl": -18.87,
+      "realized_pnl": 0.0,
+      "total_pnl": -18.87,
+      "timestamp": 1771151390,
+      "extracted_at": "2026-02-15T13:29:50.950240",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771151391,
+      "extracted_at": "2026-02-15T13:29:51.456690",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Bitcoin Up or Down - February 15, 5:20AM-5:25AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3125,
+      "current_price": 0.0,
+      "quantity": 440.06,
+      "avg_cost_basis": 137.51,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -137.51,
+      "realized_pnl": 0.0,
+      "total_pnl": -137.51,
+      "timestamp": 1771151391,
+      "extracted_at": "2026-02-15T13:29:51.790625",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.552,
+      "current_price": 0.64,
+      "quantity": 389.62,
+      "avg_cost_basis": 215.07,
+      "current_position_value": 249.35,
+      "unrealized_pnl": 34.28,
+      "realized_pnl": 0.0,
+      "total_pnl": 34.28,
+      "timestamp": 1771151392,
+      "extracted_at": "2026-02-15T13:29:52.442219",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.015,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 39.36,
+      "unrealized_pnl": -819.62,
+      "realized_pnl": -2.38,
+      "total_pnl": -822.0,
+      "timestamp": 1771151511,
+      "extracted_at": "2026-02-15T13:31:51.212037",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.26,
+      "current_price": 0.185,
+      "quantity": 2372.65,
+      "avg_cost_basis": 616.89,
+      "current_position_value": 438.94,
+      "unrealized_pnl": -177.94,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.94,
+      "timestamp": 1771151511,
+      "extracted_at": "2026-02-15T13:31:51.619444",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4415,
+      "current_price": 0.0095,
+      "quantity": 2325.67,
+      "avg_cost_basis": 1026.78,
+      "current_position_value": 22.09,
+      "unrealized_pnl": -1004.68,
+      "realized_pnl": 0.0,
+      "total_pnl": -1004.68,
+      "timestamp": 1771151511,
+      "extracted_at": "2026-02-15T13:31:51.838336",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.45899999999999996,
+      "current_price": 0.475,
+      "quantity": 2092.03,
+      "avg_cost_basis": 960.24,
+      "current_position_value": 993.71,
+      "unrealized_pnl": 33.47,
+      "realized_pnl": 0.0,
+      "total_pnl": 33.47,
+      "timestamp": 1771151512,
+      "extracted_at": "2026-02-15T13:31:52.030686",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5425,
+      "current_price": 0.525,
+      "quantity": 1791.84,
+      "avg_cost_basis": 972.07,
+      "current_position_value": 940.71,
+      "unrealized_pnl": -31.35,
+      "realized_pnl": 0.0,
+      "total_pnl": -31.35,
+      "timestamp": 1771151512,
+      "extracted_at": "2026-02-15T13:31:52.245241",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.42340000000000005,
+      "current_price": 0.9904999999999999,
+      "quantity": 1710.53,
+      "avg_cost_basis": 724.23,
+      "current_position_value": 1694.28,
+      "unrealized_pnl": 970.04,
+      "realized_pnl": -69.34,
+      "total_pnl": 900.6999999999999,
+      "timestamp": 1771151512,
+      "extracted_at": "2026-02-15T13:31:52.552634",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 0.985,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 1259.93,
+      "unrealized_pnl": 656.18,
+      "realized_pnl": -29.56,
+      "total_pnl": 626.62,
+      "timestamp": 1771151514,
+      "extracted_at": "2026-02-15T13:31:54.698967",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.1653,
+      "current_price": 0.095,
+      "quantity": 1091.7,
+      "avg_cost_basis": 180.45,
+      "current_position_value": 103.71,
+      "unrealized_pnl": -76.73,
+      "realized_pnl": 0.0,
+      "total_pnl": -76.73,
+      "timestamp": 1771151514,
+      "extracted_at": "2026-02-15T13:31:54.918829",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.905,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 852.55,
+      "unrealized_pnl": 63.4,
+      "realized_pnl": 0.0,
+      "total_pnl": 63.4,
+      "timestamp": 1771151515,
+      "extracted_at": "2026-02-15T13:31:55.663790",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4844,
+      "current_price": 0.495,
+      "quantity": 831.05,
+      "avg_cost_basis": 402.56,
+      "current_position_value": 411.37,
+      "unrealized_pnl": 8.8,
+      "realized_pnl": 0.0,
+      "total_pnl": 8.8,
+      "timestamp": 1771151517,
+      "extracted_at": "2026-02-15T13:31:57.352762",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771151517,
+      "extracted_at": "2026-02-15T13:31:57.896885",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4183,
+      "current_price": 0.525,
+      "quantity": 771.96,
+      "avg_cost_basis": 322.91,
+      "current_position_value": 405.28,
+      "unrealized_pnl": 82.36,
+      "realized_pnl": 0.0,
+      "total_pnl": 82.36,
+      "timestamp": 1771151518,
+      "extracted_at": "2026-02-15T13:31:58.169192",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771151519,
+      "extracted_at": "2026-02-15T13:31:59.164846",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5832999999999999,
+      "current_price": 0.475,
+      "quantity": 585.78,
+      "avg_cost_basis": 341.68,
+      "current_position_value": 278.24,
+      "unrealized_pnl": -63.44,
+      "realized_pnl": 0.0,
+      "total_pnl": -63.44,
+      "timestamp": 1771151519,
+      "extracted_at": "2026-02-15T13:31:59.789599",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Ethereum Up or Down - February 15, 5:00AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4335,
+      "current_price": 0.0,
+      "quantity": 533.29,
+      "avg_cost_basis": 231.18,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -231.18,
+      "realized_pnl": 0.0,
+      "total_pnl": -231.18,
+      "timestamp": 1771151520,
+      "extracted_at": "2026-02-15T13:32:00.406818",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.40759999999999996,
+      "current_price": 0.625,
+      "quantity": 524.39,
+      "avg_cost_basis": 213.74,
+      "current_position_value": 327.74,
+      "unrealized_pnl": 114.0,
+      "realized_pnl": 0.0,
+      "total_pnl": 114.0,
+      "timestamp": 1771151520,
+      "extracted_at": "2026-02-15T13:32:00.773105",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771151521,
+      "extracted_at": "2026-02-15T13:32:01.245354",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Bitcoin Up or Down - February 15, 5:20AM-5:25AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3125,
+      "current_price": 0.0,
+      "quantity": 440.06,
+      "avg_cost_basis": 137.51,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -137.51,
+      "realized_pnl": 0.0,
+      "total_pnl": -137.51,
+      "timestamp": 1771151521,
+      "extracted_at": "2026-02-15T13:32:01.966347",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.552,
+      "current_price": 0.375,
+      "quantity": 389.62,
+      "avg_cost_basis": 215.07,
+      "current_position_value": 146.1,
+      "unrealized_pnl": -68.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -68.95,
+      "timestamp": 1771151522,
+      "extracted_at": "2026-02-15T13:32:02.222184",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3385,
+      "current_price": 0.505,
+      "quantity": 355.29,
+      "avg_cost_basis": 120.26,
+      "current_position_value": 179.42,
+      "unrealized_pnl": 59.15,
+      "realized_pnl": 0.0,
+      "total_pnl": 59.15,
+      "timestamp": 1771151522,
+      "extracted_at": "2026-02-15T13:32:02.732146",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 33,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5368999999999999,
+      "current_price": 0.495,
+      "quantity": 286.25,
+      "avg_cost_basis": 153.68,
+      "current_position_value": 141.69,
+      "unrealized_pnl": -11.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -11.99,
+      "timestamp": 1771151523,
+      "extracted_at": "2026-02-15T13:32:03.314350",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 34,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.0,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -84.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -84.99,
+      "timestamp": 1771151523,
+      "extracted_at": "2026-02-15T13:32:03.982672",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 35,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 1.0,
+      "quantity": 145.35,
+      "avg_cost_basis": 99.15,
+      "current_position_value": 145.35,
+      "unrealized_pnl": 46.19,
+      "realized_pnl": -20.22,
+      "total_pnl": 25.97,
+      "timestamp": 1771151524,
+      "extracted_at": "2026-02-15T13:32:04.568189",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 36,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771151524,
+      "extracted_at": "2026-02-15T13:32:04.801942",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 37,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5,
+      "current_price": 0.49,
+      "quantity": 72.72,
+      "avg_cost_basis": 36.36,
+      "current_position_value": 35.63,
+      "unrealized_pnl": -0.72,
+      "realized_pnl": 0.0,
+      "total_pnl": -0.72,
+      "timestamp": 1771151524,
+      "extracted_at": "2026-02-15T13:32:04.964169",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 38,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4557,
+      "current_price": 0.51,
+      "quantity": 8.47,
+      "avg_cost_basis": 3.86,
+      "current_position_value": 4.32,
+      "unrealized_pnl": 0.46,
+      "realized_pnl": 0.0,
+      "total_pnl": 0.46,
+      "timestamp": 1771151525,
+      "extracted_at": "2026-02-15T13:32:05.290755",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.258,
+      "current_price": 0.185,
+      "quantity": 2420.69,
+      "avg_cost_basis": 624.53,
+      "current_position_value": 447.82,
+      "unrealized_pnl": -176.71,
+      "realized_pnl": 0.0,
+      "total_pnl": -176.71,
+      "timestamp": 1771151621,
+      "extracted_at": "2026-02-15T13:33:41.827425",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5405,
+      "current_price": 0.525,
+      "quantity": 1860.26,
+      "avg_cost_basis": 1005.47,
+      "current_position_value": 976.63,
+      "unrealized_pnl": -28.83,
+      "realized_pnl": 0.0,
+      "total_pnl": -28.83,
+      "timestamp": 1771151626,
+      "extracted_at": "2026-02-15T13:33:46.953181",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4854,
+      "current_price": 0.495,
+      "quantity": 968.82,
+      "avg_cost_basis": 470.26,
+      "current_position_value": 479.56,
+      "unrealized_pnl": 9.3,
+      "realized_pnl": 0.0,
+      "total_pnl": 9.3,
+      "timestamp": 1771151632,
+      "extracted_at": "2026-02-15T13:33:52.957812",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.905,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 852.55,
+      "unrealized_pnl": 63.4,
+      "realized_pnl": 0.0,
+      "total_pnl": 63.4,
+      "timestamp": 1771151633,
+      "extracted_at": "2026-02-15T13:33:53.378033",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5794,
+      "current_price": 0.475,
+      "quantity": 594.2,
+      "avg_cost_basis": 344.28,
+      "current_position_value": 282.24,
+      "unrealized_pnl": -62.03,
+      "realized_pnl": 0.0,
+      "total_pnl": -62.03,
+      "timestamp": 1771151636,
+      "extracted_at": "2026-02-15T13:33:56.190827",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3015,
+      "current_price": 0.505,
+      "quantity": 429.49,
+      "avg_cost_basis": 129.49,
+      "current_position_value": 216.89,
+      "unrealized_pnl": 87.4,
+      "realized_pnl": 13.49,
+      "total_pnl": 100.89,
+      "timestamp": 1771151638,
+      "extracted_at": "2026-02-15T13:33:58.237052",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.552,
+      "current_price": 0.375,
+      "quantity": 389.62,
+      "avg_cost_basis": 215.07,
+      "current_position_value": 146.1,
+      "unrealized_pnl": -68.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -68.95,
+      "timestamp": 1771151638,
+      "extracted_at": "2026-02-15T13:33:58.908832",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 33,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5638000000000001,
+      "current_price": 0.495,
+      "quantity": 371.8,
+      "avg_cost_basis": 209.65,
+      "current_position_value": 184.04,
+      "unrealized_pnl": -25.61,
+      "realized_pnl": 0.0,
+      "total_pnl": -25.61,
+      "timestamp": 1771151639,
+      "extracted_at": "2026-02-15T13:33:59.166266",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 34,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.43479999999999996,
+      "current_price": 0.505,
+      "quantity": 188.11,
+      "avg_cost_basis": 81.79,
+      "current_position_value": 94.99,
+      "unrealized_pnl": 13.2,
+      "realized_pnl": 0.0,
+      "total_pnl": 13.2,
+      "timestamp": 1771151639,
+      "extracted_at": "2026-02-15T13:33:59.486489",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 35,
+      "market": "Bitcoin Up or Down - February 15, 5:10AM-5:15AM ET",
+      "outcome": "Up",
+      "avg_price": 0.5056,
+      "current_price": 0.0,
+      "quantity": 168.11,
+      "avg_cost_basis": 84.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -84.99,
+      "realized_pnl": 0.0,
+      "total_pnl": -84.99,
+      "timestamp": 1771151640,
+      "extracted_at": "2026-02-15T13:34:00.371671",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 36,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:20AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6822,
+      "current_price": 1.0,
+      "quantity": 145.35,
+      "avg_cost_basis": 99.15,
+      "current_position_value": 145.35,
+      "unrealized_pnl": 46.19,
+      "realized_pnl": -20.22,
+      "total_pnl": 25.97,
+      "timestamp": 1771151644,
+      "extracted_at": "2026-02-15T13:34:04.195167",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 37,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771151644,
+      "extracted_at": "2026-02-15T13:34:04.649729",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 38,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4233,
+      "current_price": 0.51,
+      "quantity": 101.95,
+      "avg_cost_basis": 43.15,
+      "current_position_value": 51.99,
+      "unrealized_pnl": 8.83,
+      "realized_pnl": 0.0,
+      "total_pnl": 8.83,
+      "timestamp": 1771151645,
+      "extracted_at": "2026-02-15T13:34:05.545080",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 39,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5,
+      "current_price": 0.49,
+      "quantity": 77.64,
+      "avg_cost_basis": 38.82,
+      "current_position_value": 38.04,
+      "unrealized_pnl": -0.77,
+      "realized_pnl": 0.0,
+      "total_pnl": -0.77,
+      "timestamp": 1771151646,
+      "extracted_at": "2026-02-15T13:34:06.377698",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 5,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.1723,
+      "current_price": 0.0005,
+      "quantity": 2687.62,
+      "avg_cost_basis": 463.07,
+      "current_position_value": 1.34,
+      "unrealized_pnl": -461.73,
+      "realized_pnl": 0.0,
+      "total_pnl": -461.73,
+      "timestamp": 1771151761,
+      "extracted_at": "2026-02-15T13:36:01.300731",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 6,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.0,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -858.99,
+      "realized_pnl": -2.38,
+      "total_pnl": -861.37,
+      "timestamp": 1771151762,
+      "extracted_at": "2026-02-15T13:36:02.111847",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 7,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2536,
+      "current_price": 0.105,
+      "quantity": 2496.81,
+      "avg_cost_basis": 633.44,
+      "current_position_value": 262.16,
+      "unrealized_pnl": -371.27,
+      "realized_pnl": 0.0,
+      "total_pnl": -371.27,
+      "timestamp": 1771151762,
+      "extracted_at": "2026-02-15T13:36:02.354789",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.43979999999999997,
+      "current_price": 0.375,
+      "quantity": 2343.03,
+      "avg_cost_basis": 1030.46,
+      "current_position_value": 878.63,
+      "unrealized_pnl": -151.82,
+      "realized_pnl": 0.0,
+      "total_pnl": -151.82,
+      "timestamp": 1771151762,
+      "extracted_at": "2026-02-15T13:36:02.972718",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4415,
+      "current_price": 0.0,
+      "quantity": 2325.67,
+      "avg_cost_basis": 1026.78,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -1026.78,
+      "realized_pnl": 0.0,
+      "total_pnl": -1026.78,
+      "timestamp": 1771151763,
+      "extracted_at": "2026-02-15T13:36:03.317456",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5511,
+      "current_price": 0.625,
+      "quantity": 2192.88,
+      "avg_cost_basis": 1208.49,
+      "current_position_value": 1370.55,
+      "unrealized_pnl": 162.05,
+      "realized_pnl": 0.0,
+      "total_pnl": 162.05,
+      "timestamp": 1771151764,
+      "extracted_at": "2026-02-15T13:36:04.491211",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 11,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.42340000000000005,
+      "current_price": 1.0,
+      "quantity": 1710.53,
+      "avg_cost_basis": 724.23,
+      "current_position_value": 1710.53,
+      "unrealized_pnl": 986.29,
+      "realized_pnl": -69.34,
+      "total_pnl": 916.9499999999999,
+      "timestamp": 1771151765,
+      "extracted_at": "2026-02-15T13:36:05.995270",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5368999999999999,
+      "current_price": 0.685,
+      "quantity": 1351.46,
+      "avg_cost_basis": 725.6,
+      "current_position_value": 925.75,
+      "unrealized_pnl": 200.15,
+      "realized_pnl": 0.0,
+      "total_pnl": 200.15,
+      "timestamp": 1771151766,
+      "extracted_at": "2026-02-15T13:36:06.531772",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 14,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 1.0,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 1279.1,
+      "unrealized_pnl": 675.37,
+      "realized_pnl": -29.56,
+      "total_pnl": 645.8100000000001,
+      "timestamp": 1771151767,
+      "extracted_at": "2026-02-15T13:36:07.343510",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.156,
+      "current_price": 0.035,
+      "quantity": 1179.41,
+      "avg_cost_basis": 183.98,
+      "current_position_value": 41.27,
+      "unrealized_pnl": -142.69,
+      "realized_pnl": 0.0,
+      "total_pnl": -142.69,
+      "timestamp": 1771151767,
+      "extracted_at": "2026-02-15T13:36:07.853318",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.895,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 955.91,
+      "unrealized_pnl": 319.02,
+      "realized_pnl": 0.0,
+      "total_pnl": 319.02,
+      "timestamp": 1771151768,
+      "extracted_at": "2026-02-15T13:36:08.528582",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.4022,
+      "current_price": 0.465,
+      "quantity": 975.72,
+      "avg_cost_basis": 392.43,
+      "current_position_value": 453.7,
+      "unrealized_pnl": 61.27,
+      "realized_pnl": 0.0,
+      "total_pnl": 61.27,
+      "timestamp": 1771151769,
+      "extracted_at": "2026-02-15T13:36:09.764767",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.965,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 909.08,
+      "unrealized_pnl": 119.92,
+      "realized_pnl": 0.0,
+      "total_pnl": 119.92,
+      "timestamp": 1771151770,
+      "extracted_at": "2026-02-15T13:36:10.170336",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6138,
+      "current_price": 0.9995,
+      "quantity": 811.74,
+      "avg_cost_basis": 498.25,
+      "current_position_value": 811.34,
+      "unrealized_pnl": 313.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 313.08,
+      "timestamp": 1771151770,
+      "extracted_at": "2026-02-15T13:36:10.659455",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5861999999999999,
+      "current_price": 0.535,
+      "quantity": 692.64,
+      "avg_cost_basis": 406.03,
+      "current_position_value": 370.56,
+      "unrealized_pnl": -35.46,
+      "realized_pnl": 0.0,
+      "total_pnl": -35.46,
+      "timestamp": 1771151770,
+      "extracted_at": "2026-02-15T13:36:10.978552",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771151771,
+      "extracted_at": "2026-02-15T13:36:11.330941",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2318,
+      "current_price": 0.055,
+      "quantity": 582.48,
+      "avg_cost_basis": 135.02,
+      "current_position_value": 32.03,
+      "unrealized_pnl": -102.98,
+      "realized_pnl": 13.49,
+      "total_pnl": -89.49000000000001,
+      "timestamp": 1771151772,
+      "extracted_at": "2026-02-15T13:36:12.080869",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.40759999999999996,
+      "current_price": 0.0,
+      "quantity": 524.39,
+      "avg_cost_basis": 213.74,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -213.74,
+      "realized_pnl": 0.0,
+      "total_pnl": -213.74,
+      "timestamp": 1771151772,
+      "extracted_at": "2026-02-15T13:36:12.671344",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771151773,
+      "extracted_at": "2026-02-15T13:36:13.793693",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.552,
+      "current_price": 1.0,
+      "quantity": 389.62,
+      "avg_cost_basis": 215.07,
+      "current_position_value": 389.62,
+      "unrealized_pnl": 174.55,
+      "realized_pnl": 0.0,
+      "total_pnl": 174.55,
+      "timestamp": 1771151774,
+      "extracted_at": "2026-02-15T13:36:14.601052",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3427,
+      "current_price": 0.315,
+      "quantity": 389.26,
+      "avg_cost_basis": 133.4,
+      "current_position_value": 122.61,
+      "unrealized_pnl": -10.78,
+      "realized_pnl": 1.67,
+      "total_pnl": -9.11,
+      "timestamp": 1771151774,
+      "extracted_at": "2026-02-15T13:36:14.860410",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5777,
+      "current_price": 0.945,
+      "quantity": 371.8,
+      "avg_cost_basis": 214.79,
+      "current_position_value": 351.35,
+      "unrealized_pnl": 136.56,
+      "realized_pnl": 0.0,
+      "total_pnl": 136.56,
+      "timestamp": 1771151775,
+      "extracted_at": "2026-02-15T13:36:15.166245",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.619,
+      "current_price": 0.645,
+      "quantity": 255.46,
+      "avg_cost_basis": 158.13,
+      "current_position_value": 164.77,
+      "unrealized_pnl": 6.64,
+      "realized_pnl": 0.0,
+      "total_pnl": 6.64,
+      "timestamp": 1771151776,
+      "extracted_at": "2026-02-15T13:36:16.007996",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3995,
+      "current_price": 0.355,
+      "quantity": 155.63,
+      "avg_cost_basis": 62.17,
+      "current_position_value": 55.25,
+      "unrealized_pnl": -6.92,
+      "realized_pnl": 0.0,
+      "total_pnl": -6.92,
+      "timestamp": 1771151776,
+      "extracted_at": "2026-02-15T13:36:16.588748",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Bitcoin Up or Down - February 15, 5:35AM-5:40AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5144,
+      "current_price": 0.5,
+      "quantity": 140.29,
+      "avg_cost_basis": 72.16,
+      "current_position_value": 70.14,
+      "unrealized_pnl": -2.02,
+      "realized_pnl": 0.0,
+      "total_pnl": -2.02,
+      "timestamp": 1771151777,
+      "extracted_at": "2026-02-15T13:36:17.031586",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 5,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.38539999999999996,
+      "current_price": 0.375,
+      "quantity": 3483.82,
+      "avg_cost_basis": 1342.66,
+      "current_position_value": 1306.43,
+      "unrealized_pnl": -36.22,
+      "realized_pnl": 0.0,
+      "total_pnl": -36.22,
+      "timestamp": 1771151970,
+      "extracted_at": "2026-02-15T13:39:30.231275",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 6,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.1723,
+      "current_price": 0.0005,
+      "quantity": 2687.62,
+      "avg_cost_basis": 463.07,
+      "current_position_value": 1.34,
+      "unrealized_pnl": -461.73,
+      "realized_pnl": 0.0,
+      "total_pnl": -461.73,
+      "timestamp": 1771151970,
+      "extracted_at": "2026-02-15T13:39:30.732665",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 7,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.0,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -858.99,
+      "realized_pnl": -2.38,
+      "total_pnl": -861.37,
+      "timestamp": 1771151971,
+      "extracted_at": "2026-02-15T13:39:31.051005",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2536,
+      "current_price": 0.105,
+      "quantity": 2496.81,
+      "avg_cost_basis": 633.44,
+      "current_position_value": 262.16,
+      "unrealized_pnl": -371.27,
+      "realized_pnl": 0.0,
+      "total_pnl": -371.27,
+      "timestamp": 1771151971,
+      "extracted_at": "2026-02-15T13:39:31.425976",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5515,
+      "current_price": 0.625,
+      "quantity": 2202.14,
+      "avg_cost_basis": 1214.48,
+      "current_position_value": 1376.34,
+      "unrealized_pnl": 161.85,
+      "realized_pnl": 0.0,
+      "total_pnl": 161.85,
+      "timestamp": 1771151972,
+      "extracted_at": "2026-02-15T13:39:32.032341",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5746,
+      "current_price": 0.685,
+      "quantity": 1657.23,
+      "avg_cost_basis": 952.24,
+      "current_position_value": 1135.2,
+      "unrealized_pnl": 182.95,
+      "realized_pnl": 0.0,
+      "total_pnl": 182.95,
+      "timestamp": 1771151972,
+      "extracted_at": "2026-02-15T13:39:32.708397",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.156,
+      "current_price": 0.04,
+      "quantity": 1179.41,
+      "avg_cost_basis": 183.98,
+      "current_position_value": 47.17,
+      "unrealized_pnl": -136.81,
+      "realized_pnl": 0.0,
+      "total_pnl": -136.81,
+      "timestamp": 1771151973,
+      "extracted_at": "2026-02-15T13:39:33.603277",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3829,
+      "current_price": 0.465,
+      "quantity": 1177.72,
+      "avg_cost_basis": 450.94,
+      "current_position_value": 547.63,
+      "unrealized_pnl": 96.69,
+      "realized_pnl": 0.0,
+      "total_pnl": 96.69,
+      "timestamp": 1771151974,
+      "extracted_at": "2026-02-15T13:39:34.320456",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.895,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 955.91,
+      "unrealized_pnl": 319.02,
+      "realized_pnl": 0.0,
+      "total_pnl": 319.02,
+      "timestamp": 1771151974,
+      "extracted_at": "2026-02-15T13:39:34.860084",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.96,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 904.37,
+      "unrealized_pnl": 115.21,
+      "realized_pnl": 0.0,
+      "total_pnl": 115.21,
+      "timestamp": 1771151975,
+      "extracted_at": "2026-02-15T13:39:35.476351",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6014,
+      "current_price": 0.535,
+      "quantity": 774.91,
+      "avg_cost_basis": 466.03,
+      "current_position_value": 414.58,
+      "unrealized_pnl": -51.45,
+      "realized_pnl": 0.0,
+      "total_pnl": -51.45,
+      "timestamp": 1771151976,
+      "extracted_at": "2026-02-15T13:39:36.898999",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.278,
+      "current_price": 0.315,
+      "quantity": 631.92,
+      "avg_cost_basis": 175.67,
+      "current_position_value": 199.05,
+      "unrealized_pnl": 23.38,
+      "realized_pnl": 4.9,
+      "total_pnl": 28.28,
+      "timestamp": 1771151977,
+      "extracted_at": "2026-02-15T13:39:37.364279",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "Solana Up or Down - February 15, 4AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6368,
+      "current_price": 0.9995,
+      "quantity": 622.36,
+      "avg_cost_basis": 396.32,
+      "current_position_value": 622.04,
+      "unrealized_pnl": 225.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 225.73,
+      "timestamp": 1771151978,
+      "extracted_at": "2026-02-15T13:39:38.106652",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 23,
+      "market": "Bitcoin Up or Down - February 15, 5:35AM-5:40AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6236,
+      "current_price": 0.445,
+      "quantity": 598.41,
+      "avg_cost_basis": 373.17,
+      "current_position_value": 266.29,
+      "unrealized_pnl": -106.87,
+      "realized_pnl": 0.0,
+      "total_pnl": -106.87,
+      "timestamp": 1771151978,
+      "extracted_at": "2026-02-15T13:39:38.356282",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2318,
+      "current_price": 0.0,
+      "quantity": 582.48,
+      "avg_cost_basis": 135.02,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -135.02,
+      "realized_pnl": 13.49,
+      "total_pnl": -121.53000000000002,
+      "timestamp": 1771151979,
+      "extracted_at": "2026-02-15T13:39:39.665797",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Bitcoin Up or Down - February 15, 5:35AM-5:40AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3065,
+      "current_price": 0.555,
+      "quantity": 564.17,
+      "avg_cost_basis": 172.92,
+      "current_position_value": 313.12,
+      "unrealized_pnl": 140.19,
+      "realized_pnl": 0.0,
+      "total_pnl": 140.19,
+      "timestamp": 1771151980,
+      "extracted_at": "2026-02-15T13:39:40.462839",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.40759999999999996,
+      "current_price": 0.0,
+      "quantity": 524.39,
+      "avg_cost_basis": 213.74,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -213.74,
+      "realized_pnl": 0.0,
+      "total_pnl": -213.74,
+      "timestamp": 1771151980,
+      "extracted_at": "2026-02-15T13:39:40.788746",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "XRP Up or Down - February 13, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.39159999999999995,
+      "current_price": 0.0005,
+      "quantity": 455.02,
+      "avg_cost_basis": 178.18,
+      "current_position_value": 0.22,
+      "unrealized_pnl": -177.95,
+      "realized_pnl": 0.0,
+      "total_pnl": -177.95,
+      "timestamp": 1771151981,
+      "extracted_at": "2026-02-15T13:39:41.162953",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3504,
+      "current_price": 0.355,
+      "quantity": 444.35,
+      "avg_cost_basis": 155.69,
+      "current_position_value": 157.74,
+      "unrealized_pnl": 2.04,
+      "realized_pnl": 0.0,
+      "total_pnl": 2.04,
+      "timestamp": 1771151981,
+      "extracted_at": "2026-02-15T13:39:41.561221",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7203,
+      "current_price": 0.645,
+      "quantity": 397.23,
+      "avg_cost_basis": 286.13,
+      "current_position_value": 256.2,
+      "unrealized_pnl": -29.91,
+      "realized_pnl": 0.0,
+      "total_pnl": -29.91,
+      "timestamp": 1771151981,
+      "extracted_at": "2026-02-15T13:39:41.805325",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 30,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.552,
+      "current_price": 1.0,
+      "quantity": 389.62,
+      "avg_cost_basis": 215.07,
+      "current_position_value": 389.62,
+      "unrealized_pnl": 174.55,
+      "realized_pnl": 0.0,
+      "total_pnl": 174.55,
+      "timestamp": 1771151983,
+      "extracted_at": "2026-02-15T13:39:43.653615",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 31,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5777,
+      "current_price": 1.0,
+      "quantity": 371.8,
+      "avg_cost_basis": 214.79,
+      "current_position_value": 371.8,
+      "unrealized_pnl": 157.01,
+      "realized_pnl": 0.0,
+      "total_pnl": 157.01,
+      "timestamp": 1771151983,
+      "extracted_at": "2026-02-15T13:39:43.951130",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771151984,
+      "extracted_at": "2026-02-15T13:39:44.206427",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 5,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.38539999999999996,
+      "current_price": 0.415,
+      "quantity": 3617.82,
+      "avg_cost_basis": 1394.3,
+      "current_position_value": 1501.39,
+      "unrealized_pnl": 107.08,
+      "realized_pnl": 0.0,
+      "total_pnl": 107.08,
+      "timestamp": 1771152058,
+      "extracted_at": "2026-02-15T13:40:58.659334",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2536,
+      "current_price": 0.08,
+      "quantity": 2496.81,
+      "avg_cost_basis": 633.44,
+      "current_position_value": 199.74,
+      "unrealized_pnl": -433.69,
+      "realized_pnl": 0.0,
+      "total_pnl": -433.69,
+      "timestamp": 1771152059,
+      "extracted_at": "2026-02-15T13:40:59.653889",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5577000000000001,
+      "current_price": 0.585,
+      "quantity": 2259.39,
+      "avg_cost_basis": 1260.29,
+      "current_position_value": 1321.74,
+      "unrealized_pnl": 61.45,
+      "realized_pnl": 0.0,
+      "total_pnl": 61.45,
+      "timestamp": 1771152060,
+      "extracted_at": "2026-02-15T13:41:00.268156",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5746,
+      "current_price": 0.635,
+      "quantity": 1657.23,
+      "avg_cost_basis": 952.24,
+      "current_position_value": 1052.33,
+      "unrealized_pnl": 100.09,
+      "realized_pnl": 0.0,
+      "total_pnl": 100.09,
+      "timestamp": 1771152060,
+      "extracted_at": "2026-02-15T13:41:00.896179",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3829,
+      "current_price": 0.355,
+      "quantity": 1177.72,
+      "avg_cost_basis": 450.94,
+      "current_position_value": 418.09,
+      "unrealized_pnl": -32.85,
+      "realized_pnl": 0.0,
+      "total_pnl": -32.85,
+      "timestamp": 1771152062,
+      "extracted_at": "2026-02-15T13:41:02.990430",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.92,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 982.61,
+      "unrealized_pnl": 345.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 345.73,
+      "timestamp": 1771152063,
+      "extracted_at": "2026-02-15T13:41:03.496537",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2305,
+      "current_price": 0.365,
+      "quantity": 868.95,
+      "avg_cost_basis": 200.29,
+      "current_position_value": 317.16,
+      "unrealized_pnl": 116.87,
+      "realized_pnl": 4.9,
+      "total_pnl": 121.77000000000001,
+      "timestamp": 1771152065,
+      "extracted_at": "2026-02-15T13:41:05.094587",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 21,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6014,
+      "current_price": 0.645,
+      "quantity": 774.91,
+      "avg_cost_basis": 466.03,
+      "current_position_value": 499.82,
+      "unrealized_pnl": 33.78,
+      "realized_pnl": 0.0,
+      "total_pnl": 33.78,
+      "timestamp": 1771152065,
+      "extracted_at": "2026-02-15T13:41:05.895365",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 28,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3504,
+      "current_price": 0.265,
+      "quantity": 444.35,
+      "avg_cost_basis": 155.69,
+      "current_position_value": 117.75,
+      "unrealized_pnl": -37.94,
+      "realized_pnl": 0.0,
+      "total_pnl": -37.94,
+      "timestamp": 1771152068,
+      "extracted_at": "2026-02-15T13:41:08.952136",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7203,
+      "current_price": 0.735,
+      "quantity": 397.23,
+      "avg_cost_basis": 286.13,
+      "current_position_value": 291.97,
+      "unrealized_pnl": 5.83,
+      "realized_pnl": 0.0,
+      "total_pnl": 5.83,
+      "timestamp": 1771152069,
+      "extracted_at": "2026-02-15T13:41:09.488515",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 5,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3785,
+      "current_price": 0.415,
+      "quantity": 3617.82,
+      "avg_cost_basis": 1369.34,
+      "current_position_value": 1501.39,
+      "unrealized_pnl": 132.05,
+      "realized_pnl": 0.0,
+      "total_pnl": 132.05,
+      "timestamp": 1771152176,
+      "extracted_at": "2026-02-15T13:42:56.499053",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 7,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.24100000000000002,
+      "current_price": 0.08,
+      "quantity": 2647.81,
+      "avg_cost_basis": 638.12,
+      "current_position_value": 211.82,
+      "unrealized_pnl": -426.29,
+      "realized_pnl": 0.0,
+      "total_pnl": -426.29,
+      "timestamp": 1771152177,
+      "extracted_at": "2026-02-15T13:42:57.763945",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.0,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -858.99,
+      "realized_pnl": -2.38,
+      "total_pnl": -861.37,
+      "timestamp": 1771152178,
+      "extracted_at": "2026-02-15T13:42:58.751864",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5693,
+      "current_price": 0.585,
+      "quantity": 2508.44,
+      "avg_cost_basis": 1428.06,
+      "current_position_value": 1467.44,
+      "unrealized_pnl": 39.38,
+      "realized_pnl": 0.0,
+      "total_pnl": 39.38,
+      "timestamp": 1771152179,
+      "extracted_at": "2026-02-15T13:42:59.520439",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 10,
+      "market": "Bitcoin Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.4415,
+      "current_price": 0.0,
+      "quantity": 2325.67,
+      "avg_cost_basis": 1026.78,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -1026.78,
+      "realized_pnl": 0.0,
+      "total_pnl": -1026.78,
+      "timestamp": 1771152179,
+      "extracted_at": "2026-02-15T13:42:59.901449",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.36340000000000006,
+      "current_price": 0.355,
+      "quantity": 1379.72,
+      "avg_cost_basis": 501.39,
+      "current_position_value": 489.8,
+      "unrealized_pnl": -11.58,
+      "realized_pnl": 0.0,
+      "total_pnl": -11.58,
+      "timestamp": 1771152183,
+      "extracted_at": "2026-02-15T13:43:03.027665",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 15,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Up",
+      "avg_price": 0.47200000000000003,
+      "current_price": 1.0,
+      "quantity": 1279.1,
+      "avg_cost_basis": 603.74,
+      "current_position_value": 1279.1,
+      "unrealized_pnl": 675.37,
+      "realized_pnl": -29.56,
+      "total_pnl": 645.8100000000001,
+      "timestamp": 1771152184,
+      "extracted_at": "2026-02-15T13:43:04.440474",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 16,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.156,
+      "current_price": 0.0225,
+      "quantity": 1179.41,
+      "avg_cost_basis": 183.98,
+      "current_position_value": 26.53,
+      "unrealized_pnl": -157.44,
+      "realized_pnl": 0.0,
+      "total_pnl": -157.44,
+      "timestamp": 1771152185,
+      "extracted_at": "2026-02-15T13:43:05.241243",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2065,
+      "current_price": 0.365,
+      "quantity": 1105.92,
+      "avg_cost_basis": 228.37,
+      "current_position_value": 403.66,
+      "unrealized_pnl": 175.28,
+      "realized_pnl": 4.9,
+      "total_pnl": 180.18,
+      "timestamp": 1771152186,
+      "extracted_at": "2026-02-15T13:43:06.033469",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.92,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 982.61,
+      "unrealized_pnl": 345.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 345.73,
+      "timestamp": 1771152186,
+      "extracted_at": "2026-02-15T13:43:06.384766",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 19,
+      "market": "Solana Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.8377,
+      "current_price": 0.9775,
+      "quantity": 942.05,
+      "avg_cost_basis": 789.15,
+      "current_position_value": 920.85,
+      "unrealized_pnl": 131.69,
+      "realized_pnl": 0.0,
+      "total_pnl": 131.69,
+      "timestamp": 1771152187,
+      "extracted_at": "2026-02-15T13:43:07.681278",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2034,
+      "current_price": 0.265,
+      "quantity": 939.23,
+      "avg_cost_basis": 191.13,
+      "current_position_value": 248.89,
+      "unrealized_pnl": 57.76,
+      "realized_pnl": 0.0,
+      "total_pnl": 57.76,
+      "timestamp": 1771152188,
+      "extracted_at": "2026-02-15T13:43:08.069813",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6014,
+      "current_price": 0.645,
+      "quantity": 774.91,
+      "avg_cost_basis": 466.03,
+      "current_position_value": 499.82,
+      "unrealized_pnl": 33.78,
+      "realized_pnl": 0.0,
+      "total_pnl": 33.78,
+      "timestamp": 1771152190,
+      "extracted_at": "2026-02-15T13:43:10.278472",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 24,
+      "market": "Bitcoin Up or Down - February 15, 5:35AM-5:40AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6236,
+      "current_price": 0.995,
+      "quantity": 598.41,
+      "avg_cost_basis": 373.17,
+      "current_position_value": 595.42,
+      "unrealized_pnl": 222.25,
+      "realized_pnl": 0.0,
+      "total_pnl": 222.25,
+      "timestamp": 1771152191,
+      "extracted_at": "2026-02-15T13:43:11.208177",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 25,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:35AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2318,
+      "current_price": 0.0,
+      "quantity": 582.48,
+      "avg_cost_basis": 135.02,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -135.02,
+      "realized_pnl": 13.49,
+      "total_pnl": -121.53000000000002,
+      "timestamp": 1771152191,
+      "extracted_at": "2026-02-15T13:43:11.493511",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 26,
+      "market": "Bitcoin Up or Down - February 15, 5:35AM-5:40AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3065,
+      "current_price": 0.005,
+      "quantity": 564.17,
+      "avg_cost_basis": 172.92,
+      "current_position_value": 2.82,
+      "unrealized_pnl": -170.1,
+      "realized_pnl": 0.0,
+      "total_pnl": -170.1,
+      "timestamp": 1771152191,
+      "extracted_at": "2026-02-15T13:43:11.784467",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 27,
+      "market": "Bitcoin Up or Down - February 15, 5:25AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.40759999999999996,
+      "current_price": 0.0,
+      "quantity": 524.39,
+      "avg_cost_basis": 213.74,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -213.74,
+      "realized_pnl": 0.0,
+      "total_pnl": -213.74,
+      "timestamp": 1771152193,
+      "extracted_at": "2026-02-15T13:43:13.452929",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 32,
+      "market": "Bitcoin Up or Down - February 15, 5:40AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.6559,
+      "current_price": 0.625,
+      "quantity": 241.57,
+      "avg_cost_basis": 158.44,
+      "current_position_value": 150.97,
+      "unrealized_pnl": -7.46,
+      "realized_pnl": 0.0,
+      "total_pnl": -7.46,
+      "timestamp": 1771152197,
+      "extracted_at": "2026-02-15T13:43:17.202452",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 33,
+      "market": "Bitcoin Up or Down - February 15, 5:40AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.1646,
+      "current_price": 0.375,
+      "quantity": 219.31,
+      "avg_cost_basis": 36.09,
+      "current_position_value": 82.24,
+      "unrealized_pnl": 46.14,
+      "realized_pnl": 0.0,
+      "total_pnl": 46.14,
+      "timestamp": 1771152197,
+      "extracted_at": "2026-02-15T13:43:17.496363",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 34,
+      "market": "XRP Up or Down - February 15, 4AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5538000000000001,
+      "current_price": 0.9995,
+      "quantity": 107.1,
+      "avg_cost_basis": 59.31,
+      "current_position_value": 107.04,
+      "unrealized_pnl": 47.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 47.73,
+      "timestamp": 1771152197,
+      "extracted_at": "2026-02-15T13:43:17.973238",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 3,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.3942,
+      "current_price": 0.255,
+      "quantity": 4557.79,
+      "avg_cost_basis": 1796.68,
+      "current_position_value": 1162.23,
+      "unrealized_pnl": -634.44,
+      "realized_pnl": 0.0,
+      "total_pnl": -634.44,
+      "timestamp": 1771152308,
+      "extracted_at": "2026-02-15T13:45:08.516459",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 6,
+      "market": "Bitcoin Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.562,
+      "current_price": 0.745,
+      "quantity": 3003.99,
+      "avg_cost_basis": 1688.24,
+      "current_position_value": 2237.96,
+      "unrealized_pnl": 549.73,
+      "realized_pnl": 0.0,
+      "total_pnl": 549.73,
+      "timestamp": 1771152311,
+      "extracted_at": "2026-02-15T13:45:11.246516",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 8,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.24100000000000002,
+      "current_price": 0.02,
+      "quantity": 2647.81,
+      "avg_cost_basis": 638.12,
+      "current_position_value": 52.95,
+      "unrealized_pnl": -585.16,
+      "realized_pnl": 0.0,
+      "total_pnl": -585.16,
+      "timestamp": 1771152312,
+      "extracted_at": "2026-02-15T13:45:12.593831",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 9,
+      "market": "Ethereum Up or Down - February 15, 5:15AM-5:30AM ET",
+      "outcome": "Down",
+      "avg_price": 0.3272,
+      "current_price": 0.0,
+      "quantity": 2624.49,
+      "avg_cost_basis": 858.99,
+      "current_position_value": 0.0,
+      "unrealized_pnl": -858.99,
+      "realized_pnl": -2.38,
+      "total_pnl": -861.37,
+      "timestamp": 1771152312,
+      "extracted_at": "2026-02-15T13:45:12.946682",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 12,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5746,
+      "current_price": 0.875,
+      "quantity": 1657.23,
+      "avg_cost_basis": 952.24,
+      "current_position_value": 1450.08,
+      "unrealized_pnl": 497.83,
+      "realized_pnl": 0.0,
+      "total_pnl": 497.83,
+      "timestamp": 1771152314,
+      "extracted_at": "2026-02-15T13:45:14.503623",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 13,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Up",
+      "avg_price": 0.36340000000000006,
+      "current_price": 0.165,
+      "quantity": 1379.72,
+      "avg_cost_basis": 501.39,
+      "current_position_value": 227.65,
+      "unrealized_pnl": -273.73,
+      "realized_pnl": 0.0,
+      "total_pnl": -273.73,
+      "timestamp": 1771152314,
+      "extracted_at": "2026-02-15T13:45:14.834500",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 17,
+      "market": "Bitcoin Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2065,
+      "current_price": 0.125,
+      "quantity": 1105.92,
+      "avg_cost_basis": 228.37,
+      "current_position_value": 138.24,
+      "unrealized_pnl": -90.13,
+      "realized_pnl": 4.9,
+      "total_pnl": -85.22999999999999,
+      "timestamp": 1771152316,
+      "extracted_at": "2026-02-15T13:45:16.185050",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 18,
+      "market": "Ethereum Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.5963,
+      "current_price": 0.98,
+      "quantity": 1068.05,
+      "avg_cost_basis": 636.88,
+      "current_position_value": 1046.69,
+      "unrealized_pnl": 409.81,
+      "realized_pnl": 0.0,
+      "total_pnl": 409.81,
+      "timestamp": 1771152316,
+      "extracted_at": "2026-02-15T13:45:16.658483",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 20,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Up",
+      "avg_price": 0.2034,
+      "current_price": 0.035,
+      "quantity": 939.23,
+      "avg_cost_basis": 191.13,
+      "current_position_value": 32.86,
+      "unrealized_pnl": -158.26,
+      "realized_pnl": 0.0,
+      "total_pnl": -158.26,
+      "timestamp": 1771152317,
+      "extracted_at": "2026-02-15T13:45:17.682133",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 22,
+      "market": "XRP Up or Down - February 15, 5AM ET",
+      "outcome": "Down",
+      "avg_price": 0.6014,
+      "current_price": 0.835,
+      "quantity": 774.91,
+      "avg_cost_basis": 466.03,
+      "current_position_value": 647.04,
+      "unrealized_pnl": 181.02,
+      "realized_pnl": 0.0,
+      "total_pnl": 181.02,
+      "timestamp": 1771152318,
+      "extracted_at": "2026-02-15T13:45:18.870050",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    },
+    {
+      "trade_id": 29,
+      "market": "Ethereum Up or Down - February 15, 5:30AM-5:45AM ET",
+      "outcome": "Down",
+      "avg_price": 0.7203,
+      "current_price": 0.965,
+      "quantity": 397.23,
+      "avg_cost_basis": 286.13,
+      "current_position_value": 383.33,
+      "unrealized_pnl": 97.2,
+      "realized_pnl": 0.0,
+      "total_pnl": 97.2,
+      "timestamp": 1771152320,
+      "extracted_at": "2026-02-15T13:45:20.940018",
+      "prices": {
+        "BTC": null,
+        "ETH": null,
+        "SOL": null
+      }
+    }
+  ]
+}

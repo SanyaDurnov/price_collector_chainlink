@@ -1,0 +1,87 @@
+// Скрипт для автоматического сбора всех транзакций
+let allActivities = [];
+let isCollecting = false;
+
+async function collectAllActivities() {
+    if (isCollecting) return;
+    isCollecting = true;
+
+    console.log('Начинаю сбор данных...');
+
+    // Перехватываем fetch запросы
+    const originalFetch = window.fetch;
+    window.fetch = async function(...args) {
+        const response = await originalFetch.apply(this, args);
+
+        // Клонируем ответ для чтения
+        const clonedResponse = response.clone();
+
+        // Проверяем, это ли запрос активности
+        if (args[0].includes('activity') || args[0].includes('trades')) {
+            try {
+                const data = await clonedResponse.json();
+                if (Array.isArray(data)) {
+                    allActivities.push(...data);
+                    console.log(`Собрано записей: ${allActivities.length}`);
+                }
+            } catch (e) {}
+        }
+
+        return response;
+    };
+
+    // Автоматически нажимаем "Show more activity"
+    async function clickShowMore() {
+        const button = document.querySelector('button:has-text("Show more activity"), button[class*="show"], button[class*="more"]');
+
+        if (!button) {
+            // Пробуем найти кнопку по тексту
+            const buttons = Array.from(document.querySelectorAll('button'));
+            const showMoreBtn = buttons.find(btn =>
+                btn.textContent.toLowerCase().includes('show more') ||
+                btn.textContent.toLowerCase().includes('load more')
+            );
+
+            if (showMoreBtn) {
+                showMoreBtn.click();
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                return true;
+            }
+            return false;
+        }
+
+        button.click();
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        return true;
+    }
+
+    // Нажимаем кнопку 30 раз (или пока она не исчезнет)
+    for (let i = 0; i < 30; i++) {
+        const hasMore = await clickShowMore();
+        if (!hasMore) {
+            console.log('Больше нет кнопки "Show more"');
+            break;
+        }
+        console.log(`Клик ${i + 1}/30`);
+    }
+
+    // Экспортируем данные
+    console.log(`\n=== СБОР ЗАВЕРШЕН ===`);
+    console.log(`Всего собрано записей: ${allActivities.length}`);
+    console.log('\nСкопируйте данные:');
+    console.log(JSON.stringify(allActivities, null, 2));
+
+    // Сохраняем в файл
+    const blob = new Blob([JSON.stringify(allActivities, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'polymarket_activity_0x8dxd.json';
+    a.click();
+
+    console.log('Файл скачан!');
+    isCollecting = false;
+}
+
+// Запуск
+collectAllActivities();

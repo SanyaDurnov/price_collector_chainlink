@@ -1,79 +1,1079 @@
-[
-  {
-    "symbol": "BTC",
-    "price": 50000.0,
-    "timestamp": 1771058565,
-    "round_id": 1001,
-    "created_at": 1771058565
-  },
-  {
-    "symbol": "ETH",
-    "price": 3000.0,
-    "timestamp": 1771058465,
-    "round_id": 1002,
-    "created_at": 1771058465
-  },
-  {
-    "symbol": "SOL",
-    "price": 100.0,
-    "timestamp": 1771058365,
-    "round_id": 1003,
-    "created_at": 1771058365
-  },
-  {
-    "symbol": "ETH",
-    "price": 3024.813875513727,
-    "timestamp": 1771058679,
-    "round_id": 1001,
-    "created_at": 1771058679
-  },
-  {
-    "symbol": "SOL",
-    "price": 97.32299196689134,
-    "timestamp": 1771058679,
-    "round_id": 1001,
-    "created_at": 1771058679
-  },
-  {
-    "symbol": "BTC",
-    "price": 49677.11294497212,
-    "timestamp": 1771058680,
-    "round_id": 1002,
-    "created_at": 1771058680
-  },
-  {
-    "symbol": "SOL",
-    "price": 94.38991425633243,
-    "timestamp": 1771058680,
-    "round_id": 1002,
-    "created_at": 1771058680
-  },
-  {
-    "symbol": "BTC",
-    "price": 50172.071157845116,
-    "timestamp": 1771058681,
-    "round_id": 1003,
-    "created_at": 1771058681
-  },
-  {
-    "symbol": "ETH",
-    "price": 3058.392229231109,
-    "timestamp": 1771058681,
-    "round_id": 1003,
-    "created_at": 1771058681
-  },
-  {
-    "symbol": "BTC",
-    "price": 50000.0,
-    "timestamp": 1234567890,
-    "round_id": 1000,
-    "created_at": 1771081464
-  },
-  {
-    "symbol": "ETH",
-    "price": 3000.0,
-    "timestamp": 1234567890,
-    "round_id": 1000,
-    "created_at": 1771081464
+{
+  "last_updated": "2026-02-14T20:00:28.549239",
+  "prices": {
+    "BTCUSDT": [
+      {
+        "timestamp": 1771088368,
+        "price": 69712.17139295768,
+        "datetime": "2026-02-14T19:59:28",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088369,
+        "price": 69714.1324705,
+        "datetime": "2026-02-14T19:59:29",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088370,
+        "price": 69714.018371,
+        "datetime": "2026-02-14T19:59:30",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088371,
+        "price": 69708.75740898713,
+        "datetime": "2026-02-14T19:59:31",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088372,
+        "price": 69708.32593860706,
+        "datetime": "2026-02-14T19:59:32",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088373,
+        "price": 69708.32551472123,
+        "datetime": "2026-02-14T19:59:33",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088374,
+        "price": 69707.42499026525,
+        "datetime": "2026-02-14T19:59:34",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088375,
+        "price": 69707.72455884286,
+        "datetime": "2026-02-14T19:59:35",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088376,
+        "price": 69706.20331325546,
+        "datetime": "2026-02-14T19:59:36",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088377,
+        "price": 69707.1729113108,
+        "datetime": "2026-02-14T19:59:37",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088378,
+        "price": 69706.9426117969,
+        "datetime": "2026-02-14T19:59:38",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088379,
+        "price": 69709.60608846777,
+        "datetime": "2026-02-14T19:59:39",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088380,
+        "price": 69711.27989434803,
+        "datetime": "2026-02-14T19:59:40",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088381,
+        "price": 69710.38166528083,
+        "datetime": "2026-02-14T19:59:41",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088382,
+        "price": 69710.27193191093,
+        "datetime": "2026-02-14T19:59:42",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088383,
+        "price": 69710.26553384803,
+        "datetime": "2026-02-14T19:59:43",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088384,
+        "price": 69709.74403763947,
+        "datetime": "2026-02-14T19:59:44",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088385,
+        "price": 69710.01800860732,
+        "datetime": "2026-02-14T19:59:45",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088386,
+        "price": 69710.30914161068,
+        "datetime": "2026-02-14T19:59:46",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088387,
+        "price": 69709.8998209134,
+        "datetime": "2026-02-14T19:59:47",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088388,
+        "price": 69709.40676326193,
+        "datetime": "2026-02-14T19:59:48",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088389,
+        "price": 69709.40676326193,
+        "datetime": "2026-02-14T19:59:49",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088390,
+        "price": 69710.805291,
+        "datetime": "2026-02-14T19:59:50",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088391,
+        "price": 69710.9001265,
+        "datetime": "2026-02-14T19:59:51",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088392,
+        "price": 69710.9723125,
+        "datetime": "2026-02-14T19:59:52",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088393,
+        "price": 69710.9717285,
+        "datetime": "2026-02-14T19:59:53",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088394,
+        "price": 69711.2558075,
+        "datetime": "2026-02-14T19:59:54",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088395,
+        "price": 69709.8342635,
+        "datetime": "2026-02-14T19:59:55",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088396,
+        "price": 69712.282554,
+        "datetime": "2026-02-14T19:59:56",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088397,
+        "price": 69712.38651102412,
+        "datetime": "2026-02-14T19:59:57",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088398,
+        "price": 69725.0163575,
+        "datetime": "2026-02-14T19:59:58",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088399,
+        "price": 69725.69505694327,
+        "datetime": "2026-02-14T19:59:59",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088400,
+        "price": 69726.51816857328,
+        "datetime": "2026-02-14T20:00:00",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088401,
+        "price": 69725.69811237315,
+        "datetime": "2026-02-14T20:00:01",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088402,
+        "price": 69724.37887955313,
+        "datetime": "2026-02-14T20:00:02",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088403,
+        "price": 69707.89623992943,
+        "datetime": "2026-02-14T20:00:03",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088404,
+        "price": 69708.50260246545,
+        "datetime": "2026-02-14T20:00:04",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088405,
+        "price": 69705.61910129072,
+        "datetime": "2026-02-14T20:00:05",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088406,
+        "price": 69705.50981680857,
+        "datetime": "2026-02-14T20:00:06",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088407,
+        "price": 69705.52057594979,
+        "datetime": "2026-02-14T20:00:07",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088408,
+        "price": 69698.68180414078,
+        "datetime": "2026-02-14T20:00:08",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088409,
+        "price": 69692.0265131993,
+        "datetime": "2026-02-14T20:00:09",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088410,
+        "price": 69686.59682123114,
+        "datetime": "2026-02-14T20:00:10",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088411,
+        "price": 69685.63837611004,
+        "datetime": "2026-02-14T20:00:11",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088412,
+        "price": 69691.91579185524,
+        "datetime": "2026-02-14T20:00:12",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088413,
+        "price": 69694.69062807527,
+        "datetime": "2026-02-14T20:00:13",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088414,
+        "price": 69693.20119432198,
+        "datetime": "2026-02-14T20:00:14",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088415,
+        "price": 69690.51417777118,
+        "datetime": "2026-02-14T20:00:15",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088416,
+        "price": 69681.95111138228,
+        "datetime": "2026-02-14T20:00:16",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088417,
+        "price": 69681.73377992082,
+        "datetime": "2026-02-14T20:00:17",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088418,
+        "price": 69681.82054056117,
+        "datetime": "2026-02-14T20:00:18",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088419,
+        "price": 69681.6473369079,
+        "datetime": "2026-02-14T20:00:19",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088420,
+        "price": 69682.225,
+        "datetime": "2026-02-14T20:00:20",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088421,
+        "price": 69682.28301428618,
+        "datetime": "2026-02-14T20:00:21",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088422,
+        "price": 69682.25543018144,
+        "datetime": "2026-02-14T20:00:22",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088423,
+        "price": 69682.75001000056,
+        "datetime": "2026-02-14T20:00:23",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088424,
+        "price": 69690.29785093827,
+        "datetime": "2026-02-14T20:00:24",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088425,
+        "price": 69689.64808719634,
+        "datetime": "2026-02-14T20:00:25",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088426,
+        "price": 69687.97490156969,
+        "datetime": "2026-02-14T20:00:26",
+        "source": "polymarket_rtds"
+      }
+    ],
+    "ETHUSDT": [
+      {
+        "timestamp": 1771088368,
+        "price": 2081.950899413045,
+        "datetime": "2026-02-14T19:59:28",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088369,
+        "price": 2081.973998605029,
+        "datetime": "2026-02-14T19:59:29",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088370,
+        "price": 2081.9625528120446,
+        "datetime": "2026-02-14T19:59:30",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088371,
+        "price": 2081.8483702301555,
+        "datetime": "2026-02-14T19:59:31",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088372,
+        "price": 2081.825717,
+        "datetime": "2026-02-14T19:59:32",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088373,
+        "price": 2081.8243555,
+        "datetime": "2026-02-14T19:59:33",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088374,
+        "price": 2081.7392475,
+        "datetime": "2026-02-14T19:59:34",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088375,
+        "price": 2081.738044,
+        "datetime": "2026-02-14T19:59:35",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088376,
+        "price": 2081.7615328852007,
+        "datetime": "2026-02-14T19:59:36",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088377,
+        "price": 2081.7918305,
+        "datetime": "2026-02-14T19:59:37",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088378,
+        "price": 2081.794881,
+        "datetime": "2026-02-14T19:59:38",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088379,
+        "price": 2081.8241210685173,
+        "datetime": "2026-02-14T19:59:39",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088380,
+        "price": 2081.8703682523455,
+        "datetime": "2026-02-14T19:59:40",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088381,
+        "price": 2081.8620341730934,
+        "datetime": "2026-02-14T19:59:41",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088382,
+        "price": 2081.814050258151,
+        "datetime": "2026-02-14T19:59:42",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088383,
+        "price": 2081.814338,
+        "datetime": "2026-02-14T19:59:43",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088384,
+        "price": 2081.8132702499647,
+        "datetime": "2026-02-14T19:59:44",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088385,
+        "price": 2081.806629,
+        "datetime": "2026-02-14T19:59:45",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088386,
+        "price": 2081.806228,
+        "datetime": "2026-02-14T19:59:46",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088387,
+        "price": 2081.806152,
+        "datetime": "2026-02-14T19:59:47",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088388,
+        "price": 2081.8032745,
+        "datetime": "2026-02-14T19:59:48",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088389,
+        "price": 2081.807764,
+        "datetime": "2026-02-14T19:59:49",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088390,
+        "price": 2081.809136,
+        "datetime": "2026-02-14T19:59:50",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088391,
+        "price": 2081.8052085,
+        "datetime": "2026-02-14T19:59:51",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088392,
+        "price": 2081.8074255,
+        "datetime": "2026-02-14T19:59:52",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088393,
+        "price": 2081.8073395,
+        "datetime": "2026-02-14T19:59:53",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088394,
+        "price": 2081.808351,
+        "datetime": "2026-02-14T19:59:54",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088395,
+        "price": 2081.688625257049,
+        "datetime": "2026-02-14T19:59:55",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088396,
+        "price": 2081.655567,
+        "datetime": "2026-02-14T19:59:56",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088397,
+        "price": 2081.648512617731,
+        "datetime": "2026-02-14T19:59:57",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088398,
+        "price": 2081.854976788845,
+        "datetime": "2026-02-14T19:59:58",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088399,
+        "price": 2081.917878,
+        "datetime": "2026-02-14T19:59:59",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088400,
+        "price": 2081.980972443825,
+        "datetime": "2026-02-14T20:00:00",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088401,
+        "price": 2081.9805455,
+        "datetime": "2026-02-14T20:00:01",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088402,
+        "price": 2081.9503097852485,
+        "datetime": "2026-02-14T20:00:02",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088403,
+        "price": 2081.431148,
+        "datetime": "2026-02-14T20:00:03",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088404,
+        "price": 2081.365298,
+        "datetime": "2026-02-14T20:00:04",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088405,
+        "price": 2081.09,
+        "datetime": "2026-02-14T20:00:05",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088406,
+        "price": 2080.996093,
+        "datetime": "2026-02-14T20:00:06",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088407,
+        "price": 2080.8186726776817,
+        "datetime": "2026-02-14T20:00:07",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088408,
+        "price": 2080.5959,
+        "datetime": "2026-02-14T20:00:08",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088409,
+        "price": 2080.5179,
+        "datetime": "2026-02-14T20:00:09",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088410,
+        "price": 2080.469149,
+        "datetime": "2026-02-14T20:00:10",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088411,
+        "price": 2080.3442425,
+        "datetime": "2026-02-14T20:00:11",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088412,
+        "price": 2080.5272019470153,
+        "datetime": "2026-02-14T20:00:12",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088413,
+        "price": 2080.5145303500794,
+        "datetime": "2026-02-14T20:00:13",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088414,
+        "price": 2080.266558943339,
+        "datetime": "2026-02-14T20:00:14",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088415,
+        "price": 2080.262768383735,
+        "datetime": "2026-02-14T20:00:15",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088416,
+        "price": 2080.156355650448,
+        "datetime": "2026-02-14T20:00:16",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088417,
+        "price": 2080.1636,
+        "datetime": "2026-02-14T20:00:17",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088418,
+        "price": 2080.168465619827,
+        "datetime": "2026-02-14T20:00:18",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088419,
+        "price": 2080.185578,
+        "datetime": "2026-02-14T20:00:19",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088420,
+        "price": 2080.2032594947923,
+        "datetime": "2026-02-14T20:00:20",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088421,
+        "price": 2080.214815068983,
+        "datetime": "2026-02-14T20:00:21",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088422,
+        "price": 2080.2763285320566,
+        "datetime": "2026-02-14T20:00:22",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088423,
+        "price": 2080.381597,
+        "datetime": "2026-02-14T20:00:23",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088424,
+        "price": 2080.4405619758245,
+        "datetime": "2026-02-14T20:00:24",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088425,
+        "price": 2080.3708,
+        "datetime": "2026-02-14T20:00:25",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088426,
+        "price": 2080.300863329547,
+        "datetime": "2026-02-14T20:00:26",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088427,
+        "price": 2080.3079591577525,
+        "datetime": "2026-02-14T20:00:27",
+        "source": "polymarket_rtds"
+      }
+    ],
+    "SOLUSDT": [
+      {
+        "timestamp": 1771088368,
+        "price": 88.10916277210785,
+        "datetime": "2026-02-14T19:59:28",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088369,
+        "price": 88.10979777210784,
+        "datetime": "2026-02-14T19:59:29",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088370,
+        "price": 88.10919565359936,
+        "datetime": "2026-02-14T19:59:30",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088371,
+        "price": 88.10934819573875,
+        "datetime": "2026-02-14T19:59:31",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088372,
+        "price": 88.10977349129793,
+        "datetime": "2026-02-14T19:59:32",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088373,
+        "price": 88.10975072720908,
+        "datetime": "2026-02-14T19:59:33",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088374,
+        "price": 88.10538675710525,
+        "datetime": "2026-02-14T19:59:34",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088375,
+        "price": 88.10507713307751,
+        "datetime": "2026-02-14T19:59:35",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088376,
+        "price": 88.10402751559766,
+        "datetime": "2026-02-14T19:59:36",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088377,
+        "price": 88.1053278252138,
+        "datetime": "2026-02-14T19:59:37",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088378,
+        "price": 88.10512306651766,
+        "datetime": "2026-02-14T19:59:38",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088379,
+        "price": 88.10530200318429,
+        "datetime": "2026-02-14T19:59:39",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088380,
+        "price": 88.10655764203153,
+        "datetime": "2026-02-14T19:59:40",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088381,
+        "price": 88.10237215146832,
+        "datetime": "2026-02-14T19:59:41",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088382,
+        "price": 88.10113253473631,
+        "datetime": "2026-02-14T19:59:42",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088383,
+        "price": 88.10105610434239,
+        "datetime": "2026-02-14T19:59:43",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088384,
+        "price": 88.10077421855313,
+        "datetime": "2026-02-14T19:59:44",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088385,
+        "price": 88.10170061958134,
+        "datetime": "2026-02-14T19:59:45",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088386,
+        "price": 88.10178941460542,
+        "datetime": "2026-02-14T19:59:46",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088387,
+        "price": 88.09575453938386,
+        "datetime": "2026-02-14T19:59:47",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088388,
+        "price": 88.08628081575677,
+        "datetime": "2026-02-14T19:59:48",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088389,
+        "price": 88.08373281600186,
+        "datetime": "2026-02-14T19:59:49",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088390,
+        "price": 88.08364080844898,
+        "datetime": "2026-02-14T19:59:50",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088391,
+        "price": 88.08380750406879,
+        "datetime": "2026-02-14T19:59:51",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088392,
+        "price": 88.08164247490075,
+        "datetime": "2026-02-14T19:59:52",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088393,
+        "price": 88.08176140426394,
+        "datetime": "2026-02-14T19:59:53",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088394,
+        "price": 88.07957,
+        "datetime": "2026-02-14T19:59:54",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088395,
+        "price": 88.07437982041999,
+        "datetime": "2026-02-14T19:59:55",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088396,
+        "price": 88.07470947058162,
+        "datetime": "2026-02-14T19:59:56",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088397,
+        "price": 88.07284732693509,
+        "datetime": "2026-02-14T19:59:57",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088398,
+        "price": 88.0761425,
+        "datetime": "2026-02-14T19:59:58",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088399,
+        "price": 88.08089065759106,
+        "datetime": "2026-02-14T19:59:59",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088400,
+        "price": 88.0857363637857,
+        "datetime": "2026-02-14T20:00:00",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088401,
+        "price": 88.0858494826039,
+        "datetime": "2026-02-14T20:00:01",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088402,
+        "price": 88.090252,
+        "datetime": "2026-02-14T20:00:02",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088403,
+        "price": 88.07579675551851,
+        "datetime": "2026-02-14T20:00:03",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088404,
+        "price": 88.07311627183333,
+        "datetime": "2026-02-14T20:00:04",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088405,
+        "price": 88.06748500898874,
+        "datetime": "2026-02-14T20:00:05",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088406,
+        "price": 88.06087336619123,
+        "datetime": "2026-02-14T20:00:06",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088407,
+        "price": 88.05517172393253,
+        "datetime": "2026-02-14T20:00:07",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088408,
+        "price": 88.03999,
+        "datetime": "2026-02-14T20:00:08",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088409,
+        "price": 88.03516596149775,
+        "datetime": "2026-02-14T20:00:09",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088410,
+        "price": 88.03102976432108,
+        "datetime": "2026-02-14T20:00:10",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088411,
+        "price": 88.02533942525821,
+        "datetime": "2026-02-14T20:00:11",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088412,
+        "price": 88.025025,
+        "datetime": "2026-02-14T20:00:12",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088413,
+        "price": 88.02546358552674,
+        "datetime": "2026-02-14T20:00:13",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088414,
+        "price": 88.02141323639002,
+        "datetime": "2026-02-14T20:00:14",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088415,
+        "price": 88.02135246469088,
+        "datetime": "2026-02-14T20:00:15",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088416,
+        "price": 88.02045463971632,
+        "datetime": "2026-02-14T20:00:16",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088417,
+        "price": 88.0223625,
+        "datetime": "2026-02-14T20:00:17",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088418,
+        "price": 88.02379,
+        "datetime": "2026-02-14T20:00:18",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088419,
+        "price": 88.02498444405344,
+        "datetime": "2026-02-14T20:00:19",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088420,
+        "price": 88.02397813317144,
+        "datetime": "2026-02-14T20:00:20",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088421,
+        "price": 88.026427,
+        "datetime": "2026-02-14T20:00:21",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088422,
+        "price": 88.05463662485514,
+        "datetime": "2026-02-14T20:00:22",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088423,
+        "price": 88.06589583355888,
+        "datetime": "2026-02-14T20:00:23",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088424,
+        "price": 88.06455769060977,
+        "datetime": "2026-02-14T20:00:24",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088425,
+        "price": 88.06427724953038,
+        "datetime": "2026-02-14T20:00:25",
+        "source": "polymarket_rtds"
+      },
+      {
+        "timestamp": 1771088426,
+        "price": 88.06113911584656,
+        "datetime": "2026-02-14T20:00:26",
+        "source": "polymarket_rtds"
+      }
+    ]
   }
-]
+}

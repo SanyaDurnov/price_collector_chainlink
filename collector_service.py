@@ -396,6 +396,7 @@ class CollectorAPIServer:
         self.app.router.add_get('/collector/latest', self.get_latest_prices)
         self.app.router.add_get('/collector/price/{symbol}', self.get_price)
         self.app.router.add_get('/collector/timezones', self.get_time_info)
+        self.app.router.add_get('/collector/momentum/{symbol}', self.get_momentum)
     
     async def get_price(self, request):
         """
@@ -478,6 +479,50 @@ class CollectorAPIServer:
             logger.error(f"Error getting latest prices: {e}")
             return web.json_response({'error': 'Failed to get latest prices'}, status=500)
     
+    async def get_momentum(self, request):
+        """
+        GET /collector/momentum/BTC?seconds=30
+        Returns momentum: (current_price - price_N_seconds_ago) / current_price * 100
+        """
+        symbol = request.match_info['symbol'].upper()
+        try:
+            seconds = int(request.query.get('seconds', 60))
+        except ValueError:
+            return web.json_response({'error': 'Invalid seconds parameter'}, status=400)
+
+        now = int(time.time())
+        past_ts = now - seconds
+
+        # Get current price
+        current = self.buffer.get_price_at_timestamp(symbol, now, tolerance=10)
+        if not current:
+            current = await self.storage.get_price_at_timestamp(symbol, now, tolerance=10)
+
+        # Get past price
+        past = self.buffer.get_price_at_timestamp(symbol, past_ts, tolerance=10)
+        if not past:
+            past = await self.storage.get_price_at_timestamp(symbol, past_ts, tolerance=10)
+
+        if not current:
+            return web.json_response({'error': f'No current price found for {symbol}'}, status=404)
+        if not past:
+            return web.json_response({'error': f'No price found for {symbol} {seconds}s ago (not enough history)'}, status=404)
+
+        delta = current['price'] - past['price']
+        pct = (delta / current['price']) * 100
+        sign = '+' if pct >= 0 else ''
+
+        return web.json_response({
+            'symbol': symbol,
+            'seconds': seconds,
+            'current_price': current['price'],
+            'past_price': past['price'],
+            'delta': round(delta, 6),
+            'momentum_pct': f"{sign}{pct:.4f}",
+            'current_timestamp': current['timestamp'],
+            'past_timestamp': past['timestamp'],
+        })
+
     async def get_time_info(self, request):
         """GET /collector/timezones - Get current time in different timezones"""
         current_timestamp = int(time.time())
